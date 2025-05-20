@@ -2,21 +2,23 @@ function createNavbar() {
     const navbarHTML = `
     
 <div id="navbar-container" class="navbar-expand-lg" style="z-index: 999 !important; height: 120px;">
-  <nav class="navbar navbar-expand-lg bg-body" style="z-index: 999; background-color: #222 !important; !important; height: 120px;">
+  <nav class="navbar navbar-expand-lg bg-body" style="z-index: 999; background-color:rgb(187, 223, 252) !important; !important; height: 120px;">
     <div class="container-fluid d-flex align-items-center justify-content-between">
       <!-- โลโก้ -->
       <a class="navbar-brand" href="./index.html">
-        <img src="./Sorce/Logo/IMG_1450-1.png" style="border-radius: 0px;" width="80" height="90">
+        <span class="navbar-toggler-icon" style="color: #004aad;font-size: 20px;">สนง. ตัวแทน
+คุณรัสรินทร์</span>
       </a>
 
       <!-- ปุ่ม "ติดต่อเรา" ย้ายมาไว้ข้างหน้า navbar-toggler บนมือถือ -->
-      <a class="navbar-brand2 d-lg-none" href="https://line.me/ti/p/mdboY3IOZG" style="width: 95px; background-color:#f4b400; height: 40px; border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 600; color: #fff; margin-left: 0px;">
-        ติดต่อเรา
+      <a class="navbar-brand2 d-lg-none" href="https://line.me/ti/p/mdboY3IOZG" style="width: 45px; background-color:#004aad; height: 40px; border-radius: 50px; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 600; color: #fff; margin-left: 0px;">
+      </a>
+      <a class="navbar-brand2 d-lg-none" href="https://line.me/ti/p/mdboY3IOZG" style="width: 45px; background-color:#004aad; height: 40px; border-radius: 50px; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 600; color: #fff; margin-left: 0px;">
       </a>
 
       <!-- ปุ่มเปิดเมนูบนมือถือ -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon" style="color: #f4b400;">MENU</span>
+        <span class="navbar-toggler-icon" style="color:#004aad;">MENU</span>
       </button>
 
       <!-- กล่องเมนู -->
@@ -42,8 +44,11 @@ function createNavbar() {
       </div>
 
       <!-- ปุ่ม "ติดต่อเรา" แบบ PC -->
-      <a class="navbar-brand2 d-none d-lg-flex" href="https://line.me/ti/p/OvcdsMHsCP" style="width: 250px; background-color: #f4b400; height: 50px; border-radius: 50px; margin: 0 30px; display: flex; align-items: center; justify-content: center; font-size: 25px; font-weight: 600; color: #fff;">
-        ติดต่อเรา
+      <a class="navbar-brand2 d-none d-lg-flex" href="https://line.me/ti/p/OvcdsMHsCP" style="width: 50px; background-color: #1495ffb6; height: 50px; border-radius: 50px; margin: 0 30px; display: flex; align-items: center; justify-content: center; font-size: 25px; font-weight: 600; color: #fff;">
+        
+      </a>
+      <a class="navbar-brand2 d-none d-lg-flex" href="https://line.me/ti/p/OvcdsMHsCP" style="width: 50px; background-color:rgb(20, 47, 255); height: 50px; border-radius: 50px; margin: 0 30px; display: flex; align-items: center; justify-content: center; font-size: 25px; font-weight: 600; color: #fff;">
+        
       </a>
     </div>
   </nav>

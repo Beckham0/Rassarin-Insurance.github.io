@@ -93,7 +93,7 @@ body {
   }
   
   .bg_buttom{
-    color: #f4b400 !important;
+    color: #004aad !important;
   }
   
   body {
@@ -103,8 +103,8 @@ body {
   }
   
   .start {
-    background-color: #f4b400;
-    padding: 14px;
+    background-color: #004aad;
+    padding: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -170,7 +170,7 @@ body {
   .nav-item{
     font-weight: 350;
     padding: 0 10px;
-    font-size: 24px!important;
+    font-size: 19px!important;
     text-align: center;
   }
   
@@ -180,26 +180,26 @@ body {
   
   .nav-link{
     font-weight: bolder !important;
-    color: #f4b400 !important;
+    color: rgb(0, 0, 0) !important;
     border-radius: 50px;
   
   }
   
   .navbar-nav .nav-link.active {
-    background: #f4b400 !important;
+    background: #004aad !important;
     color: white !important;
     border-radius: 50px;
    }
   
   .nav-link.active {
     color: #ffffff !important;
-    background-color: #f4b400;
+    background-color: #004aad;
     border-radius: 50px;
   }
   
   .nav-link:hover {
     color: #ffffff !important;
-    background-color: #f4b400;
+    background-color: #004aad;
     border-radius: 50px;
   }
   
@@ -228,7 +228,7 @@ body {
   
   
   .navbar-toggler {
-    color: #f4b400 !important;
+    color: #004aad !important;
     background-color: #ffffff !important;
   }
   
