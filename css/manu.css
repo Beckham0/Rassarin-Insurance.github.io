@@ -8,6 +8,14 @@ body {
     background-attachment: fixed !important;
 }
 
+@media (max-width: 400px) {
+
+  .container-fluid{
+     --bs-gutter-x: 0.3rem !important;
+  }
+
+}
+
 .text_call {
   cursor: context-menu;
   position: fixed;
