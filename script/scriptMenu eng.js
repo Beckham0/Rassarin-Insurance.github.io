@@ -1,49 +1,60 @@
 function createNavbar() {
     const navbarHTML = `
     
-<div id="navbar-container" class="navbar-expand-lg" style="z-index: 999 !important; height: 120px;">
-  <nav class="navbar navbar-expand-lg bg-body" style="z-index: 999; background-color: #222 !important; !important; height: 120px;">
+<div id="navbar-container" class="navbar-expand-lg" style="z-index: 999 !important; height: 90px;">
+  <nav class="navbar navbar-expand-custom bg-body" style="z-index: 999; background-color:rgb(187, 223, 252) !important; !important; height: 90px;">
     <div class="container-fluid d-flex align-items-center justify-content-between">
       <!-- โลโก้ -->
       <a class="navbar-brand" href="./index.html">
-        <img src="./Sorce/Logo/IMG_1450-1.png" style="border-radius: 0px;" width="80" height="90">
+      <img src="./Sorce/LOGO.png" style="border-radius: 0px;" width="100%" height="100%">
       </a>
 
       <!-- ปุ่ม "ติดต่อเรา" ย้ายมาไว้ข้างหน้า navbar-toggler บนมือถือ -->
-      <a class="navbar-brand2 d-lg-none" href="https://line.me/ti/p/mdboY3IOZG" style="width: 95px; background-color:#f4b400; height: 40px; border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 600; color: #fff; margin-left: 0px;">
-        ติดต่อเรา
+      <a class="navbar-brand2 d-lg-none" href="" style="width: 15px; height: 40px; display: flex; align-items: center; margin-left: 0px;">
+      <img src="Sorce/line.png" alt="" style="width: 50px;border-radius: 50px;">
+      </a>
+      <a class="navbar-brand2 d-lg-none" href="" style=" height: 40px;  display: flex; align-items: center; justify-content: center; margin-left: 30px;">
+      <img src="Sorce/mobile.png" alt="" style="width: 50px; border-radius: 50px;">
       </a>
 
       <!-- ปุ่มเปิดเมนูบนมือถือ -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon" style="color: #f4b400;">MENU</span>
+        <span class="navbar-toggler-icon" style="color:#004aad;">MENU</span>
       </button>
 
       <!-- กล่องเมนู -->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a id="lang_Home" class="nav-link a" href="./index eng.html">Home</a></li>
-          <li class="nav-item"><a id="lang_about" class="nav-link b" href="./about_us eng.html">About Us</a></li>
+          <li class="nav-item"><a id="lang_Home" class="nav-link a" href="./index eng.html">HOME</a></li>
+          <li class="nav-item"><a id="lang_about" class="nav-link b" href="./เกี่ยวกับเรา eng.html">ABOUT US</a></li>
           <li class="nav-item dropdown">
             <a id="lang_Services" class="nav-link dropdown-toggle c" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Our Services
+              OUR SERVICE
             </a>
             <ul class="dropdown-menu" style="background: #f8f9fa; opacity:0.9;">
-              <li><a id="lang_item1" class="dropdown-item c1" href="./Service1 eng.html">Comprehensive Accounting Services</a></li>
-              <li><a id="lang_item2" class="dropdown-item c2" href="./Service2 eng.html">Tax Planning Services</a></li>
-              <li><a id="lang_item3" class="dropdown-item c3" href="./Service3 eng.html">Business Registration Services</a></li>
-              <li><a id="lang_item4" class="dropdown-item c4" href="./Service4 eng.html">Visa Application Services</a></li>
-              <li><a id="lang_item4" class="dropdown-item c4" href="./Service5 eng.html">Audit service</a></li></ul>
+              <li><a id="lang_item1" class="dropdown-item c1" href="./Service1 eng.html">ประกันชีวิต</a></li>
+              <li><a id="lang_item2" class="dropdown-item c2" href="./Service2 eng.html">ประกันสุขภาพ</a></li>
+              <li><a id="lang_item3" class="dropdown-item c3" href="./Service3 eng.html">ประกันโรคร้ายเเรง</a></li>
+              <li><a id="lang_item4" class="dropdown-item c4" href="./Service4 eng.html">ประกันนิติบุคคล</a></li>
+              <li><a id="lang_item5" class="dropdown-item c4" href="./Service5 eng.html">ประกันกลุ่ม</a></li>
+              <li><a id="lang_item6" class="dropdown-item c4" href="./Service6 eng.html">ประกันยูนิตลิงค์</a></li>
+              <li><a id="lang_item7" class="dropdown-item c4" href="./Service7 eng.html">ประกันการเดินทาง</a></li>
+              </ul>
+
           </li>
-          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ลูกค้าเรา eng.html">Our Customers</a></li>
-          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ข่าวสาร eng.html">News</a></li>
-          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ติดต่อเรา eng.html">Contact Us</a></li>
+          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="สมัครตัวแทน eng.html">APPLY AS AGENT</a></li>
+          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ลูกค้าเรา eng.html">OUR CUSTOMERS</a></li>
+          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ข่าวสาร eng.html">NEWS</a></li>
+          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ติดต่อเรา eng.html">CONTACT US</a></li>
         </ul>
       </div>
 
       <!-- ปุ่ม "ติดต่อเรา" แบบ PC -->
-      <a class="navbar-brand2 d-none d-lg-flex" href="https://line.me/ti/p/OvcdsMHsCP" style="width: 250px; background-color: #f4b400; height: 50px; border-radius: 50px; margin: 0 30px; display: flex; align-items: center; justify-content: center; font-size: 25px; font-weight: 600; color: #fff;">
-        Contact us
+      <a class="navbar-brand2 d-none d-lg-flex" href="" style="width: 50px; display: flex; align-items: center; ">
+        <img src="Sorce/line.png" alt="" style="width: 50px;margin: 10px; border-radius: 50px;">
+      </a>
+      <a class="navbar-brand2 d-none d-lg-flex" href="" style="width: 50px;  margin: 0 30px; display: flex; align-items: center; justify-content: center;">
+        <img src="Sorce/mobile.png" alt="" style="width: 50px;margin: 10px; border-radius: 50px;">
       </a>
     </div>
   </nav>
@@ -71,7 +82,7 @@ function createNavbar() {
               flex-wrap: wrap;
               justify-content: space-between;
               padding: 20px;
-              background-color: #222;
+              background-color: #004aad;
               margin-left: 100px;
           }
   
@@ -83,7 +94,7 @@ function createNavbar() {
           }
   
           h3 {
-              color: #f4b400;
+              color:rgb(255, 255, 255);
               margin: 0;
               font-size: 35px;
               margin-bottom: 5px;
@@ -93,7 +104,7 @@ function createNavbar() {
           h4 {
               color: #ffffff;
               margin: 0;
-              font-size: 18px;
+              font-size: 28px;
               margin-bottom: 5px;
               font-weight: bold;
           }
@@ -105,9 +116,9 @@ function createNavbar() {
             font-weight: bold;
           }
 
-                          a {
-    text-decoration: none;
-}
+          a {
+            text-decoration: none;
+          }
   
           p {
             font-size: 17px;
@@ -116,9 +127,9 @@ function createNavbar() {
           }
   
           .logo {
-            width: 140px;
-            margin-bottom: 5px;
-            margin-left: 52px;
+            width: 190px;
+            margin-bottom: 15px;
+            margin-left: 40px;
           }
   
           .contact img {
@@ -161,8 +172,8 @@ function createNavbar() {
   
     .logo {
       width: 155px;
-      margin-bottom: 10px;
-      margin-left: -6px;
+      margin-bottom: 20px;
+      margin-left: 16px;
     }
   
   p {
@@ -177,43 +188,39 @@ function createNavbar() {
     <footer class="footer">
         <!-- คอลัมน์แรก : โลโก้และข้อมูลบริษัท -->
         <div class="footer-column">
-            <img src="./Sorce/Logo/IMG_1450-1.png" alt="โลโก้บริษัท" class="logo">
-            <h4>One Stop Accounting Co., Ltd.</h4>
-            <p>546 Ratchadawan Building, 7th Floor, Room No. 7-01, Ratchadaphisek Road, Chan Kasem Subdistrict, Chatuchak District, Bangkok 10900</p>
-            <p>Tel: 062-362-4269</p>
-            <p>Tel: 081-454-6949</p>
-            <p>Email: </p>
+        <img src="./Sorce/LOGO1.png" alt="โลโก้บริษัท" class="logo">
+            <h4>สนง. ตัวแทน คุณรัสรินทร์</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
         </div>
     
         <!-- คอลัมน์สอง : เมนู -->
         <div class="footer-column">
             <h3>MENU</h3>
-            <a href="./index eng.html"><p>Home</p></a>
-            <a href="./about_us eng.html"><p>About Us</p></a>
-            <a href="./ติดต่อเรา eng.html"><p>Contact Us</p></a>
+            <a href="./index eng.html"><p>HOME</p></a>
+            <a href="./เกี่ยวกับเรา eng.html"><p>ABOUT US</p></a>
+            <a href="./ข่าวสาร eng.html"><p>NEWS</p></a>
         </div>
     
         <!-- คอลัมน์สาม : บริการของเรา -->
         <div class="footer-column">
-            <h3>Our services</h3>
-            <a href="./Service1 eng.html"><p>● Full-Service Accounting</p></a>
-            <a href="./Service2 eng.html"><p>● Tax Planning Services</p></a>
-            <a href="./Service3 eng.html"><p>● Business Registration Services</p></a>
-            <a href="./Service4 eng.html"><p>● Visa Application Services</p></a>
-            <a href="./Service5 eng.html"><p>● Audit service</p></a>
+            <h3>SERVICE</h3>
+<a href="./Service1 eng.html"><p>● ประกันชีวิต</p></a>
+            <a href="./Service2 eng.html"><p>● ประกันสุขภาพ</p></a>
+            <a href="./Service3 eng.html"><p>● ประกันโรคร้ายแรง</p></a>
+            <a href="./Service4 eng.html"><p>● ประกันนิติบุคคล</p></a>
+            <a href="./Service5 eng.html"><p>● ประกันกลุ่ม</p></a>
+            <a href="./Service6 eng.html"><p>● ประกันยูนิตลิงค์</p></a>
+            <a href="./Service7 eng.html"><p>● ประกันการเดินทาง</p></a>
         </div>
     
         <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
         <div class="footer-column contact">
-            <h3>Contact Us</h3>
-            <p style="margin: 0;">Tel: 062-362-4269</p>
-            <p style="margin: 0;">Tel: 081-454-6949</p>
-            <p style="padding-top: 10px;">Line ID : KUKKAI🧡 </p>
+            <h3>CONTACT</h3>
+            <p style="margin: 0;">โทร: </p>
+            <p style="padding-top: 10px;">Line ID : </p>
             <img class="qr-code" src="Sorce/qr.png" alt="QR Code">
             <a href="https://www.facebook.com/share/15kUnnDoJr/?mibextid=wwXIfr"><img src="Sorce/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
-            <p style="padding-top: 10px;">We chat : Kukkai 😊古伊一</p>
-            <img class="qr-code" src="Sorce/we1.png" alt="QR Code">
-          </div>
+        </div>
     </footer>
     
     `;

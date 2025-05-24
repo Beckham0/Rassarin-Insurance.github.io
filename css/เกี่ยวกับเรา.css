@@ -3,7 +3,7 @@
   height: 50vw;
   min-height: 400px;
   overflow: hidden;
-  background-image: url(../Sorce/IMG_a0033.png);
+  background-image: url(../Sorce/IMG_5776a.JPG);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -939,110 +939,6 @@ button { background: #004aad; color: #fff; border: none; padding: 5px 5px; curso
     font-size: 14px;
   }
 }
-
-
-
-
-
-
-/*ผู้ชายเสื้อดำ*/
-
-.Popular_insurance {
-    display: flex ;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    /* padding: 40px 20px; */
-    gap: 40px;
-    flex-wrap: wrap;
-    margin: 30px 10px;
-    }
-
-    .left-column img {
-      width: 420px;
-      max-width: 100%;
-    }
-
-    .right-column {
-      display: flex ;
-      flex-direction: column;
-      gap: 20px;
-      max-width: 850px;
-    }
-
-    .title-P {
-    font-size: 85px;
-    font-weight: bold;
-    color: #0056d6;
-    margin-bottom: 10px;
-    text-align: center;
-    }
-
-    .grid-P {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-    }
-
-    .card-P {
-      position: relative;
-      border-radius: 40px;
-      overflow: hidden;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    .card-P img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    .card-P-text {
-    position: absolute;
-    bottom: 20px;
-    left: 50px;
-    color: white;
-    font-weight: bold;
-    font-size: 35px;
-    text-shadow: 1px 1px 4px rgb(0, 21, 255);
-    text-align: center;
-    }
-
-    /* ✅ Responsive adjustments */
-    @media (max-width: 768px) {
-      .Popular_insurance {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 20px;
-      }
-
-      .left-column img {
-        width: 0px;
-        max-width: 0%;
-      }
-
-      .grid-P {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-      }
-
-      .card-P {
-       border-radius: 10px;
-      }
-
-      .title-P {
-        font-size: 45px;
-      }
-
-      .card-P-text {
-        font-size: 22px;
-        left: 10%;
-        bottom: 5%;
-      }
-    }
-
-
-
 
 
 

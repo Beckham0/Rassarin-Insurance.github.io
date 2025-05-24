@@ -1,0 +1,100 @@
+.container_202 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  gap: 20px;
+  margin: 0px 200px;
+  padding: 27px;
+}
+
+.service-box {
+  background-color: #ddb823;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.service-box img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  /* เพิ่ม transition เพื่อให้การเปลี่ยนแปลงสมูท */
+}
+
+.service-box img:hover {
+  transform: scale(1.1);
+  /* ขยายรูปภาพ 110% เมื่อ hover */
+}
+
+.service-box h1 {
+  font-size: 40px;
+  margin-top: 19px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  line-height: 1.2;
+  color: white;
+}
+
+.service-box p {
+  padding: 5px 30px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 010px;
+  line-height: 1.2;
+  color: black;
+  text-align: start;
+}
+
+  
+  @media (max-width: 768px) {
+  
+    .container_202 {
+      max-width: 1559px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap:17px;
+      padding:0 40px;
+      margin: 0;
+    }
+  
+  
+    .service-box {
+      font-size: 27px;
+      margin-top: 13px;
+      margin-bottom: 0;
+      line-height: 1.2;
+      color: white;
+      height: auto;
+    }
+    
+    .service-box img {
+      width: 100%;
+      height: 210px;
+      object-fit: cover;
+      transition:transform 0.3s ease; /* เพิ่ม transition เพื่อให้การเปลี่ยนแปลงสมูท */
+    }
+    
+    .service-box img:hover {
+      transform: scale(1.1); /* ขยายรูปภาพ 110% เมื่อ hover */
+    }
+    
+    .service-box h1 {
+      font-size: 27px;
+      margin-top: 13px;
+      font-weight: bold;
+      margin-bottom: 0;
+      line-height: 1.2;
+      color: white;
+    }
+    
+    .service-box p {
+      padding:5px 20px;
+      font-size: 15px;
+      margin-top: 0;
+      margin-bottom: 20px;
+      line-height: 1.2;
+      color: rgb(0, 0, 0);
+      text-align: start;
+    }
+  }

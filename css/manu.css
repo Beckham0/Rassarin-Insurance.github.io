@@ -3,8 +3,6 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-
     background-size: cover !important;
     background-position: center !important;
     background-attachment: fixed !important;
@@ -99,7 +97,6 @@ body {
   body {
     margin: 0;
     font-family: 'Inter', sans-serif;
-    background: linear-gradient(rgb(255, 255, 255) 8%, rgb(255, 255, 255) 100%);
   }
   
   .start {
@@ -154,7 +151,7 @@ body {
     position: sticky!important; 
     top: 0px!important;
     width: auto;
-    height: 120px;
+    height: 90px;
   }
   
   .navbar-nav {
@@ -270,3 +267,5 @@ body {
     justify-content: space-between;
   }
   
+
+
