@@ -219,7 +219,7 @@ function createNavbar() {
             <p style="margin: 0;">โทร: </p>
             <p style="padding-top: 10px;">Line ID : </p>
             <img class="qr-code" src="Sorce/qr.png" alt="QR Code">
-            <a href="https://www.facebook.com/share/15kUnnDoJr/?mibextid=wwXIfr"><img src="Sorce/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
+            <a href=""><img src="Sorce/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
         </div>
     </footer>
     
