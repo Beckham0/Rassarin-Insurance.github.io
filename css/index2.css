@@ -904,3 +904,280 @@
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  
+
+
+
+
+
+
+
+/*สาวเสื้อส้ม*/
+
+.section_a {
+  position: relative;
+  margin-top: 5%;
+}
+
+.Card_4 h1 {
+  font-weight: 600;
+  color: #000000;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.Card_4 h2 {
+  font-weight: 600;
+  color: #004aad;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.section_b {
+  height: 38rem;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.Card_5 {
+  position: relative;
+  width: 99%;
+  height: 30%;
+  background: #004aad;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.card_img1 {
+  width: 55%;
+  height: 40rem;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card_img_a1{
+  width: 70%;height: 20%; overflow: clip;z-index: 5;position: relative;left: 70%;top: 10%; text-align: start; margin: 5px;
+}
+
+.card_img_a2{
+  width: 70%;height: 20%; overflow: clip;z-index: 5;position: relative;left: 70%;top: -1%; text-align: start; margin: 5px;
+}
+
+.card_img_a3{
+  width: 70%;height: 20%; overflow: clip;z-index: 5;position: relative;left: 70%;top: -12%; text-align: start; margin: 5px;
+}
+
+.card_img_a1 span,.card_img_a2 span,.card_img_a3 span{
+  position: absolute;
+  font-size: clamp(14px, 3.5vw, 38px);
+  font-weight: bold;
+  color: #004aad;
+}
+
+
+
+ @media (max-width: 1050px) {
+
+
+  .Card_4 h1 {
+  font-weight: 600;
+  color: #000000;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.Card_4 h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+.section_b {
+  height: 40rem;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+    .Card_5 {
+      position: relative;
+      width: 97%;
+      height: 45%;
+      display: flex;
+      flex-direction: column-reverse;
+      border-radius:0px 50px 50px 0px;
+    }
+
+        .card_img1 {
+      width: 65% !important;
+      height: 65vw !important;
+      position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position:center;
+    }
+
+.card_img_a1{
+  width: 70%;height: 20%; overflow: clip;z-index: 5;position: relative;left: 70%;top: 6%; text-align: start; margin: 5px;
+}
+
+.card_img_a2{
+  width: 70%;height: 20%; overflow: clip;z-index: 5;position: relative;left: 70%;top: -5%; text-align: start; margin: 5px;
+}
+
+.card_img_a3{
+  width: 70%;height: 20%; overflow: clip;z-index: 5;position: relative;left: 70%;top: -17%; text-align: start; margin: 5px;
+}
+
+.card_img_a1 span,.card_img_a2 span,.card_img_a3 span{
+  position: absolute;
+  font-size: clamp(14px, 3.5vw, 38px);
+  font-weight: bold;
+}
+}
+
+
+  @media (max-width: 768px) {
+
+    .section_a {
+  position: relative;
+  margin-top: 20%;
+}
+
+
+      .Card_4 h1 {
+  font-weight: 600;
+  color: #000000;
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.Card_4 h2 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+
+.section_b {
+  height: 20rem;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+        .Card_5 {
+      position: relative;
+      width: 90%;
+      height: 45%;
+      display: flex;
+      flex-direction: column-reverse;
+      border-radius:0px 50px 50px 0px;
+    }
+
+    .card_img1 {
+      width: 70% !important;
+      height: 85vw !important;
+      position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position:center;
+    }
+
+.card_img_a1{
+  width: 70%;height: 20%; overflow: clip;z-index: 5;position: relative;left: 70%;top: 10%; text-align: start; margin: 5px;
+}
+
+.card_img_a2{
+  width: 70%;height: 20%; overflow: clip;z-index: 5;position: relative;left: 70%;top: -4%; text-align: start; margin: 5px;
+}
+
+.card_img_a3{
+  width: 70%;height: 20%; overflow: clip;z-index: 5;position: relative;left: 70%;top: -17%; text-align: start; margin: 5px;
+}
+
+.card_img_a1 span,.card_img_a2 span,.card_img_a3 span{
+  position: absolute;
+  font-size: clamp(14px, 3.5vw, 38px);
+  font-weight: bold;
+}
+  
+  }
+
+   @media (max-width: 400px) {
+
+
+      .Card_4 h1 {
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.Card_4 h2 {
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.section_b {
+  height: 20rem;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+    .Card_5 {
+      position: relative;
+      width: 95%;
+      height: 35%;
+      display: flex;
+      flex-direction: column-reverse;
+      border-radius:0px 50px 50px 0px;
+    }
+
+    .card_img1 {
+      width: 75% !important;
+      height: 105vw !important;
+      position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position:center;
+    }
+
+.card_img_a1{
+  width: 65%;height: 40%; overflow: clip;z-index: 5;position: relative;left: 56%;top:11%; text-align: start; margin: 5px;
+}
+
+.card_img_a2{
+  width: 65%;height: 40%; overflow: clip;z-index: 5;position: relative;left: 56%;top: -23%; text-align: start; margin: 5px;
+}
+
+.card_img_a3{
+  width: 68%;height: 20%; overflow: clip;z-index: 5;position: relative;left: 56%;top: -57%; text-align: start; margin: 5px;
+}
+
+.card_img_a1 span,.card_img_a2 span,.card_img_a3 span{
+  position: absolute;
+  font-size: clamp(13px, 3.5vw, 38px);
+  font-weight: bold;
+}
+
+  }

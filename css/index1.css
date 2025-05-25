@@ -644,10 +644,9 @@ left: 43% !important;
     position: absolute;
     bottom: 20px;
     left: 70px;
-    color: white;
+    color: #004aad;
     font-weight: bold;
     font-size: 35px;
-    text-shadow: 1px 1px 4px rgb(0, 21, 255);
     }
 
     /* ✅ Responsive adjustments */
@@ -655,7 +654,8 @@ left: 43% !important;
       .Popular_insurance {
         flex-direction: column;
         align-items: center;
-        padding: 20px 20px;
+        margin: 10px 10px;
+        gap: 0px;
       }
 
       .left-column img {
@@ -678,8 +678,8 @@ left: 43% !important;
 
       .card-P-text {
         font-size: 22px;
-        left: 10%;
-        bottom: 5%;
+        left: 9%;
+        bottom: 35%;
       }
     }
 
@@ -882,6 +882,8 @@ left: 43% !important;
         font-size: 20px;
       }
     }
+
+    
 
 
 
