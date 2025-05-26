@@ -189,8 +189,8 @@ function createNavbar() {
         <!-- คอลัมน์แรก : โลโก้และข้อมูลบริษัท -->
         <div class="footer-column">
         <img src="./Sorce/LOGO1.png" alt="โลโก้บริษัท" class="logo">
-            <h4>สนง. ตัวแทน คุณรัสรินทร์</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <h4>สำนักงานตัวแทนประกันชีวิต คุณรัสรินทร์ บวรธนะเกียรติ์</h4>
+            <p>115/11 โครงการเมอริทเพลสบางนา หมู่ 13 ซ.มหาชัย ต.บางพลีใหญ่ อ.บางพลี จ.สมุทรปราการ 10540</p>
         </div>
     
         <!-- คอลัมน์สอง : เมนู -->
@@ -216,8 +216,9 @@ function createNavbar() {
         <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
         <div class="footer-column contact">
             <h3>ติดต่อเรา</h3>
-            <p style="margin: 0;">โทร: </p>
-            <p style="padding-top: 10px;">Line ID : </p>
+            <p style="margin: 0;">โทร: 0865662639, 0956465419, 0996255730</p>
+            <p style="padding-top: 10px;">Line ID : mai4263mai</p>
+            <p style="padding:10px 0;">E-Mail: ratsarin.maimai@gmail.com</p>
             <img class="qr-code" src="Sorce/qr.png" alt="QR Code">
             <a href=""><img src="Sorce/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
         </div>

@@ -10,6 +10,10 @@ body {
 
 @media (max-width: 400px) {
 
+  .navbar-brand2 img{
+    width: 40px !important;
+  }
+
   .container-fluid{
      --bs-gutter-x: 0.3rem !important;
      gap: 3px !important;
