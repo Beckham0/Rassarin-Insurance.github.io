@@ -347,7 +347,7 @@
 
       .cta-button {
         font-size: 28px;
-        bottom: 200px;
+        bottom: 240px;
         left: 10%;
       }
     }
@@ -698,31 +698,31 @@
 /*ทำไมต้องเลือกเรา*/
 
 .carousel-container { display: flex; align-items: center; justify-content: center; margin-top: 10px; }
-.carousel { display: flex; overflow: hidden; width: 1200px; height: 400px; }
+.carousel { display: flex; overflow: hidden; width: 1200px; height: 370px; }
 .carousel-track { display: flex; transition: transform 0.5s ease-in-out; }
 .card-ct { min-width: 360px; margin: 10px 20px; border-radius: 20px; overflow: hidden; background: #004aad; }
-.card-ct img { width: 100%; height: 220px; }
-.card-content h2 { padding:16px 2px 0 9px;color: #ffffff; font-size: 21px; font-weight: bold;margin-bottom: 0px;}
+.card-ct img { width: 100%; height: 240px; }
+.card-content h2 { padding:16px 2px 0 9px;color: #ffffff; font-size: 25px; font-weight: bold;margin-bottom: 0px; text-align: center;}
 .card-content p { padding:0 15px;color: #ffffff; font-size: 15px;  margin-top: 2px; margin-bottom: 10px;}
 button { background: #004aad; color: #fff; border: none; padding: 5px 5px; cursor: pointer; border-radius: 50%; margin: 0 10px; }
 
   /* Responsive adjustments */
   @media (max-width: 768px) {
-    .card-ct { min-width: 340px;margin:10px 20px 10px 20px; border-radius: 20px; overflow: hidden; background: #004aad;height: 360px; }
-    .carousel { width: 450px; }
-    .card-ct img {width: 100%;height: 200px;}
+    .card-ct { min-width: 340px;margin:10px 20px 10px 20px; border-radius: 20px; overflow: hidden; background: #004aad;height: 310px; }
+    .carousel { width: 450px; height: 320px;}
+    .card-ct img {width: 100%;height: 210px;}
       .prev2 { z-index: 888; padding:100px 0px;font-size: 5px;margin:0px; left: 0px;}
       .next2 { z-index: 888; padding:100px 0px;font-size: 5px;margin:0px; right: 0px;}
-      .card-content h2 { padding:16px 2px 0 9px;color: #ffffff; font-size: 19px; font-weight: bold;margin-bottom: 0px;}
+      .card-content h2 { padding:16px 2px 0 9px;color: #ffffff; font-size: 22px; font-weight: bold;margin-bottom: 0px;text-align: center;}
     .card-content p { padding:0 15px;color: #ffffff; font-size: 15px;  margin-top: 2px; margin-bottom: 10px;}
   }
 
 @media (max-width: 400px) {
-    .card-ct { min-width: 270px;margin:10px 20px 10px 20px; border-radius: 20px; overflow: hidden; background: #004aad;height: 300px; }
-    .carousel { width: 400px; height: 380px;}
-    .card-ct img {width: 100%;height: 160px;}
-    .card-content h2 { padding:16px 2px 0 9px;color: #ffffff; font-size: 18px; font-weight: bold;margin-bottom: 0px;}
-    .card-content p { padding:0 15px;color: #ffffff; font-size: 12px;  margin-top: 2px; margin-bottom: 10px;}
+    .card-ct { min-width: 320px;margin:10px 20px 10px 20px; border-radius: 20px; overflow: hidden; background: #004aad;height: 310px; }
+    .carousel { width: 400px; height: 320px;}
+    .card-ct img {width: 100%;height: 220px;}
+    .card-content h2 { padding:16px 2px 0 9px;color: #ffffff; font-size: 20px; font-weight: bold;margin-bottom: 0px; text-align: center;}
+    .card-content p { padding:0 15px;color: #ffffff; font-size: 13px;  margin-top: 2px; margin-bottom: 10px;}
       .prev2 { z-index: 888; font-size: 5px;margin:0px; left: 0px;}
       .next2 { z-index: 888; font-size: 5px;margin:0px; right: 0px;}
 }
@@ -1020,11 +1020,11 @@ button { background: #004aad; color: #fff; border: none; padding: 5px 5px; curso
 
     .card-P-text {
     position: absolute;
-    bottom: 99px;
-    left: 80px;
+    bottom: 29px;
+    left: 20px;
     color: #004aad;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 30px;
     text-shadow:
     -1px -1px 0 #ffffff,
      1px -1px 0 #ffffff,
@@ -1060,9 +1060,9 @@ button { background: #004aad; color: #fff; border: none; padding: 5px 5px; curso
       }
 
       .card-P-text {
-        font-size: 21px;
-        left: 15%;
-        bottom: 35%;
+        font-size: 15px;
+        left: 5%;
+        bottom: 10%;
       }
     }
 
@@ -1093,9 +1093,9 @@ button { background: #004aad; color: #fff; border: none; padding: 5px 5px; curso
       }
 
       .card-P-text {
-        font-size: 19px;
-        left: 12%;
-        bottom: 39%;
+        font-size: 15px;
+        left: 5%;
+        bottom: 12%;
       }
     }
 
@@ -1120,7 +1120,7 @@ center;
 width: inherit !important;
 height: 93% !important;
 bottom: 0 !important;
-right: 3rem !important;
+right: 30rem !important;
 }
 
 .card_img span {

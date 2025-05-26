@@ -79,7 +79,7 @@
  color: #ffffff; 
  font-weight: 300; 
  text-align: start;
- margin-top: 50px;
+ margin-top: 20px;
 }
 
 
@@ -117,7 +117,7 @@
 }
 
 .M h1 {
-  font-size: 50px; 
+  font-size: 45px; 
   color: #ffffff; 
   font-weight: 700;
 }
@@ -129,11 +129,11 @@
 }
 
 .M p {
- font-size: 18px; 
+ font-size: 20px; 
  color: #ffffff; 
  font-weight: 300; 
  text-align: start;
- margin-top: 30px;
+ margin-top: 20px;
 }
 
 }
@@ -160,11 +160,11 @@
 }
 
 .M p {
- font-size: 15px; 
+ font-size: 20px; 
  color: #ffffff; 
  font-weight: 300; 
  text-align: start;
- margin-top: 30px;
+ margin-top: 20px;
 }
 
 }
@@ -357,7 +357,7 @@
 
       .cta-button {
         font-size: 28px;
-        bottom: 200px;
+        bottom: 240px;
         left: 10%;
       }
     }
@@ -817,9 +817,9 @@ button { background: #004aad; color: #fff; border: none; padding: 5px 5px; curso
 
   /* Responsive adjustments */
   @media (max-width: 768px) {
-    .card-ct { min-width: 340px;margin:10px 20px 10px 20px; border-radius: 20px; overflow: hidden; background: #004aad;height: 360px; }
+    .card-ct { min-width: 340px;margin:10px 20px 10px 20px; border-radius: 20px; overflow: hidden; background: #004aad;height: 380px; }
     .carousel { width: 450px; }
-    .card-ct img {width: 100%;height: 200px;}
+    .card-ct img {width: 100%;height: 210px;}
       .prev2 { z-index: 888; padding:100px 0px;font-size: 5px;margin:0px; left: 0px;}
       .next2 { z-index: 888; padding:100px 0px;font-size: 5px;margin:0px; right: 0px;}
       .card-content h2 { padding:16px 2px 0 9px;color: #ffffff; font-size: 19px; font-weight: bold;margin-bottom: 0px;}
@@ -827,11 +827,11 @@ button { background: #004aad; color: #fff; border: none; padding: 5px 5px; curso
   }
 
 @media (max-width: 400px) {
-    .card-ct { min-width: 270px;margin:10px 20px 10px 20px; border-radius: 20px; overflow: hidden; background: #004aad;height: 300px; }
-    .carousel { width: 400px; height: 380px;}
-    .card-ct img {width: 100%;height: 160px;}
-    .card-content h2 { padding:16px 2px 0 9px;color: #ffffff; font-size: 18px; font-weight: bold;margin-bottom: 0px;}
-    .card-content p { padding:0 15px;color: #ffffff; font-size: 12px;  margin-top: 2px; margin-bottom: 10px;}
+    .card-ct { min-width: 320px;margin:10px 20px 10px 20px; border-radius: 20px; overflow: hidden; background: #004aad;height: 350px; }
+    .carousel { width: 400px; height: 370px;}
+    .card-ct img {width: 100%;height: 210px;}
+    .card-content h2 { padding:16px 2px 0 9px;color: #ffffff; font-size: 20px; font-weight: bold;margin-bottom: 0px;}
+    .card-content p { padding:0 15px;color: #ffffff; font-size: 13px;  margin-top: 2px; margin-bottom: 10px;}
       .prev2 { z-index: 888; font-size: 5px;margin:0px; left: 0px;}
       .next2 { z-index: 888; font-size: 5px;margin:0px; right: 0px;}
 }
@@ -1319,9 +1319,9 @@ button { background: #004aad; color: #fff; border: none; padding: 5px 5px; curso
       }
 
       .card-P-text {
-        font-size: 16px;
-        left: 5%;
-        bottom: 30%;
+        font-size: 17px;
+        left: 7%;
+        bottom: 10%;
       }
     }
 
@@ -1348,7 +1348,7 @@ center;
 width: inherit !important;
 height: 93% !important;
 bottom: 0 !important;
-right: 3rem !important;
+right: 30rem !important;
 }
 
 .card_img span {
@@ -1515,7 +1515,7 @@ left: 43% !important;
 }
 
 .section_b {
-  height: 38rem;
+  height: 43rem;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -1531,7 +1531,7 @@ left: 43% !important;
 }
 
 .card_img1 {
-  width: 55%;
+  width: 50%;
   height: 40rem;
   position: absolute;
   background-size: cover;
@@ -1578,7 +1578,7 @@ left: 43% !important;
 
 
 .section_b {
-  height: 40rem;
+  height: 43rem;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -1625,7 +1625,7 @@ left: 43% !important;
 
     .section_a {
   position: relative;
-  margin-top: 0%;
+  margin-top: 20%;
 }
 
 
@@ -1644,7 +1644,7 @@ left: 43% !important;
 
 
 .section_b {
-  height: 20rem;
+  height: 23rem;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -1704,7 +1704,7 @@ left: 43% !important;
 }
 
 .section_b {
-  height: 20rem;
+  height: 24rem;
   display: flex;
   flex-direction: column-reverse;
 }

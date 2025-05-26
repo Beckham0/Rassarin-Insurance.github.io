@@ -238,7 +238,7 @@
   }
 
 
- .gallery1 {
+  .gallery1 {
   overflow: hidden;
   padding: 0px 0;
   background-color: #fcfcfc;
@@ -252,7 +252,8 @@
 .gallery1 img {
   width: 100%;
   height: 330px;
-  max-width: 25%;
+  max-width: 27%;
+  padding: 0 10px;
 }
 
 
@@ -272,6 +273,7 @@
   height: 330px;
   max-width: 25%;
   display: inline-block;
+  padding: 0 10px;
 }
 
 @media (max-width: 768px) {
@@ -293,13 +295,13 @@
 
     .gallery1 img {
     width: 100%;
-    height: 180px;
+    height: 190px;
     max-width: 70%;
   }
 
   .gallery2 img {
     width: 100%;
-    height: 180px;
+    height: 190px;
     max-width: 70%;
   }
 }
@@ -594,7 +596,7 @@ center;
 width: inherit !important;
 height: 93% !important;
 bottom: 0 !important;
-right: 3rem !important;
+right: 30rem !important;
 }
 
 .card_img span {

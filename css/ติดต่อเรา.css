@@ -346,7 +346,7 @@
 
       .cta-button {
         font-size: 28px;
-        bottom: 200px;
+        bottom: 240px;
         left: 10%;
       }
     }
@@ -769,7 +769,7 @@ center;
 width: inherit !important;
 height: 93% !important;
 bottom: 0 !important;
-right: 3rem !important;
+right: 30rem !important;
 }
 
 .card_img span {
