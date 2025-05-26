@@ -105,6 +105,18 @@
   }
 }
 
+@media (max-width: 400px) {
+
+  .card-1 {
+    min-height: 370px;
+  }
+
+  .card-1 h1 {
+    margin-top: 120px;
+  }
+
+}
+
 .buttons-1 {
   flex: 1 1 calc(50% - 10px);
   min-width: 300px;
@@ -859,7 +871,7 @@
   width: 100%; 
   background-color: #004aad; 
   text-align: center; 
-  padding: 70px 15px;
+  padding: 40px 15px;
 }
 
 .M h1 {
@@ -869,13 +881,44 @@
 }
 
 .M h2 {
- font-size: 22px; 
+ font-size: 19px; 
  color: #ffffff; 
  font-weight: 600;
 }
 
 .M p {
  font-size: 18px; 
+ color: #ffffff; 
+ font-weight: 300; 
+ text-align: start;
+ margin-top: 30px;
+}
+
+}
+
+@media (max-width: 400px) {
+
+  .M {
+  width: 100%; 
+  background-color: #004aad; 
+  text-align: center; 
+  padding: 50px 15px;
+}
+
+.M h1 {
+  font-size: 40px; 
+  color: #ffffff; 
+  font-weight: 700;
+}
+
+.M h2 {
+ font-size: 17px; 
+ color: #ffffff; 
+ font-weight: 600;
+}
+
+.M p {
+ font-size: 15px; 
  color: #ffffff; 
  font-weight: 300; 
  text-align: start;
