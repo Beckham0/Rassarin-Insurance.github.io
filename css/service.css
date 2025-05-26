@@ -1244,8 +1244,8 @@ button { background: #004aad; color: #fff; border: none; padding: 5px 5px; curso
 
     .card-P-text {
     position: absolute;
-    bottom: 99px;
-    left: 80px;
+    bottom: 30px;
+    left: 30px;
     color: #004aad;
     font-weight: bold;
     font-size: 45px;
