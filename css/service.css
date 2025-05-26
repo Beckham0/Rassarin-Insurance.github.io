@@ -661,27 +661,81 @@ button { background: #004aad; color: #fff; border: none; padding: 5px 5px; curso
 
 /*ภาพ ลูกค้าเรา*/
 
-.IMG {
-  display: flex;
-  justify-content: center; 
-  flex-wrap: wrap; 
-  gap: 20px; 
-  margin: 50px 0;
+@keyframes slide{
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+
+  .gallery1 {
+  overflow: hidden;
+  padding: 0px 0;
+  background-color: #fcfcfc;
 }
 
-.IMG img {
-  width: 400px; 
-  height: auto;
+.gallery-slide1 {
+  white-space: nowrap;
+  animation: 15s slide infinite linear;
+}
+
+.gallery1 img {
+  width: 100%;
+  height: 330px;
+  max-width: 25%;
+  padding: 0 10px;
+}
+
+
+.gallery2 {
+  overflow: hidden;
+  padding: 0px 0;
+  background-color: #fcfcfc;
+}
+
+.gallery-slide2 {
+  white-space: nowrap;
+  animation: 16s slide infinite linear;
+}
+
+.gallery2 img {
+  width: 100%;
+  height: 330px;
+  max-width: 25%;
+  display: inline-block;
+  padding: 0 10px;
 }
 
 @media (max-width: 768px) {
-  .IMG {
-    flex-direction: column;
-    align-items: center;
+
+  .gallery1 img {
+    width: 100%;
+    height: 230px;
+    max-width: 75%;
   }
 
-  .IMG img {
-    width: 80%; 
+  .gallery2 img {
+    width: 100%;
+    height: 230px;
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 400px) {
+
+    .gallery1 img {
+    width: 100%;
+    height: 180px;
+    max-width: 70%;
+  }
+
+  .gallery2 img {
+    width: 100%;
+    height: 180px;
+    max-width: 70%;
   }
 }
 

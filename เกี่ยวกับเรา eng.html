@@ -415,11 +415,32 @@ prevButton.addEventListener('click', () => {
 </script>
 
 <h1 class="section_2" >ลูกค้าเรา</h1>
-<div class="IMG">
-  <img src="Sorce/IMG_A01.png" alt="">
-  <img src="Sorce/IMG_A02.png" alt="">
-  <img src="Sorce/IMG_A03.png" alt="">
-</div>
+<br><br>
+      <div class="gallery1">
+      <div class="gallery-slide1">
+        <img src="Sorce/IMG_A01.png" alt="Image 2">
+        <img src="Sorce/IMG_A02.png" alt="Image 3">
+        <img src="Sorce/IMG_A03.png" alt="Image 4">
+        <img src="Sorce/IMG_A01.png" alt="Image 2">
+        <img src="Sorce/IMG_A02.png" alt="Image 3">
+        <img src="Sorce/IMG_A03.png" alt="Image 4">
+        <img src="Sorce/IMG_A01.png" alt="Image 2">
+        <img src="Sorce/IMG_A02.png" alt="Image 3">
+        <img src="Sorce/IMG_A03.png" alt="Image 4">
+        <img src="Sorce/IMG_A01.png" alt="Image 2">
+        <img src="Sorce/IMG_A02.png" alt="Image 3">
+        <img src="Sorce/IMG_A03.png" alt="Image 4">
+    </div>   
+  </div>
+  <br><br>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const slide1 = document.querySelector(".gallery-slide1,.gallery-slide2");
+    const clone = slide.innerHTML;
+    slide.innerHTML += clone; // ทำให้เลื่อนไปวนซ้ำต่อเนื่อง
+  });
+</script>
 
 
 <section class="container" style="box-shadow: none;">
