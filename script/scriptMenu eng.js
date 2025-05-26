@@ -189,35 +189,36 @@ function createNavbar() {
         <!-- คอลัมน์แรก : โลโก้และข้อมูลบริษัท -->
         <div class="footer-column">
         <img src="./Sorce/LOGO1.png" alt="โลโก้บริษัท" class="logo">
-            <h4>สนง. ตัวแทน คุณรัสรินทร์</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <h4>สำนักงานตัวแทนประกันชีวิต คุณรัสรินทร์ บวรธนะเกียรติ์</h4>
+            <p>115/11 โครงการเมอริทเพลสบางนา หมู่ 13 ซ.มหาชัย ต.บางพลีใหญ่ อ.บางพลี จ.สมุทรปราการ 10540</p>
         </div>
     
         <!-- คอลัมน์สอง : เมนู -->
         <div class="footer-column">
-            <h3>MENU</h3>
-            <a href="./index eng.html"><p>HOME</p></a>
-            <a href="./เกี่ยวกับเรา eng.html"><p>ABOUT US</p></a>
-            <a href="./ข่าวสาร eng.html"><p>NEWS</p></a>
+            <h3>เมนู</h3>
+            <a href="./index.html"><p>หน้าเเรก</p></a>
+            <a href="./about_us.html"><p>เกี่ยวกับเรา</p></a>
+            <a href="./ข่าวสาร.html"><p>ข่าวสาร</p></a>
         </div>
     
         <!-- คอลัมน์สาม : บริการของเรา -->
         <div class="footer-column">
-            <h3>SERVICE</h3>
-<a href="./Service1 eng.html"><p>● ประกันชีวิต</p></a>
-            <a href="./Service2 eng.html"><p>● ประกันสุขภาพ</p></a>
-            <a href="./Service3 eng.html"><p>● ประกันโรคร้ายแรง</p></a>
-            <a href="./Service4 eng.html"><p>● ประกันนิติบุคคล</p></a>
-            <a href="./Service5 eng.html"><p>● ประกันกลุ่ม</p></a>
-            <a href="./Service6 eng.html"><p>● ประกันยูนิตลิงค์</p></a>
-            <a href="./Service7 eng.html"><p>● ประกันการเดินทาง</p></a>
+            <h3>บริการเรา</h3>
+            <a href="./Service1.html"><p>● ประกันชีวิต</p></a>
+            <a href="./Service2.html"><p>● ประกันสุขภาพ</p></a>
+            <a href="./Service3.html"><p>● ประกันโรคร้ายแรง</p></a>
+            <a href="./Service4.html"><p>● ประกันนิติบุคคล</p></a>
+            <a href="./Service5.html"><p>● ประกันกลุ่ม</p></a>
+            <a href="./Service6.html"><p>● ประกันยูนิตลิงค์</p></a>
+            <a href="./Service7.html"><p>● ประกันการเดินทาง</p></a>
         </div>
     
         <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
         <div class="footer-column contact">
-            <h3>CONTACT</h3>
-            <p style="margin: 0;">โทร: </p>
-            <p style="padding-top: 10px;">Line ID : </p>
+            <h3>ติดต่อเรา</h3>
+            <p style="margin: 0;">โทร: 0865662639, 0956465419, 0996255730</p>
+            <p style="padding-top: 10px;">Line ID : mai4263mai</p>
+            <p style="padding:10px 0;">E-Mail: ratsarin.maimai@gmail.com</p>
             <img class="qr-code" src="Sorce/qr.png" alt="QR Code">
             <a href=""><img src="Sorce/facebook1.png" alt="Facebook" style="border-radius: 20px;padding: 10px;"></a>
         </div>
