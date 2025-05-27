@@ -291,156 +291,25 @@
 
 
 
+/*ช่องทางติดต่อ*/
+
 .item-p1 {
   text-align: center;
   padding: 10px 0;
-  max-width: 1000px;
+  max-width: 1300px;
   margin: 0 auto;
   margin-top: 3%;
 }
 
-.port1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.buttons-4 {
-  flex: 1 1 calc(50% - 10px);
-  min-width: 300px;
-  padding: 10px;
-  text-align: center;
-}
-
-.buttons-4-1 {
-  display: grid;
-  grid-template-columns: 1fr;
-  column-gap: 1rem;
-  margin: 0 auto;
-  margin-top: 90px;
-}
-
-.buttons-4-1 h1 {
-  font-size: 55px;
-  margin: 0 0 0px;
-  color: #ddb823;
-  font-weight: bold;
-}
-
-.buttons-4-1 h2 {
-  font-size: 40px;
-  margin: 0 0 20px;
-  color: #ddb823;
-  font-weight: bold;
-}
-
-.buttons-4-1 p {
-  font-size: 30px;
-  color: #000000;
-  padding: 20px 0;
-  font-weight: bold;
-}
-
-
-.buttons-3 {
-  flex: 1 1 calc(50% - 10px);
-  min-width: 300px;
-  width: 100%;
-  text-align: center;
-  height: auto;
-  padding: 0 20px;
-}
-
-
-.buttons-3 img {
-  width: 100%;
-  justify-content: center;
-  height: 550px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.21);
-
-}
-
-
-
-@media (max-width: 768px) {
-
-  .port1 {
-    flex-direction: none;
-  }
-
-  .port1 {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    gap: 0px;
-  }
-
-  .buttons-4 {
-    min-width: 175px;
-  }
-
-  .buttons-4-1 {
-    margin-top: 10px;
-  }
-
-  .buttons-4-1 h1 {
-    font-size: 18px !important;
-    margin: 0 0 10px;
-    color: #ddb823;
-    font-weight: bold;
-  }
-
-  .buttons-4-1 h2 {
-    font-size: 18px !important;
-    margin: 0 0 0px;
-    color: #ddb823;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-
-  .buttons-4-1 p {
-    font-size: 10px !important;
-    color: #000000;
-    padding: 0;
-    font-weight: bold;
-  }
-
-  .buttons-3 img {
-    width: 86%;
-    justify-content: center;
-    height: 179px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.21);
-
-  }
-
-  .buttons-3 {
-    flex: 1 1 calc(50% - 10px);
-    min-width: 209px;
-    width: 77%;
-    text-align: center;
-    height: auto;
-    padding: 0;
-  }
-}
-
-
-
-
-
 .port11 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 10px;
-  background-color: #004aad;
-  border-radius: 195px;
-  margin: 0 0px;
-  padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #004aad;
+    border-radius: 75px;
+    margin: 0 0px;
+    padding: 30px;
 }
 
 .buttons-44 {
@@ -507,14 +376,6 @@
     border-radius: 50px;
     margin: 0 10px;
     padding: 30px;
-    gap: 0px;
-  }
-
-  .port1 {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    gap: 0px;
   }
 
   .buttons-44 {
@@ -567,12 +428,8 @@
 }
 
 
-
-
-/* ************************************************************ */
-
 .calling_and_line {
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 .f-column-3 {
@@ -589,9 +446,9 @@
 .f-column-3 a {
   text-decoration: none;
   flex: 1;
-  min-width: 250px;
+  min-width: 300px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 
 .f-column-3 .fcolumn {
@@ -601,7 +458,7 @@
   max-width: 382px;
   height: 94px;
   border-radius: 79px;
-  padding: 39px;
+  padding: 39px 0;
   color: white;
 }
 
@@ -616,9 +473,10 @@
     font-size: 25px;
     font-weight: bold;
     padding: 10px;
-    background-color: #ffffff;
-    color: #004aad;
+    background-color: #00000000;
+    color: #ffffff;
     border-radius: 10px;
+    text-align: start;
 }
 
 .f-column-3 .fcolumn h3,
@@ -632,7 +490,7 @@
 @media (max-width: 768px) {
 
   .calling_and_line {
-    margin-top: 5%;
+    margin-top: 0%;
   }
 
   .f-column-3 {
@@ -648,26 +506,25 @@
   }
 
   .f-column-3 .fcolumn {
-    max-width: 382px;
+    max-width: 100%;
     height: 47px;
   }
 
   .f-column-3 .fcolumn img {
-    width: 63px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
   }
 
   .f-column-3 .fcolumn h2 {
-    font-size: 19px;
+    font-size: 15px;
+    text-align: left;
   }
 
   .f-column-3 .fcolumn h3,
   .f-column-3 .fcolumn h4 {
-    font-size: 14px;
+    font-size: 11px;
   }
 }
-
-
 
 
 
