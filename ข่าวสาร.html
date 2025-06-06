@@ -61,15 +61,15 @@
   <div class="carousel-ci1">
       <div class="carousel-track-ci1">
           <div class="card-ct-ci1" style="margin-left: 10px;">
-              <img src="Sorce/IMG_1380.png" alt="">
+              <img src="Sorce/New/N_2.jpg" alt="">
               <div class="card-content-ci1">
                 <h2>“ประกันยอดนิยม 2568”</h2>
-                <p>สํานักงานบัญชีทริปเพิลเอิร์น เป็นผู้ให้บริการด้านบัญชีและภาษีที่ให้บริการรับทําบัญชีรายเดือน รับทําบัญชีรายปี รับปิดงบการเงิน</p>
+                <p>สํานักงานบัญชีทริปเพิลเอิร์น เปนผู้ให้บริการด้านบัญชีและภาษีทีให้บริการรับทําบัญชีรายเดือน รับทําบัญชีรายป รับปดงบการเงิน</p>
               </div>
                 
           </div>
           <div class="card-ct-ci1">
-              <img src="Sorce/IMG_1405.png" alt="">
+              <img src="Sorce/New/N_9.jpg" alt="">
               <div class="card-content-ci1">
                 <h2>“ประกันสุขภาพ มาแรงปี 2568”</h2>
                 <p>สํานักงานบัญชีทริปเพิลเอิร์น เปนผู้ให้บริการด้านบัญชีและภาษีทีให้บริการรับทําบัญชีรายเดือน รับทําบัญชีรายป รับปดงบการเงิน</p>
@@ -88,7 +88,7 @@
 .carousel-ci1 { display: flex; overflow: hidden; width: 1000px; height: 350px; }
 .carousel-track-ci1 { display: flex; transition: transform 0.5s ease-in-out; }
 .card-ct-ci1 { min-width: 950px; margin: 10px 30px; overflow: hidden; background: #004bad00; display: flex; }
-.card-ct-ci1 img { width: 70%; height: 100%; object-fit: cover; }
+.card-ct-ci1 img { width: 70%; height: 100%; object-fit: cover; border-radius: 20px;}
 .card-content-ci1{ margin-top: 5%;}
 .card-content-ci1 h2 { padding:0px 2px 0 9px;color: #004aad; font-size: 30px; font-weight: bold;margin-bottom: 0px; text-align: center;padding-top: 10px;}
 .card-content-ci1 p { padding:0 15px;color: #004aad; font-size: 20px;  margin-top: 2px; margin-bottom: 10px; text-align: center;}
@@ -120,41 +120,65 @@ button { background: #004bad00; color: #ffffff00; border: none; padding: 5px 5px
 </style>
 <script>
 document.querySelectorAll('.carousel-container-ci1').forEach(container => {
-const track = container.querySelector('.carousel-track-ci1');
-const prevButton = container.querySelector('.prev2-ci1');
-const nextButton = container.querySelector('.next2-ci1');
-const cardWidth = container.querySelector('.card-ct-ci1').offsetWidth + 40;
-let currentPosition = 0;
+    const track = container.querySelector('.carousel-track-ci1');
+    const prevButton = container.querySelector('.prev2-ci1');
+    const nextButton = container.querySelector('.next2-ci1');
+    const cardWidth = container.querySelector('.card-ct-ci1').offsetWidth + 40;
+    let currentPosition = 0;
 
-// ฟังก์ชันตรวจสอบจำนวนการ์ดที่แสดงตามขนาดหน้าจอ
-const getVisibleCards = () => {
-    if (window.innerWidth >= 1200) return 2;
-    if (window.innerWidth >= 480) return 2;
-    return 1;
-};
+    const getVisibleCards = () => {
+        if (window.innerWidth >= 1200) return 2;
+        if (window.innerWidth >= 480) return 2;
+        return 1;
+    };
 
-let visibleCards = getVisibleCards();
+    let visibleCards = getVisibleCards();
 
-// อัปเดตจำนวนการ์ดเมื่อเปลี่ยนขนาดหน้าจอ
-window.addEventListener('resize', () => {
-    visibleCards = getVisibleCards();
-    currentPosition = 0;
-    track.style.transform = `translateX(${currentPosition}px)`;
-});
-
-nextButton.addEventListener('click', () => {
-    if (currentPosition > -(track.scrollWidth - cardWidth * visibleCards)) {
-        currentPosition -= cardWidth;
+    window.addEventListener('resize', () => {
+        visibleCards = getVisibleCards();
+        currentPosition = 0;
         track.style.transform = `translateX(${currentPosition}px)`;
-    }
-});
+    });
 
-prevButton.addEventListener('click', () => {
-    if (currentPosition < 0) {
-        currentPosition += cardWidth;
+    nextButton.addEventListener('click', () => {
+        if (currentPosition > -(track.scrollWidth - cardWidth * visibleCards)) {
+            currentPosition -= cardWidth;
+            track.style.transform = `translateX(${currentPosition}px)`;
+        }
+    });
+
+    prevButton.addEventListener('click', () => {
+        if (currentPosition < 0) {
+            currentPosition += cardWidth;
+            track.style.transform = `translateX(${currentPosition}px)`;
+        }
+    });
+
+    // สร้างตัวแปรเพื่อควบคุมทิศทาง
+    let scrollDirection = 'right';
+
+    // เริ่มเลื่อนอัตโนมัติแบบไป-กลับ
+    let autoScrollInterval = setInterval(() => {
+        const maxScroll = track.scrollWidth - cardWidth * visibleCards;
+
+        if (scrollDirection === 'right') {
+            if (currentPosition > -maxScroll) {
+                currentPosition -= cardWidth;
+            } else {
+                scrollDirection = 'left';
+                currentPosition += cardWidth;
+            }
+        } else {
+            if (currentPosition < 0) {
+                currentPosition += cardWidth;
+            } else {
+                scrollDirection = 'right';
+                currentPosition -= cardWidth;
+            }
+        }
+
         track.style.transform = `translateX(${currentPosition}px)`;
-    }
-});
+    }, 4000);
 });
 </script>
 
@@ -165,10 +189,10 @@ prevButton.addEventListener('click', () => {
 <section class="container" style="box-shadow: none;">
   <div class="card4">
 
-    <div class="card mb-3 pop-up" style="width:95%; background-color: #c3c3c3;">
+    <div class="card mb-3 pop-up" style="width:100%; background-color: #c3c3c3;">
       <div class="row g-0">
         <div class="col-md-4">
-          <img src="./Sorce/IMG_1418.png" class="img-fluid rounded-start" alt="..." style="object-fit: cover;height: 100%;">
+          <img src="./Sorce/New/N_39.jpg" class="img-fluid rounded-start" alt="..." style="object-fit: cover;height: 100%;">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -304,13 +328,13 @@ prevButton.addEventListener('click', () => {
 
 
   <div class=" stapend">
-    <div class="card_img" style="background-image: url('./Sorce/IMG_1359.PNG');width: 80% !important; height: 100% !important;"><span id="lang_33" style=" width: 50vw;left: 50vw; text-align: center;" class="pop-up_down ">สนง. ตัวแทนคุณรัสรินทร์
+    <div class="card_img" style="background-image: url('./Sorce/New/NEW_3.4.png');width: 80% !important; height: 100% !important;"><span id="lang_33" style=" width: 50vw;left: 50vw; text-align: center;" class="pop-up_down ">สนง. ตัวแทนคุณรัสรินทร์
       </span><br><span id="lang_33" style=" width: 50vw;left: 50vw; text-align: center;color: black;margin-top: 40px;" class="pop-up_down ">
         ยินดีให้คําปรึกษาฟรี ค่ะ</span>
     </div></div>
 
 
-  <div id="footerHTML1" style="background-color: #004aad;"></div>
+  <div id="footerHTML1" style="background-color: #012f6c;"></div>
   
   <script src="./script/scriptMenu.js"></script>
   <script src="./script/mm.js"></script>
