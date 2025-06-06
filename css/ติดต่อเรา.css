@@ -57,7 +57,7 @@
 
 .M {
   width: 100%; 
-  background-color: #004aad; 
+  background-color: #012f6c; 
   text-align: center; 
   padding: 90px 70px 130px 70px;
 }
@@ -111,7 +111,6 @@
 
   .M {
   width: 100%; 
-  background-color: #004aad; 
   text-align: center; 
   padding: 40px 15px;
 }
@@ -142,7 +141,6 @@
 
   .M {
   width: 100%; 
-  background-color: #004aad; 
   text-align: center; 
   padding: 50px 15px;
 }
@@ -178,7 +176,7 @@
   height: 30%;
   align-content: center;
   text-align: center;
-  color: #004aad;
+  color: #012f6c;
   font-weight: bold;
   font-size: clamp(35px,4.5vw,100px);
 /*border-bottom:2px dotted #ddb823;*/
@@ -190,7 +188,7 @@
     margin-top: 5%;
     font-size: clamp(28px,4vw,50px);
     text-align: start;padding: 20px;
-    background-color: #004aad;
+    background-color: #012f6c;
     width:30%;
     margin-right: 90%;
     border-radius: 0 50px 50px 0;
@@ -201,7 +199,7 @@
 .section_3 {
     margin-top: 5%;
     text-align: start;padding: 20px;
-    background-color: #004aad;
+    background-color: #012f6c;
     width:45%;
     margin-right: 90%;
     border-radius: 0 50px 50px 0;
@@ -534,7 +532,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
-    background-color: #004aad;
+    background-color: #012f6c;
     border-radius: 75px;
     margin: 0 0px;
     padding: 30px;

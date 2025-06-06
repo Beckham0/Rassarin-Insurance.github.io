@@ -20,7 +20,7 @@
   text-shadow: 0px 5px 12px #52525200;
   font-size: clamp(40px, 5vw, 95px) !important;
   margin-bottom: 10px;
-  margin-top: 330px;
+  margin-top: 450px;
   background-color: #ffffffd4;
   padding: 10px;
   border-radius: 20px;
@@ -57,7 +57,7 @@
 
 .M {
   width: 100%; 
-  background-color: #004aad; 
+  background-color: #012f6c; 
   text-align: center; 
   padding: 90px 70px 130px 70px;
 }
@@ -111,7 +111,6 @@
 
   .M {
   width: 100%; 
-  background-color: #004aad; 
   text-align: center; 
   padding: 40px 15px;
 }
@@ -142,7 +141,6 @@
 
   .M {
   width: 100%; 
-  background-color: #004aad; 
   text-align: center; 
   padding: 50px 15px;
 }
@@ -179,7 +177,7 @@
   height: 30%;
   align-content: center;
   text-align: center;
-  color: #004aad;
+  color: #012f6c;
   font-weight: bold;
   font-size: clamp(35px,4.5vw,100px);
 /*border-bottom:2px dotted #ddb823;*/
@@ -189,10 +187,10 @@
 
 .section_2 {
     margin-top: 5%;
-    font-size: clamp(35px,4.5vw,100px);
+    font-size: clamp(28px,4vw,50px);
     text-align: start;padding: 20px;
-    background-color: #004aad;
-    width:20%;
+    background-color: #012f6c;
+    width:30%;
     margin-right: 90%;
     border-radius: 0 50px 50px 0;
     color: #ffffff;
@@ -200,22 +198,25 @@
 }
 
 .section_3 {
-    margin-top: 5%;
-    text-align: start;padding: 20px;
-    background-color: #004aad;
-    width:45%;
-    margin-right: 90%;
-    border-radius: 0 50px 50px 0;
-    color: #ffffff;
-    font-weight: bold;
+  margin-top: 3%;
+  height: 30%;
+  align-content: center;
+  text-align: center;
+  color: #012f6c;
+  font-weight: bold;
+  font-size: clamp(26px,4.3vw,60px);
+/*border-bottom:2px dotted #ddb823;*/
+  width: 90%;
+  margin-inline:auto;
   }
 
 
 @media (max-width: 768px) {
 
-  .section_3 {
-    width:80%;
-  }
+.section_2 {
+    width:90%;
+}
+
 }
 
 
@@ -743,7 +744,7 @@ button { background: #004aad; color: #fff; border: none; padding: 5px 5px; curso
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
-    background-color: #004aad;
+    background-color: #012f6c;
     border-radius: 75px;
     margin: 0 0px;
     padding: 30px;
@@ -1256,3 +1257,55 @@ left: 43% !important;
 }
 
 }
+
+
+
+
+
+
+
+
+
+.add {
+      margin: 10px;
+      text-align: center;
+      margin-bottom: 90px;
+    }
+
+    .สมัครตัวแทน {
+       background-color: #013a85;
+       padding: 20px 30px;
+       border-radius: 50px;
+       font-size: 40px;
+       color: rgb(255, 255, 255);
+    }
+
+    @media (max-width: 768px) {
+
+    .add {
+      margin: 20px;
+      margin-bottom: 80px;
+    }
+
+    .สมัครตัวแทน {
+       padding: 10px 20px;
+       border-radius: 50px;
+       font-size: 25px;
+    }
+
+    }
+
+    @media (max-width: 400px) {
+
+
+    .add {
+      margin: 20px;
+      margin-bottom: 80px;
+    }
+
+    .สมัครตัวแทน {
+       padding: 10px 20px;
+       border-radius: 50px;
+       font-size: 25px;
+    }
+    }

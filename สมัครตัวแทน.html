@@ -97,6 +97,9 @@
 
 
 
+<h1 class="section_2" style="margin-top: 5%;">รับสมัครตัวเเทนประกันชีวิต</h1>
+
+
 <div class="container-seeyouagan">
 
   <!-- Left Grid -->
@@ -127,38 +130,15 @@
 
 </div>
 
-
-
-
-<section class="item-p">
-  <div class="port">
-
-      <div class="buttons-1">
-      <div class="buttons-1-1">
-          <h1>ประกันชีวิตเพื่อการลงทุน <br> “ยูนิต ลิงค์”</h1>
-          <p>“รับความคุัมครองและผลตอบแทน”</p>
-          <div class="buttons-1-2">
-              <a href="#" class="content-btm">
-                <div><h1>ติดต่อเลย</h1></div>
-              </a>
-          </div>
-          <br><br>
-      </div>
-      </div>
-
-  <div class="buttons-2">
-    <div><div class="pop-up">
-        <img src="Sorce/IMG_90.png" alt="example image">
-    </div></div>
-</div>
-
-  </div>
+  <section class="add">
+  <a class="สมัครตัวแทน" href="https://docs.google.com/forms/d/e/1FAIpQLScvsOrXsUGelsZSTn_aHa8X6I5OU6tQ1YJG4Ul90d5mu8Yz_Q/viewform">สนใจสมัครตัวแทน</a>
 </section>
 
 
 
 
-<h1 class="section" style="margin-top: 7%;">ข้อดีของการเป็นตัวแทนประกันชีวิตกับเรา</h1>
+
+<h1 class="section_3" style="margin-top: 7%;">ข้อดีของการเป็น <br> "ตัวแทนประกันชีวิต รัสรินทร์"</h1>
 
 
 <div class="carousel-container">
@@ -232,6 +212,32 @@ prevButton.addEventListener('click', () => {
         track.style.transform = `translateX(${currentPosition}px)`;
     }
 });
+
+// สร้างตัวแปรเพื่อควบคุมทิศทาง
+    let scrollDirection = 'right';
+
+    // เริ่มเลื่อนอัตโนมัติแบบไป-กลับ
+    let autoScrollInterval = setInterval(() => {
+        const maxScroll = track.scrollWidth - cardWidth * visibleCards;
+
+        if (scrollDirection === 'right') {
+            if (currentPosition > -maxScroll) {
+                currentPosition -= cardWidth;
+            } else {
+                scrollDirection = 'left';
+                currentPosition += cardWidth;
+            }
+        } else {
+            if (currentPosition < 0) {
+                currentPosition += cardWidth;
+            } else {
+                scrollDirection = 'right';
+                currentPosition -= cardWidth;
+            }
+        }
+
+        track.style.transform = `translateX(${currentPosition}px)`;
+    }, 4000);
 });
 </script>
 
@@ -266,61 +272,6 @@ prevButton.addEventListener('click', () => {
     </div>
   </div>
 </div>
-
-
-
-<div class="form-container">
-    <h2>สมัครตัวแทน</h2>
-    <div class="row-1">
-      <input type="text" placeholder="ชื่อ-สกุล">
-      <input type="text" placeholder="วุฒิการศึกษา">
-    </div>
-    <div class="row-1">
-      <input type="text" placeholder="ชื่อเล่น">
-      <input type="text" placeholder="สนใจ Full Time/Part Time">
-    </div>
-    <div class="row-1">
-      <input type="text" placeholder="เบอร์โทร">
-      <input type="text" placeholder="เวลาที่สะดวกติดต่อ">
-    </div>
-    <div class="row-1">
-      <textarea class="message-box" placeholder="ข้อความ"></textarea>
-    </div>
-    <button class="submit-button">ส่ง</button>
-  </div>
-
-
-
-<p class="textsubpot" style="font-weight: 700;font-size: clamp(30px, 2.5vw, 100px);">ความประทับใจลูกค้า</p>
-
-<div class="carousel-container-ci">
-  <button class="prev2-ci"><img src="Sorce/left-arrow.png" alt="" style="width: 1.5rem; margin-right: 5px;"></button>
-  <div class="carousel-ci">
-      <div class="carousel-track-ci">
-          <div class="card-ct-ci" style="margin-left: 10px;">
-              <img src="Sorce/IMG_1380.png" alt="">
-              <div class="card-content-ci">
-                <h2 style="padding-top: 20px;">ประกันสุขภาพสุขภาพ</h2>
-                <p>ขอบคุณ คุณรัสรินทร์ แนะนําประกันสุขภาพเด็ก ทีตอบโจทย์ ครอบครัวเรา ค่ะ</p>
-                <h2>คุณ นาถฤดี เจริญทรัพย์ (CEO)</h2>
-                <p>บริการ สินค้าอุปโภคดี จํากัด</p>
-              </div>
-                
-          </div>
-          <div class="card-ct-ci">
-              <img src="Sorce/IMG_1405.png" alt="">
-              <div class="card-content-ci">
-                <h2 style="padding-top: 20px;">ประกันควบการลงทุน ยูนิตลิงค์</h2>
-                <p>ขอบคุณ คุณรัสรินทร์ แนะนําประกันชีวิต ทีตอบโจทย์ คุณภาพชีวิตระดับ World Class</p>
-                <h2>คุณ มนตรี ยิงทีทรัพย์ (CEO)</h2>
-                <p></p>
-              </div>
-          </div>
-      </div>
-  </div>
-  <button class="next2-ci"><img src="Sorce/right-arrow.png" alt="" style="width: 1.5rem; margin-left: 5px;"></button>
-</div>
-
 
 
 <style>
@@ -358,45 +309,6 @@ button { background: #004bad00; color: #ffffff00; border: none; padding: 5px 5px
   }
 
 </style>
-<script>
-document.querySelectorAll('.carousel-container-ci').forEach(container => {
-const track = container.querySelector('.carousel-track-ci');
-const prevButton = container.querySelector('.prev2-ci');
-const nextButton = container.querySelector('.next2-ci');
-const cardWidth = container.querySelector('.card-ct-ci').offsetWidth + 40;
-let currentPosition = 0;
-
-// ฟังก์ชันตรวจสอบจำนวนการ์ดที่แสดงตามขนาดหน้าจอ
-const getVisibleCards = () => {
-    if (window.innerWidth >= 1200) return 2;
-    if (window.innerWidth >= 480) return 2;
-    return 1;
-};
-
-let visibleCards = getVisibleCards();
-
-// อัปเดตจำนวนการ์ดเมื่อเปลี่ยนขนาดหน้าจอ
-window.addEventListener('resize', () => {
-    visibleCards = getVisibleCards();
-    currentPosition = 0;
-    track.style.transform = `translateX(${currentPosition}px)`;
-});
-
-nextButton.addEventListener('click', () => {
-    if (currentPosition > -(track.scrollWidth - cardWidth * visibleCards)) {
-        currentPosition -= cardWidth;
-        track.style.transform = `translateX(${currentPosition}px)`;
-    }
-});
-
-prevButton.addEventListener('click', () => {
-    if (currentPosition < 0) {
-        currentPosition += cardWidth;
-        track.style.transform = `translateX(${currentPosition}px)`;
-    }
-});
-});
-</script>
 
 
 
@@ -471,13 +383,13 @@ prevButton.addEventListener('click', () => {
 
 
   <div class=" stapend">
-    <div class="card_img" style="background-image: url('./Sorce/IMG_1359.PNG');width: 80% !important; height: 100% !important;"><span id="lang_33" style=" width: 50vw;left: 50vw; text-align: center;" class="pop-up_down ">สนง. ตัวแทนคุณรัสรินทร์
+    <div class="card_img" style="background-image: url('./Sorce/New/NEW_3.4.png');width: 73% !important; height: 100% !important;"><span id="lang_33" style=" width: 50vw;left: 50vw; text-align: center;" class="pop-up_down ">สนง. ตัวแทนคุณรัสรินทร์
       </span><br><span id="lang_33" style=" width: 50vw;left: 50vw; text-align: center;color: black;margin-top: 40px;" class="pop-up_down ">
         ยินดีให้คําปรึกษาฟรี ค่ะ</span>
     </div></div>
 
 
-  <div id="footerHTML1" style="background-color: #004aad;"></div>
+  <div id="footerHTML1" style="background-color: #012f6c;"></div>
   
   <script src="./script/scriptMenu.js"></script>
   <script src="./script/mm.js"></script>
