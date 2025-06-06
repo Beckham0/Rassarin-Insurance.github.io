@@ -6,10 +6,10 @@
 
 .card-1 {
   width: auto;
-  height: 56vw;
+  height: 45vw;
   min-height: 400px;
   overflow: hidden;
-  background-image: url(../Sorce/IMG_5768.JPG);
+  background-image: url(../Sorce/New/NEW_6.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -22,11 +22,11 @@
 
 .card-1 h1 {
   font-weight: 600;
-  color: #004aad;
+  color: #012f6c;
   text-shadow: 0px 5px 12px #52525200;
   font-size: clamp(30px, 5vw, 75px) !important;
   margin-bottom: 10px;
-  margin-top: 260px;
+  margin-top: 350px;
   background-color: #ffffffd4;
   padding: 10px;
   border-radius: 20px;
@@ -39,7 +39,7 @@
   margin: auto;
   font-size: clamp(25px, 4.5vw, 50px) !important;
   margin-top: 0;
-  background-color: #004badd7;
+  background-color: #012f6c;
   padding: 10px;
   border-radius: 20px;
 }
@@ -134,13 +134,13 @@
 
 .buttons-1-1 h1 {
   font-size: 50px;
-  color: #004aad;
+  color: #012f6c;
   font-weight: bold;
 }
 
 .buttons-1-1 p {
   font-size: 35px;
-  color: #004aad;
+  color: #012f6c;
   font-weight: bold;
   margin-bottom: 50px;
 }
@@ -169,7 +169,7 @@
 .buttons-1-2 h1 {
   font-size: 40px;
   margin: 0 0 10px;
-  color: #004aad;
+  color: #012f6c;
   font-weight: bold;
 }
 
@@ -672,7 +672,7 @@
 
 .M {
   width: 100%; 
-  background-color: #004aad; 
+  background-color: #012f6c; 
   text-align: center; 
   padding: 90px 70px 130px 70px;
 }
@@ -757,7 +757,7 @@
 
   .M {
   width: 100%; 
-  background-color: #004aad; 
+  background-color: #012f6c; 
   text-align: center; 
   padding: 50px 15px;
 }
@@ -838,7 +838,7 @@
   position: relative;
   width: 99%;
   height: 30%;
-  background: #004aad;
+  background: #012f6c;
   display: flex;
   flex-direction: column-reverse;
   border-radius: 0px 50px 50px 0px;

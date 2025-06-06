@@ -190,26 +190,26 @@ body {
   
   .nav-link{
     font-weight: bolder !important;
-    color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
     border-radius: 50px;
   
   }
   
   .navbar-nav .nav-link.active {
-    background: #004aad !important;
+    background: #0066ec !important;
     color: white !important;
     border-radius: 50px;
    }
   
   .nav-link.active {
     color: #ffffff !important;
-    background-color: #004aad;
+    background-color: #0066ec;
     border-radius: 50px;
   }
   
   .nav-link:hover {
     color: #ffffff !important;
-    background-color: #004aad;
+    background-color: #0066ec;
     border-radius: 50px;
   }
   

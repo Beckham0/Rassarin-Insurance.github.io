@@ -2,11 +2,11 @@ function createNavbar() {
     const navbarHTML = `
     
 <div id="navbar-container" class="navbar-expand-lg" style="z-index: 999 !important; height: 90px;">
-  <nav class="navbar navbar-expand-custom bg-body" style="z-index: 999; background-color:rgb(187, 223, 252) !important; !important; height: 90px;">
+  <nav class="navbar navbar-expand-custom bg-body" style="z-index: 999; background-color:#012f6c !important; !important; height: 90px;">
     <div class="container-fluid d-flex align-items-center justify-content-between">
       <!-- โลโก้ -->
       <a class="navbar-brand" href="./index.html">
-      <img src="./Sorce/LOGO.png" style="border-radius: 0px;" width="100%" height="100%">
+      <img src="./Sorce/LOGO1.png" style="border-radius: 0px;" width="100%" height="100%">
       </a>
 
       <!-- ปุ่ม "ติดต่อเรา" ย้ายมาไว้ข้างหน้า navbar-toggler บนมือถือ -->
@@ -38,12 +38,10 @@ function createNavbar() {
               <li><a id="lang_item4" class="dropdown-item c4" href="./Service4.html">ประกันนิติบุคคล</a></li>
               <li><a id="lang_item5" class="dropdown-item c4" href="./Service5.html">ประกันกลุ่ม</a></li>
               <li><a id="lang_item6" class="dropdown-item c4" href="./Service6.html">ประกันยูนิตลิงค์</a></li>
-              <li><a id="lang_item7" class="dropdown-item c4" href="./Service7.html">ประกันการเดินทาง</a></li>
               </ul>
 
           </li>
           <li class="nav-item"><a id="lang_contact" class="nav-link e" href="สมัครตัวแทน.html">สมัครตัวแทน</a></li>
-          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ลูกค้าเรา.html">ลูกค้าเรา</a></li>
           <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ข่าวสาร.html">ข่าวสาร</a></li>
           <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ติดต่อเรา.html">ติดต่อเรา</a></li>
         </ul>
@@ -82,7 +80,7 @@ function createNavbar() {
               flex-wrap: wrap;
               justify-content: space-between;
               padding: 20px;
-              background-color: #004aad;
+              background-color: #012f6c;
               margin-left: 100px;
           }
   
@@ -210,7 +208,6 @@ function createNavbar() {
             <a href="./Service4.html"><p>● ประกันนิติบุคคล</p></a>
             <a href="./Service5.html"><p>● ประกันกลุ่ม</p></a>
             <a href="./Service6.html"><p>● ประกันยูนิตลิงค์</p></a>
-            <a href="./Service7.html"><p>● ประกันการเดินทาง</p></a>
         </div>
     
         <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->

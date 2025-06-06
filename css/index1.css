@@ -212,7 +212,7 @@ header {
     height: 30%;
     align-content: center;
     text-align: center;
-    color: #004aad;
+    color: #012f6c;
     font-weight: bold;
     font-size: clamp(35px,4.5vw,100px);
     /*border-bottom:2px dotted #ddb823;*/
@@ -224,7 +224,7 @@ header {
     margin-top: 5%;
     font-size: clamp(35px,4.5vw,100px);
     text-align: start;padding: 20px;
-    background-color: #004aad;
+    background-color: #012f6c;
     width:20%;
     margin-right: 90%;
     border-radius: 0 50px 50px 0;
@@ -235,7 +235,7 @@ header {
     .our_team_3 {
     margin-top: 5%;
     text-align: start;padding: 20px;
-    background-color: #004aad;
+    background-color: #012f6c;
     width:45%;
     margin-right: 90%;
     border-radius: 0 50px 50px 0;
@@ -510,7 +510,7 @@ position: absolute;
 font-size: 3.5vw !important;
 font-weight: bold;
 color: #0F3F8A;
-left: 43% !important;
+left: 47% !important;
 }
 
 @media (max-width: 1000px) {
@@ -616,7 +616,7 @@ left: 43% !important;
     .title-P {
     font-size: 85px;
     font-weight: bold;
-    color: #0056d6;
+    color: #012f6c;
     margin-bottom: 10px;
     text-align: center;
     }
@@ -893,33 +893,29 @@ left: 43% !important;
 
     .customer-l {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 30px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
       flex: 1;
       min-width: 300px;
-      max-width: 900px;
+      max-width: 1200px;
     }
 
     .cl-item {
-      position: relative;
       overflow: hidden;
       border-radius: 30px;
     }
 
     .cl-item img {
       width: 100%;
-      height: 100%;
+      height: 70%;
       object-fit: cover;
+      border-radius: 20px;
     }
 
     .label-cl {
-      position: absolute;
-      bottom: 10px;
-      left: 5px;
-      color: #0056d6;
+      color: #000000;
       font-weight: bold;
-      font-size: 40px;
-      text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+      font-size: 30px;
       text-align: center;
     }
 
@@ -927,7 +923,6 @@ left: 43% !important;
       color: #000000;
       font-weight: bold;
       font-size: 15px;
-      text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
       text-align: center;
       padding: 0 10px;
     }
@@ -941,7 +936,7 @@ left: 43% !important;
 
       .customer-l {
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 15px;
         margin: 10px;
       }
 
@@ -951,15 +946,12 @@ left: 43% !important;
 
       .cl-item img {
         width: 100%;
-        height: 100%;
+        height: 75%;
         object-fit: cover;
       }
 
       .label-cl {
-        bottom: 36%;
-        left: 27px;
-        padding: 0px 0px;
-        font-size: 20px;
+        font-size: 17px;
       }
       .label-cl p{
       font-size: 0px;
@@ -975,7 +967,7 @@ left: 43% !important;
 
       .customer-l {
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 15px;
         margin: 10px;
       }
 
@@ -985,15 +977,12 @@ left: 43% !important;
 
       .cl-item img {
         width: 100%;
-        height: 100%;
+        height: 77%;
         object-fit: cover;
       }
 
       .label-cl {
-        bottom: 36%;
-        left: 11px;
-        padding: 0px 0px;
-        font-size: 19px;
+        font-size: 13px;
       }
 
       .label-cl p{
@@ -1002,6 +991,101 @@ left: 43% !important;
     }
 
     
+
+
+
+    .add {
+      margin: 10px;
+      text-align: center;
+      margin-bottom: 90px;
+    }
+
+    .สมัครตัวแทน {
+       background-color: #013a85;
+       padding: 20px 30px;
+       border-radius: 50px;
+       font-size: 40px;
+       color: rgb(255, 255, 255);
+    }
+
+    @media (max-width: 768px) {
+
+    .add {
+      margin: 20px;
+      margin-bottom: 80px;
+    }
+
+    .สมัครตัวแทน {
+       padding: 10px 20px;
+       border-radius: 50px;
+       font-size: 25px;
+    }
+
+    }
+
+    @media (max-width: 400px) {
+
+
+    .add {
+      margin: 20px;
+      margin-bottom: 80px;
+    }
+
+    .สมัครตัวแทน {
+       padding: 10px 20px;
+       border-radius: 50px;
+       font-size: 25px;
+    }
+    }
+
+
+.add_2 {
+      margin: 20px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .สมัครตัวแทน_2 {
+       background-color: #013a85;
+       padding: 10px 20px;
+       border-radius: 50px;
+       font-size: 30px;
+       color: rgb(255, 255, 255);
+    }
+
+    @media (max-width: 768px) {
+
+    .add_2 {
+      margin: 20px;
+      margin-bottom: 10px;
+    }
+
+    .สมัครตัวแทน_2 {
+       padding: 5px 20px;
+       border-radius: 50px;
+       font-size: 25px;
+    }
+
+    }
+
+    @media (max-width: 400px) {
+
+
+    .add_2 {
+      margin: 20px;
+      margin-bottom: 10px;
+    }
+
+    .สมัครตัวแทน_2 {
+       padding: 10px 20px;
+       border-radius: 50px;
+       font-size: 25px;
+    }
+    }
+
+
+
+
 
 
 
