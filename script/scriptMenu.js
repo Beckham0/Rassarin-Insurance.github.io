@@ -32,12 +32,12 @@ function createNavbar() {
               บริการเรา
             </a>
             <ul class="dropdown-menu" style="background: #f8f9fa; opacity:0.9;">
-              <li><a id="lang_item1" class="dropdown-item c1" href="./Service1.html">ประกันชีวิต</a></li>
-              <li><a id="lang_item2" class="dropdown-item c2" href="./Service2.html">ประกันสุขภาพ</a></li>
-              <li><a id="lang_item3" class="dropdown-item c3" href="./Service3.html">ประกันโรคร้ายเเรง</a></li>
-              <li><a id="lang_item4" class="dropdown-item c4" href="./Service4.html">ประกันนิติบุคคล</a></li>
-              <li><a id="lang_item5" class="dropdown-item c4" href="./Service5.html">ประกันกลุ่ม</a></li>
-              <li><a id="lang_item6" class="dropdown-item c4" href="./Service6.html">ประกันยูนิตลิงค์</a></li>
+              <li><a id="lang_item1" class="dropdown-item c1" href="./Service1.html">ประกันชีวิต/กองทุนมรดก/ทุนประกันวงเงินสูง</a></li>
+              <li><a id="lang_item2" class="dropdown-item c2" href="./Service2.html">ประกันสุขภาพเหมาจ่าย</a></li>
+              <li><a id="lang_item3" class="dropdown-item c3" href="./Service3.html">ประกันเพื่อการเก็บออม/ทุนการศึกษาบุตร</a></li>
+              <li><a id="lang_item4" class="dropdown-item c4" href="./Service4.html">ประกันคุ้มครองโรคร้ายแรง</a></li>
+              <li><a id="lang_item5" class="dropdown-item c4" href="./Service5.html">ประกันบำนาญ/เกษียณ/ลดหย่อนภาษี</a></li>
+              <li><a id="lang_item6" class="dropdown-item c4" href="./Service6.html">ประกันควบคู่การลงทุน (Unitlink)</a></li>
               </ul>
 
           </li>
@@ -202,12 +202,12 @@ function createNavbar() {
         <!-- คอลัมน์สาม : บริการของเรา -->
         <div class="footer-column">
             <h3>บริการเรา</h3>
-            <a href="./Service1.html"><p>● ประกันชีวิต</p></a>
-            <a href="./Service2.html"><p>● ประกันสุขภาพ</p></a>
-            <a href="./Service3.html"><p>● ประกันโรคร้ายแรง</p></a>
-            <a href="./Service4.html"><p>● ประกันนิติบุคคล</p></a>
-            <a href="./Service5.html"><p>● ประกันกลุ่ม</p></a>
-            <a href="./Service6.html"><p>● ประกันยูนิตลิงค์</p></a>
+            <a href="./Service1.html"><p>● ประกันชีวิต/กองทุนมรดก/ทุนประกันวงเงินสูง</p></a>
+            <a href="./Service2.html"><p>● ประกันสุขภาพเหมาจ่าย</p></a>
+            <a href="./Service3.html"><p>● ประกันเพื่อการเก็บออม/ทุนการศึกษาบุตร</p></a>
+            <a href="./Service4.html"><p>● ประกันคุ้มครองโรคร้ายแรง</p></a>
+            <a href="./Service5.html"><p>● ประกันบำนาญ/เกษียณ/ลดหย่อนภาษี</p></a>
+            <a href="./Service6.html"><p>● ประกันควบคู่การลงทุน (Unitlink)</p></a>
         </div>
     
         <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
