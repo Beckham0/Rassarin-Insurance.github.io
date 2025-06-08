@@ -3,7 +3,6 @@
   height: 50vw;
   min-height: 400px;
   overflow: hidden;
-  background-image: url(../Sorce/IMG_a0033.JPG);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -189,22 +188,20 @@
     margin-top: 5%;
     font-size: clamp(35px,4.5vw,100px);
     text-align: start;padding: 20px;
-    background-color: #012f6c;
     width:20%;
     margin-right: 90%;
     border-radius: 0 50px 50px 0;
-    color: #ffffff;
+    color: #012f6c;
     font-weight: bold;
 }
 
 .section_3 {
     margin-top: 5%;
     text-align: start;padding: 20px;
-    background-color: #012f6c;
     width:45%;
     margin-right: 90%;
     border-radius: 0 50px 50px 0;
-    color: #ffffff;
+    color: #012f6c;
     font-weight: bold;
   }
 
@@ -216,14 +213,14 @@
   }
 
         .section_2 {
-    width:50%;
+    width:60%;
   }
 }
 
 @media (max-width: 400px) {
 
       .section_2 {
-    width:50%;
+    width:60%;
   }
 
 }
@@ -541,8 +538,9 @@
 .textsubpot {
   font-size: 22px;
   padding: 20px 250px;
-  color: #004aad;
+  color: #012f6c;
   text-align: start;
+  font-weight: 600;
 }
     
 
@@ -807,29 +805,29 @@
 .carousel-container { display: flex; align-items: center; justify-content: center; margin-top: 10px; }
 .carousel { display: flex; overflow: hidden; width: 1200px; height: 400px; }
 .carousel-track { display: flex; transition: transform 0.5s ease-in-out; }
-.card-ct { min-width: 360px; margin: 10px 20px; border-radius: 20px; overflow: hidden; background: #004bad00; }
+.card-ct { min-width: 360px; margin: 10px 20px; border-radius: 20px; overflow: hidden; background: #012f6c;box-shadow: 0 4px 10px rgba(0, 0, 0, 0.604); }
 .card-ct img { width: 100%; height: 200px; }
-.card-content h2 { padding:16px 2px 0 9px;color: #000000; font-size: 21px; font-weight: bold;margin-bottom: 0px;text-align: center;}
-.card-content p { padding:0 15px;color: #000000; font-size: 15px;  margin-top: 2px; margin-bottom: 10px;}
-button { background: #004bad00; color: #000000; border: none; padding: 5px 5px; cursor: pointer; border-radius: 50%; margin: 0 10px; }
+.card-content h2 { padding:16px 2px 0 9px;color: #ffffff; font-size: 21px; font-weight: bold;margin-bottom: 0px;text-align: center;}
+.card-content p { padding:0 15px;color: #ffffff; font-size: 15px;  margin-top: 2px; margin-bottom: 10px;}
+button { background: #004bad00; color: #ffffff; border: none; padding: 5px 5px; cursor: pointer; border-radius: 50%; margin: 0 10px; }
 
   /* Responsive adjustments */
   @media (max-width: 768px) {
-    .card-ct { min-width: 340px;margin:10px 20px 10px 20px; border-radius: 20px; overflow: hidden; background: #004bad00;height: 390px; }
+    .card-ct { min-width: 340px;margin:10px 20px 10px 20px; border-radius: 20px; overflow: hidden; background: #012f6c;height: 390px; }
     .carousel { width: 450px; }
     .card-ct img {width: 100%;height: 200px;}
       .prev2 { z-index: 888; padding:100px 0px;font-size: 5px;margin:0px; left: 0px;}
       .next2 { z-index: 888; padding:100px 0px;font-size: 5px;margin:0px; right: 0px;}
-      .card-content h2 { padding:16px 9px 7px 9px;color: #000000; font-size: 19px; font-weight: bold;margin-bottom: 0px;text-align: center;}
-    .card-content p { padding:0 15px;color: #000000; font-size: 16px;  margin-top: 2px; margin-bottom: 10px;}
+      .card-content h2 { padding:16px 9px 7px 9px;color: #ffffff; font-size: 19px; font-weight: bold;margin-bottom: 0px;text-align: center;}
+    .card-content p { padding:0 15px;color: #ffffff; font-size: 16px;  margin-top: 2px; margin-bottom: 10px;}
   }
 
 @media (max-width: 400px) {
-    .card-ct { min-width: 320px;margin:10px 20px 10px 20px; border-radius: 20px; overflow: hidden; background: #00000000;height: 360px; }
+    .card-ct { min-width: 320px;margin:10px 20px 10px 20px; border-radius: 20px; overflow: hidden; background: #012f6c;height: 360px; }
     .carousel { width: 400px; height: 370px;}
     .card-ct img {width: 100%;height: 180px;}
-    .card-content h2 { padding:16px 9px 10px 9px;color: #000000; font-size: 18px; font-weight: bold;margin-bottom: 0px; text-align: center;}
-    .card-content p { padding:0 15px;color: #000000; font-size: 15px;  margin-top: 2px; margin-bottom: 10px;}
+    .card-content h2 { padding:16px 9px 10px 9px;color: #ffffff; font-size: 18px; font-weight: bold;margin-bottom: 0px; text-align: center;}
+    .card-content p { padding:0 15px;color: #ffffff; font-size: 15px;  margin-top: 2px; margin-bottom: 10px;}
       .prev2 { z-index: 888; font-size: 5px;margin:0px; left: 0px;}
       .next2 { z-index: 888; font-size: 5px;margin:0px; right: 0px;}
 }
