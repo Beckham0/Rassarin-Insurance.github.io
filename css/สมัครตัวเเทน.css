@@ -328,7 +328,7 @@
     }
 
       .cta-button {
-        font-size: 34px;
+        font-size: 0px;
         bottom: 260px;
         left: 10%;
       }
@@ -347,7 +347,7 @@
       }
 
       .cta-button {
-        font-size: 28px;
+        font-size: 0px;
         bottom: 240px;
         left: 10%;
       }
@@ -1010,29 +1010,21 @@ button { background: #004aad; color: #fff; border: none; padding: 5px 5px; curso
 
     .card-P {
       position: relative;
-      border-radius: 40px;
       overflow: hidden;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
     .card-P img {
       width: 100%;
       height: auto;
       display: block;
+      border-radius: 40px;
     }
 
     .card-P-text {
-    position: absolute;
-    bottom: 29px;
-    left: 20px;
-    color: #004aad;
+    color: #000000;
     font-weight: bold;
-    font-size: 30px;
-    text-shadow:
-    -1px -1px 0 #ffffff,
-     1px -1px 0 #ffffff,
-    -1px  1px 0 #ffffff,
-     1px  1px 0 #ffffff;
+    font-size: 20px;
+    text-align: center;
     }
 
     /* ✅ Responsive adjustments */
