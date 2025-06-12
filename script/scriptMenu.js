@@ -10,10 +10,10 @@ function createNavbar() {
       </a>
 
       <!-- ปุ่ม "ติดต่อเรา" ย้ายมาไว้ข้างหน้า navbar-toggler บนมือถือ -->
-      <a class="navbar-brand2 d-lg-none" href="" style="width: 15px; height: 40px; display: flex; align-items: center; margin-left: 0px;">
+      <a class="navbar-brand2 d-lg-none" href="" style="width: 55px; height: 40px; display: flex; align-items: center; margin-left: 0px;">
       <img src="Sorce/line.png" alt="" style="width: 50px;border-radius: 50px;">
       </a>
-      <a class="navbar-brand2 d-lg-none" href="" style=" height: 40px;  display: flex; align-items: center; justify-content: center; margin-left: 30px;">
+      <a class="navbar-brand2 d-lg-none" href="" style=" height: 40px;  display: flex; align-items: center; justify-content: center; margin-left: 0px;">
       <img src="Sorce/mobile.png" alt="" style="width: 50px; border-radius: 50px;">
       </a>
 
