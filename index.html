@@ -32,24 +32,200 @@
   </div>
     <div id="navbar-container" class="navbar-expand-lg"  style="z-index: 999 !important;"></div>
 
+
+
+<div class="Scrolling_Text">
+  <div class="text_group">
+    <p class="tg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti suscipit soluta dicta beatae porro. Officia tempora cumque, modi enim numquam a. Dolorem excepturi cupiditate aliquam deleniti minus voluptatibus quibusdam et, impedit beatae sunt ipsa soluta dolor labore! Eveniet voluptatem nisi corrupti veniam necessitatibus esse, sequi porro reprehenderit iure? Impedit unde vitae nam architecto quia tempora dicta harum perspiciatis totam, ullam debitis nesciunt voluptatibus aut voluptate voluptas fugiat? Dolore, ad fugiat!</p>
+  </div>
+</div>
+
+<style>
+  .text_group {
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+    color: #000;
+    background-color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+  }
+
+  .tg {
+    position: absolute;
+    margin: 5px 0;
+    padding: 0;
+    width: max-content;
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+  }
+
+  @media (max-width: 768px) {
+
+  .text_group {
+    height: 40px;
+  }
+
+  .tg {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+  }
+
+  }
+</style>
+
+<script>
+  const styli = document.createElement('style');
+  const position = 'right';
+  const tgElement = document.querySelector('.tg');
+
+  styli.innerHTML = `
+    @keyframes my-animation {
+      0% { ${position}: -${tgElement.offsetWidth + 10}px; }
+      100% { ${position}: 100%; }
+    }
+    .tg {
+      animation: my-animation 23s linear infinite;
+    }
+  `;
+
+  document.head.append(styli);
+</script>
+
+
+  <div class="step1-container">
+    <div class="top1-section">
+      <img class="person1-img" src="Sorce/New/NEW_3.5.png" alt="ภาพคน" />
+      <div class="text1-box">
+        <h2>สำนักงานตัวแทนประกันชีวิต</h2>
+        <h1>คุณรัสรินทร์ บวรนะเกียรติ์</h1>
+        <h3>ผู้ช่วยผู้อำนวยการฝ่ายขาย (AVP) บมจ. อลิอันซ์ อยุธยาประกันชีวิต</h3>
+      </div>
+  </div>
+
+  <div class="bottom1-section">
+      <p>
+        ที่ปรึกษาทางการเงินของคนรุ่นใหม่ เราคือทีมผู้เชี่ยวชาญทางด้านการวางแผนประกันชีวิต ประกันสุขภาพ
+        ประกันเพื่อการออม ประกันที่เหมาะกับทุกช่วงวัยแบบมืออาชีพ โดยใช้ประสบการณ์ และความรู้ ความสามารถ
+        ที่อยู่ในธุรกิจประกันชีวิตมานานกว่า 15 ปี และลูกค้าที่อยู่ในการดูแลกว่า 1000 คน พร้อมสร้างทีมงานผู้บริหาร
+        และฝ่ายขายคุณภาพมากกว่า 200 ท่าน
+      </p>
+    </div>
+  </div>
+
+<style>
+.step1-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  position: relative;
+}
+
+
+.top1-section {
+  position: relative;
+  height: 750px;
+}
+
+.person1-img {
+  position: absolute;
+  left: -220px;
+  top: 0;
+  height: 100%;
+  object-fit: contain;
+}
+
+.text1-box {
+  position: absolute;
+  top: 330px;
+  left: 490px;
+  max-width: 100%;
+}
+
+.text1-box h2 {
+  margin: 0;
+  font-size: 30px;
+  color: #012f6c;
+  font-weight: 100;
+}
+
+.text1-box h1 {
+  margin: 10px 0;
+  font-size: 65px;
+  color: #012f6c;
+  font-weight: 700;
+}
+
+.text1-box h3 {
+  margin: 0;
+  font-size: 25px;
+  color: #012f6c;
+  font-weight: 100;
+}
+
+/* ส่วนล่าง */
+.bottom1-section {
+  margin-top: 0px;
+  border: 4px solid #012f6c;
+  border-radius: 20px;
+  padding: 20px 70px;
+}
+
+.bottom1-section p {
+  font-size: 30px;
+  line-height: 1.6;
+  background: white;
+  color: #012f6c;
+}
  
 
-    <section class="section_about">
-      <section>
-        <div class="card-1">
-          <h1 class="pop-up_down">ยินดีต้อนรับเข้าสู่</h1>
-          <h2 class="pop-up_down">สํานักงาน ตัวแทนประกันชีวิต <br> คุณรัสรินทร์ อลิอันซ์อยุธยา</h2>
-        </div>
-      </section>
-    </section>
+@media (max-width: 768px) {
 
+  .top1-section {
+  position: relative;
+  height: 250px;
+}
 
+.person1-img {
+  position: absolute;
+  left: -90px;
+  top: 0;
+  height: 100%;
+  object-fit: contain;
+}
 
-<div class="M">
-  <h1>“ทําความรู้จัก”</h1>
-  <h2>สํานักงานตัวแทนประกันชีวิต <br>คุณรัสรินทร์ บมจ.อลิอันซ์ อยุธยา ประกันชีวิต</h2>
-  <p>พันธมิตรทางบัญชีที่เข้าใจธุรกิจของคุณ เราคือทีมผู้เชี่ยวชาญด้าน บัญชีรุ่นใหม่ ที่ผสานประสบการณ์และความรู้ความสามารถทางบัญชีเข้า กับเทคโนโลยีสมัยใหม่ เพื่อมอบโซลูชั่นทางบัญชีที่ครบวงจรและตรงใจ ธุรกิจของคุณ</p>
-</div>
+.text1-box {
+  position: absolute;
+  top: 90px;
+  left: 150px;
+  max-width: 100%;
+}
+
+.text1-box h2 {
+  font-size: 15px;
+}
+
+.text1-box h1 {
+  font-size: 20px;
+}
+
+.text1-box h3 {
+  font-size: 15px;
+}
+ 
+.bottom1-section {
+    padding: 15px 20px;
+}
+
+.bottom1-section p {
+    font-size: 13px;
+}
+
+}
+
+</style>
 
 
 
@@ -63,235 +239,43 @@
 
 
 
-<h1 class="our_team" style=" font-size: clamp(35px, 5.6vw, 150px);">บริการเรา</h1>
-
-<div class="container-customer-l">
-
-  <!-- Left Grid -->
-  <div class="customer-l">
-        <div class="cl-item" onclick="window.location.href='./Service1.html'">
-      <img src="Sorce/New/N_19.jpg">
-      <div class="label-cl">ประกันชีวิต/กองทุนมรดก <br>/ทุนประกันวงเงินสูง
-        <p></p>
-      </div>
-    </div>
-    <div class="cl-item" onclick="window.location.href='./Service2.html'">
-      <img src="Sorce/New/N_32.jpg">
-      <div class="label-cl">ประกันสุขภาพเหมาจ่าย
-        <p></p>
-      </div>
-    </div>
-    <div class="cl-item" onclick="window.location.href='./Service3.html'">
-      <img src="Sorce/New/N_33.jpg">
-      <div class="label-cl">ประกันเพื่อการเก็บออม <br>/ทุนการศึกษาบุตร
-        <p></p>
-      </div>
-    </div>
-    <div class="cl-item" onclick="window.location.href='./Service4.html'">
-      <img src="Sorce/New/N_22.jpg">
-      <div class="label-cl">ประกันคุ้มครองโรคร้ายแรง
-        <p></p>
-      </div>
-    </div>
-        <div class="cl-item" onclick="window.location.href='./Service5.html'">
-      <img src="Sorce/New/N_21.jpg">
-      <div class="label-cl">ประกันบำนาญ/เกษียณ <br>/ลดหย่อนภาษี
-        <p></p>
-      </div>
-    </div>
-        <div class="cl-item" onclick="window.location.href='./Service6.html'">
-      <img src="Sorce/New/N_7.jpg">
-      <div class="label-cl">ประกันควบคู่การลงทุน (Unitlink)
-        <p></p>
-      </div>
-    </div>
-
-  </div>
-
-</div>
-
 
 <br><br><br>
 
-<p class="textsubpot" style="font-weight: 700;font-size: clamp(21px, 2.5vw, 100px);">ประกันชีวิตควบคู่การลงทุน (Unitlink)</p>
+<p class="textsubpot" style="font-weight: 700;font-size: clamp(27px, 2.5vw, 100px);text-align: center;">เเผนประกันที่เเนะนำ</p>
+
+
 
 <div class="carousel-container">
   <button class="prev2"><img src="Sorce/left-arrow.png" alt="" style="width: 1.5rem; margin-right: 5px;"></button>
   <div class="carousel">
       <div class="carousel-track">
           <div class="card-ct" style="margin-left: 10px;">
-              <img src="Sorce/New/A1020.jpg" alt="" style=" height: 230px;">
-              <div class="card-content"><h2>มาย สไตล์ โพรเทค อัลตร้า(ยูนิต ลิงค์)</h2>
-                <p>แผนปกป้องความมั่งคั่ง... ส่งต่อความมั่นคง</p></div>
+              <img src="Sorce/newpng2.png" alt="">
           </div>
           <div class="card-ct">
-              <img src="Sorce/New/A1022.jpg" alt="" style=" height: 230px;">
-              <div class="card-content"><h2>มาย สไตล์ สมาร์ต เพย์ 15  <br>อัลตร้า(ยูนิต ลิงค์)</h2>
-                <p>วางแผนสร้างหลักประกัน เพื่อคนที่คุณรัก</p></div>
+              <img src="Sorce/newpng1.png" alt="">
           </div>
           <div class="card-ct">
-              <img src="Sorce/New/A1024.jpg" alt="" style=" height: 230px;">
-              <div class="card-content"><h2>มาย  สไตล์ เลกาซี อัลตร้า(ยูนิต ลิงค์)</h2>
-                <p>ปกป้องความมั่งคั่ง เพื่อส่งต่อความมั่นคง <br>ให้คนที่คุณรัก</p></div>
+              <img src="Sorce/newpng3.png" alt="">
           </div>
+          <div class="card-ct">
+            <img src="Sorce/newpng4.png" alt="">
+        </div>
+                  <div class="card-ct">
+            <img src="Sorce/newpng5.png" alt="">
+        </div>
       </div>
   </div>
-  <button class="next2"><img src="Sorce/right-arrow.png" alt="" style="width: 1.5rem; margin-left: 5px;"></button>
+  <button class="next2"><img src="Sorce/right-arrow.png" alt="" style="width: 1.9rem; margin-left: 0px;"></button>
 </div>
-
 
 <br><br>
 
-<p class="textsubpot" style="font-weight: 700;font-size: clamp(21px, 2.5vw, 100px);">ประกันสุขภาพเหมาจ่าย</p>
+<p class="textsubpot">การวางเเผนเงื่อนไขอย่างมืออาชีพ คือความมั้นใจที่ลูกค้าจะได้รับจากผู้บริหารฝ่ายขาย เเละทีมงานคุณภาพ เพราะเราเข้าใจว่าอนาคตที่มั่นคง เเละสุขภาพชีวิตที่ดีต้องเริ่มจากการวางเเผน เเละมีที่ปึกษาทางการเงิน ที่สามารถออกเเบบให้เหมาะสมครอบคลุมกับทุการต้องการทั้ง ชีวิต สุขภาพ เเละการออม</p>
 
 
-
-<div class="carousel-container">
-  <button class="prev2"><img src="Sorce/left-arrow.png" alt="" style="width: 1.5rem; margin-right: 5px;"></button>
-  <div class="carousel">
-      <div class="carousel-track">
-          <div class="card-ct" style="margin-left: 10px;">
-              <img src="Sorce/IMG_9901.jpg" alt="" style=" height: 230px;">
-              <div class="card-content"><h2>ปลดล๊อดสบายกระเป๋า</h2>
-                <p>คุ้มครองหลักล้าน ในราคาสบายกระเป๋า</p></div>
-          </div>
-          <div class="card-ct">
-              <img src="Sorce/IMG_9902.jpg" alt="" style=" height: 230px;">
-              <div class="card-content"><h2>ดับเบิ้ลเเคร์</h2>
-                <p>เบิลความคุ้มคลอง พร้อมรับมือโรคร้าย สบายใจ</p></div>
-          </div>
-          <div class="card-ct">
-              <img src="Sorce/IMG_9903.jpg" alt="" style=" height: 230px;">
-              <div class="card-content"><h2>แผน แพลทินัม </h2>
-                <p>คุ้มครองแบบแพลทินัม สูงสุดถึง 100 ล้าน บาท</p></div>
-          </div>
-          <div class="card-ct">
-            <img src="Sorce/IMG_9904.jpg" alt="" style=" height: 230px;">
-            <div class="card-content"><h2>ระดับ First Class</h2>
-              <p>คุ้มครองทุกการรักษาระดับ World Class สูงถึง 120 ล้าน บาท รพ.เคลือ BDMS</p></div>
-        </div>
-      </div>
-  </div>
-  <button class="next2"><img src="Sorce/right-arrow.png" alt="" style="width: 1.5rem; margin-left: 5px;"></button>
-</div>
-
-
-
-<section class="section_a">
-        <div class="content">  
-          <div class="Card_4">
-            <div>
-              <h1 class="pop-up_down show1">สำนักงานตัวแทน <br>ประกันชีวิต คุณรัสรินทร์</h1>
-              <h2 class="pop-up_down show1">“ตัวจริงเรื่องวางแผนประกันชีวิตและการเงิน”</h2>
-            </div>
-        </div>
-      </div>
-    </section>
-
-  <br>
-
-  <section class="section_b">
-    <div class="Card_5">
-      <div class="card_img1" style="background-image: url('Sorce/New/NEW_3.5.png');">
-        <div class="card_img_a1">
-          <span id="typewriter">● ที่ปรึกษาประกันมืออาชีพ</span>
-        </div>
-        <div class="card_img_a2">
-          <span id="typewriter">● แนะนำประกันตรงใจ คุ้มค่า</span>
-        </div>
-        <div class="card_img_a3">
-          <span id="typewriter">● ดูแลครบ จบทุกเรื่องประกัน</span>
-        </div>
-      </div>
-    </div>
-   </div>
-  </section>
-
-
-
-<br><br><br>
-
-<h1 class="our_team" style="margin-top: 7%;">สมัครตัวแทน</h1>
-<p class="textsubpot">วางแผนชีวิตอย่างมั่นใจ กับการลงทุนที่คุ้มค่าทุกด้าน
-ที่สำนักงานตัวแทนประกันชีวิต คุณรัสรินทร์  เราเข้าใจว่าอนาคตที่มั่นคงและคุณภาพชีวิตที่ดี ต้องเริ่มจากการวางแผนและเลือกการลงทุนที่เหมาะสม เราจึงออกแบบบริการและแผนประกันที่ครอบคลุมทุกความต้องการ ทั้งชีวิต สุขภาพ และธุรกิจ
-</p>
-
-  <section class="add_2">
-  <a class="สมัครตัวแทน_2" href="สมัครตัวแทน.html">ดูเพิ่มเติม</a>
-</section>
-
-
-<div class="container-seeyouagan">
-
-  <!-- Left Grid -->
-  <div class="left-grid">
-    <div class="grid-item">
-      <img src="Sorce/IMG_5787.JPG" alt="ทีมเวิร์ค">
-      <div class="label">ทีมเวิร์ค</div>
-    </div>
-    <div class="grid-item">
-      <img src="Sorce/IMG_5776.JPG" alt="ระบบเทรน">
-      <div class="label">ระบบเทรน</div>
-    </div>
-    <div class="grid-item">
-      <img src="Sorce/IMG_5781.JPG" alt="ผลตอบแทนสูง">
-      <div class="label">ผลตอบแทนสูง</div>
-    </div>
-    <div class="grid-item">
-      <img src="Sorce/IMG_5783.JPG" alt="ท่องเที่ยว">
-      <div class="label">ท่องเที่ยว</div>
-    </div>
-  </div>
-
-  <!-- Right Content -->
-  <div class="right-content">
-    <img src="Sorce/IMG_5784.JPG" alt="สมัครตัวแทน">
-    <div class="cta-button">รับสมัครตัวแทน <br>ประกันชีวิต</div>
-  </div>
-
-</div>
-
-  <section class="add">
-  <a class="สมัครตัวแทน" href="https://docs.google.com/forms/d/e/1FAIpQLScvsOrXsUGelsZSTn_aHa8X6I5OU6tQ1YJG4Ul90d5mu8Yz_Q/viewform">สนใจสมัครตัวแทน</a>
-</section>
-
-
-
-
-<h1 class="our_team" style="margin-top: 7%;">ทำไมต้องเลือกเรา</h1>
-<p class="textsubpot">วางแผนชีวิตอย่างมั่นใจ กับการลงทุนที่คุ้มค่าทุกด้าน
-ที่สำนักงานตัวแทนประกันชีวิต คุณรัสรินทร์  เราเข้าใจว่าอนาคตที่มั่นคงและคุณภาพชีวิตที่ดี ต้องเริ่มจากการวางแผนและเลือกการลงทุนที่เหมาะสม เราจึงออกแบบบริการและแผนประกันที่ครอบคลุมทุกความต้องการ ทั้งชีวิต สุขภาพ และธุรกิจ
-</p>
-
-
-<div class="carousel-container">
-  <button class="prev2"><img src="Sorce/left-arrow - Copy.png" alt="" style="width: 1.5rem; margin-right: 5px;"></button>
-  <div class="carousel">
-      <div class="carousel-track">
-          <div class="card-ct" style="margin-left: 10px;">
-              <img src="Sorce/New/N_12.jpg" alt="" >
-              <div class="card-content"><h2>การลงทุนสุขภาพระดับพรีเมี่ยม</h2>
-                <p>เพราะสุขภาพที่ดี คือสินทรัพย์ที่สำคัญที่สุด เราเสนอแผนประกันสุขภาพที่ครอบคลุม คุ้มครองครบ ทั้งการรักษาโรคร้ายแรง อุบัติเหตุ และค่ารักษาพยาบาลระดับพรีเมี่ยม ให้คุณและครอบครัวใช้ชีวิตได้อย่างไร้กังวล</p></div>
-          </div>
-          <div class="card-ct">
-              <img src="Sorce/New/N_17.jpg" alt="">
-              <div class="card-content"><h2>การลงทุนชีวิตที่คุ้มค่า</h2>
-                <p>ให้ชีวิตคุณมีมูลค่า พร้อมโอกาสรับผลตอบแทนในอนาคต ทั้งประกันชีวิตแบบสะสมทรัพย์และยูนิตลิงค์ ลงทุนพร้อมคุ้มครอง สร้างความมั่นคงและเงินออมให้กับตัวเองและครอบครัว</p></div>
-          </div>
-          <div class="card-ct">
-              <img src="Sorce/New/N_4.jpg" alt="">
-              <div class="card-content"><h2>การลงทุนเพื่อธุรกิจ <br>และบริหารความเสี่ยง</h2>
-                <p>เสริมความแข็งแกร่งให้องค์กร ด้วยแผนประกันนิติบุคคลและประกันกลุ่ม ลดความเสี่ยงทางการเงิน พร้อมเพิ่มขวัญกำลังใจและความมั่นคงให้ผู้บริหารและพนักงาน</p></div>
-          </div>
-          <div class="card-ct">
-            <img src="Sorce/New/N_26.jpg" alt="">
-            <div class="card-content"><h2>การวางแผนอนาคตอย่างรอบด้าน</h2>
-              <p>วางแผนชีวิตและการเงินให้เป็นระบบ ด้วยแผนประกันและการลงทุนที่ปรับเปลี่ยนได้ตามเป้าหมายชีวิต ทั้งการวางแผนเกษียณ การศึกษาบุตร และการบริหารมรดก</p></div>
-        </div>
-      </div>
-  </div>
-  <button class="next2"><img src="Sorce/right-arrow - Copy.png" alt="" style="width: 1.5rem; margin-left: 5px;"></button>
-</div>
+<br><br>
 
 <script>
 document.querySelectorAll('.carousel-container').forEach(container => {
@@ -303,7 +287,7 @@ let currentPosition = 0;
 
 // ฟังก์ชันตรวจสอบจำนวนการ์ดที่แสดงตามขนาดหน้าจอ
 const getVisibleCards = () => {
-    if (window.innerWidth >= 1200) return 2;
+    if (window.innerWidth >= 1200) return 3;
     if (window.innerWidth >= 480) return 2;
     return 1;
 };
@@ -358,289 +342,20 @@ prevButton.addEventListener('click', () => {
     }, 4000);
 });
 
-
 </script>
 
+<div class="frome">
 
 
-<br>
-
-
-
-<br>
-
-
-
-
-
-
-  <div class="card4" id="from">
-    <!-- ลบ form tag ที่เปิดค้างไว้ออก -->
-
-<section class="container" style="box-shadow: none;">
-  <div class="card4">
-
-    <div class="card mb-3 pop-up" style="width:100%; background-color: #c3c3c3;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="./Sorce/New/N_39.jpg" class="img-fluid rounded-start" alt="..." style="object-fit: cover;height: 100%;">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title" style="font-size: 1.7rem;color: #000;">ติดต่อเรา</h5>
-
-            <form style="text-align: start;">
-              <div class="mb-3">
-                <label for="name" class="form-label" style="font-size: 1.5rem;color: #000;">ชื่อ</label>
-                <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
-                <div id="nameHelp" class="form-text" style="font-size: 1.5rem;">ชื่อ-นามสกุล</div>
-              </div>
-
-              <div class="mb-3">
-                <label for="topic" class="form-label" style="font-size: 1.5rem;color: #000;">เลือกบริการที่สนใจ</label>
-                <select class="form-select" id="topic" style="font-size: 1.5rem;color: #000;">
-                  <option selected style="font-size: 1.5rem;color: #000;">ประกันชีวิต/กองทุนมรดก/ทุนประกันวงเงินสูง</option>
-                  <option value="1" style="font-size: 1.5rem;color: #000;">ประกันสุขภาพเหมาจ่าย</option>
-                  <option value="2" style="font-size: 1.5rem;color: #000;">ประกันเพื่อการเก็บออม/ทุนการศึกษาบุตร</option>
-                  <option value="3" style="font-size: 1.5rem;color: #000;">ประกันคุ้มครองโรคร้ายแรง</option>
-                  <option value="4" style="font-size: 1.5rem;color: #000;">ประกันบำนาญ/เกษียณ/ลดหย่อนภาษี</option>
-                  <option value="5" style="font-size: 1.5rem;color: #000;">ประกันควบคู่การลงทุน (Unitlink)</option>
-                </select>
-              </div>
-
-              <div class="mb-3">
-                <label for="phone" class="form-label" style="font-size: 1.5rem;color: #000;">เบอร์ติดต่อกลับ</label>
-                <input type="tel" class="form-control" id="phone">
-              </div>
-
-              <!-- เพิ่มส่วนกรอกเวลา -->
-              <div class="mb-3">
-                <label for="time" class="form-label" style="font-size: 1.5rem;color: #000;">เวลาที่สะดวกให้ติดต่อกลับ</label>
-                <input type="time" class="form-control" id="time">
-              </div>
-
-              <div class="mb-3">
-                <label for="message" class="form-label" style="font-size: 1.5rem;color: #000;">ข้อความ</label>
-                <textarea class="form-control" id="message" aria-label="With textarea"></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-primary" style="font-size: 1.5rem;background-color: red;border-color: red;">Submit</button>
-            </form>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-</div>
-
-
-<h1 class="our_team" style="border-bottom: 0px dotted #ddb823;margin-top: 5%;">ช่องทางติดต่อ</h1>
-
-<section class="item-p1">
-  <div class="port11">
-
-      <div class="buttons-33">
-        <div><div class="pop-up">
-            <img src="Sorce/IMG_5787.JPG" alt="example image">
-        </div></div>
-    </div>
-
-      <div class="buttons-44">
-      <section class="calling_and_line">
-        <div class="f-column-3" style="margin-left: 0%;width: 99%;">
-          <a href="">
-            <div class="fcolumn">
-              <div class="fitem"><img src="Sorce/facebook1.png" alt=""></div>
-              <div class="fitem"><h2>Social Media</h2></div>
-            </div>
-          </a>
-        </div>
-        <div class="f-column-3" style="margin-left: 0%;width: 99%;">
-          <a href="">
-            <div class="fcolumn">
-              <div class="fitem"><img src="Sorce/mobile.png" alt=""></div>
-              <div class="fitem"><h2>โทรติดต่อ</h2></div>
-            </div>
-          </a>
-        </div>
-        <div class="f-column-3" style="margin-left: 0%;width: 99%;">
-          <a href="">
-            <div class="fcolumn">
-              <div class="fitem"><img src="Sorce/line.png" alt=""></div>
-              <div class="fitem"><h2>Line ID: mai4263mai </h2></div>
-            </div>
-          </a>
-        </div>
-        <div class="f-column-3" style="margin-left: 0%;width: 99%;">
-          <a href="">
-            <div class="fcolumn">
-              <div class="fitem"><img src="Sorce/Email.png" alt=""></div>
-              <div class="fitem"><h2>E-Mail: ratsarin.maimai@gmail.com</h2></div>
-            </div>
-          </a>
-        </div>
-      </section>
-      </div>
-
-  </div>
-</section>
-
-
-
-<h1 class="our_team" style="margin-top: 5%;">ข่าวสาร/กิจกรรม</h1>
-
-<div class="carousel-container-ci1">
-  <button class="prev2-ci1"><img src="Sorce/left-arrow - Copy.png" alt="" style="width: 1.5rem; margin-right: 5px;"></button>
-  <div class="carousel-ci1">
-      <div class="carousel-track-ci1">
-          <div class="card-ct-ci1" style="margin-left: 10px;">
-              <img src="Sorce/New/N_2.jpg" alt="">
-              <div class="card-content-ci1">
-                <h2>“ประกันยอดนิยม 2568”</h2>
-                <p>สํานักงานบัญชีทริปเพิลเอิร์น เปนผู้ให้บริการด้านบัญชีและภาษีทีให้บริการรับทําบัญชีรายเดือน รับทําบัญชีรายป รับปดงบการเงิน</p>
-              </div>
-                
-          </div>
-          <div class="card-ct-ci1">
-              <img src="Sorce/New/N_9.jpg" alt="">
-              <div class="card-content-ci1">
-                <h2>“ประกันสุขภาพ มาแรงปี 2568”</h2>
-                <p>สํานักงานบัญชีทริปเพิลเอิร์น เปนผู้ให้บริการด้านบัญชีและภาษีทีให้บริการรับทําบัญชีรายเดือน รับทําบัญชีรายป รับปดงบการเงิน</p>
-              </div>
-          </div>
-      </div>
-  </div>
-  <button class="next2-ci1"><img src="Sorce/right-arrow - Copy.png" alt="" style="width: 1.5rem; margin-left: 5px;"></button>
 </div>
 
 
 
 
-<style>
-.carousel-container-ci1 { display: flex; align-items: center; justify-content: center; margin-top: 30px;margin-bottom: 50px; }
-.carousel-ci1 { display: flex; overflow: hidden; width: 1000px; height: 350px; }
-.carousel-track-ci1 { display: flex; transition: transform 0.5s ease-in-out; }
-.card-ct-ci1 { min-width: 950px; margin: 10px 30px; overflow: hidden; background: #004bad00; display: flex; }
-.card-ct-ci1 img { width: 70%; height: 100%; object-fit: cover; border-radius: 20px;}
-.card-content-ci1{ margin-top: 5%;}
-.card-content-ci1 h2 { padding:0px 2px 0 9px;color: #004aad; font-size: 30px; font-weight: bold;margin-bottom: 0px; text-align: center;padding-top: 10px;}
-.card-content-ci1 p { padding:0 15px;color: #004aad; font-size: 20px;  margin-top: 2px; margin-bottom: 10px; text-align: center;}
-button { background: #004bad00; color: #ffffff00; border: none; padding: 5px 5px; cursor: pointer; border-radius: 50%; margin: 0 10px; }
-
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .card-ct-ci1 { min-width: 350px;margin:10px 20px 10px 20px; overflow: hidden; background: #004bad00;display: flex;flex-direction: column; }
-    .carousel-ci1 { width: 500px; height: 370px; }
-    .prev2-ci1 { z-index: 888; padding:100px 0px;font-size: 15px;margin:0px; left: 0px;}
-    .next2-ci1 { z-index: 888; padding:100px 0px;font-size: 15px;margin:0px; right: 0px;}
-    .card-content-ci1 h2 { padding:0px 2px;color: #004aad; font-size: 20px;padding-top: 10px;}
-    .card-content-ci1 p { padding:0 15px;color: #004aad; font-size: 15px; margin-top: 0;margin-bottom: 0;}
-    .card-ct-ci1 img { width: 100%; height: 55%; object-fit: cover; }
-    .card-content-ci1{ margin-top: 0%;}
-  }
-
-  @media (max-width: 400px) {
-    .card-ct-ci1 { min-width: 315px;margin:10px 20px 10px 20px; overflow: hidden; background: #004bad00;display: flex;flex-direction: column; }
-    .carousel-ci1 { width: 500px; height: 350px; }
-    .prev2-ci1 { z-index: 888; padding:100px 0px;font-size: 15px;margin:0px; left: 0px;}
-    .next2-ci1 { z-index: 888; padding:100px 0px;font-size: 15px;margin:0px; right: 0px;}
-    .card-content-ci1 h2 { padding:0px;color: #004aad; font-size: 20px;padding-top: 10px;}
-    .card-content-ci1 p { padding:0px;color: #004aad; font-size: 15px; margin-top: 0;margin-bottom: 0;}
-    .card-ct-ci1 img { width: 100%; height: 55%; object-fit: cover; }
-    .card-content-ci1{ margin-top: 0%;}
-  }
-
-</style>
-<script>
-document.querySelectorAll('.carousel-container-ci1').forEach(container => {
-    const track = container.querySelector('.carousel-track-ci1');
-    const prevButton = container.querySelector('.prev2-ci1');
-    const nextButton = container.querySelector('.next2-ci1');
-    const cardWidth = container.querySelector('.card-ct-ci1').offsetWidth + 40;
-    let currentPosition = 0;
-
-    const getVisibleCards = () => {
-        if (window.innerWidth >= 1200) return 2;
-        if (window.innerWidth >= 480) return 2;
-        return 1;
-    };
-
-    let visibleCards = getVisibleCards();
-
-    window.addEventListener('resize', () => {
-        visibleCards = getVisibleCards();
-        currentPosition = 0;
-        track.style.transform = `translateX(${currentPosition}px)`;
-    });
-
-    nextButton.addEventListener('click', () => {
-        if (currentPosition > -(track.scrollWidth - cardWidth * visibleCards)) {
-            currentPosition -= cardWidth;
-            track.style.transform = `translateX(${currentPosition}px)`;
-        }
-    });
-
-    prevButton.addEventListener('click', () => {
-        if (currentPosition < 0) {
-            currentPosition += cardWidth;
-            track.style.transform = `translateX(${currentPosition}px)`;
-        }
-    });
-
-    // สร้างตัวแปรเพื่อควบคุมทิศทาง
-    let scrollDirection = 'right';
-
-    // เริ่มเลื่อนอัตโนมัติแบบไป-กลับ
-    let autoScrollInterval = setInterval(() => {
-        const maxScroll = track.scrollWidth - cardWidth * visibleCards;
-
-        if (scrollDirection === 'right') {
-            if (currentPosition > -maxScroll) {
-                currentPosition -= cardWidth;
-            } else {
-                scrollDirection = 'left';
-                currentPosition += cardWidth;
-            }
-        } else {
-            if (currentPosition < 0) {
-                currentPosition += cardWidth;
-            } else {
-                scrollDirection = 'right';
-                currentPosition -= cardWidth;
-            }
-        }
-
-        track.style.transform = `translateX(${currentPosition}px)`;
-    }, 4000);
-});
-</script>
 
 
 
 
-
-
-
-
-<div class="chaty-channel-list">
-  <div style="position: relative;">
-    <div>
-        <a href="" id="call" style="cursor: pointer;position: fixed; z-index: 2; transition: 0.5s all; opacity: 1;bottom: 21px;"><div class="wrap_call"><div class="text_call">โทรติดต่อ</div></div><svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="color-element" cx="19.4395" cy="19.4395" r="19.4395" fill="#03E78B"></circle><path d="M19.3929 14.9176C17.752 14.7684 16.2602 14.3209 14.7684 13.7242C14.0226 13.4259 13.1275 13.7242 12.8292 14.4701L11.7849 16.2602C8.65222 14.6193 6.11623 11.9341 4.47529 8.95057L6.41458 7.90634C7.16046 7.60799 7.45881 6.71293 7.16046 5.96705C6.56375 4.47529 6.11623 2.83435 5.96705 1.34259C5.96705 0.596704 5.22117 0 4.47529 0H0.745882C0.298353 0 5.69062e-07 0.298352 5.69062e-07 0.745881C5.69062e-07 3.72941 0.596704 6.71293 1.93929 9.3981C3.87858 13.575 7.30964 16.8569 11.3374 18.7962C14.0226 20.1388 17.0061 20.7355 19.9896 20.7355C20.4371 20.7355 20.7355 20.4371 20.7355 19.9896V16.4094C20.7355 15.5143 20.1388 14.9176 19.3929 14.9176Z" transform="translate(9.07179 9.07178)" fill="white"></path></svg></a>
-        <a href=""id="line" style="cursor: pointer; position: fixed; z-index: 2; transition: 0.5s all; opacity: 1;bottom: 21px;"><div class="wrap_call"><div class="text_line">ติดต่อไลน์</div></div><svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="color-element" cx="19.4395" cy="19.4395" r="19.4395" fill="#38B900"></circle><path d="M24 9.36561C24 4.19474 18.6178 0 12 0C5.38215 0 0 4.19474 0 9.36561C0 13.9825 4.25629 17.8606 10.0229 18.5993C10.4073 18.6785 10.9565 18.8368 11.0664 19.1797C11.1762 19.4699 11.1487 19.9184 11.0938 20.235C11.0938 20.235 10.9565 21.0528 10.9291 21.2111C10.8741 21.5013 10.6819 22.3456 11.9725 21.8443C13.2632 21.3167 18.8924 17.9398 21.3913 15.1433C23.1487 13.2702 24 11.4234 24 9.36561Z" transform="translate(7 10)" fill="white"></path><path d="M1.0984 0H0.24714C0.10984 0 -2.09503e-07 0.105528 -2.09503e-07 0.211056V5.22364C-2.09503e-07 5.35555 0.10984 5.43469 0.24714 5.43469H1.0984C1.2357 5.43469 1.34554 5.32917 1.34554 5.22364V0.211056C1.34554 0.105528 1.2357 0 1.0984 0Z" transform="translate(15.4577 16.8593)" fill="#38B900" class="color-element"></path><path d="M4.66819 0H3.81693C3.67963 0 3.56979 0.105528 3.56979 0.211056V3.19222L1.18078 0.0791458C1.18078 0.0791458 1.18078 0.0527642 1.15332 0.0527642C1.15332 0.0527642 1.15332 0.0527641 1.12586 0.0263821C1.12586 0.0263821 1.12586 0.0263821 1.0984 0.0263821H0.247139C0.10984 0.0263821 4.19006e-07 0.13191 4.19006e-07 0.237438V5.25002C4.19006e-07 5.38193 0.10984 5.46108 0.247139 5.46108H1.0984C1.2357 5.46108 1.34554 5.35555 1.34554 5.25002V2.26885L3.73455 5.38193C3.76201 5.40831 3.76201 5.43469 3.78947 5.43469C3.78947 5.43469 3.78947 5.43469 3.81693 5.43469C3.81693 5.43469 3.81693 5.43469 3.84439 5.43469C3.87185 5.43469 3.87185 5.43469 3.89931 5.43469H4.75057C4.88787 5.43469 4.99771 5.32917 4.99771 5.22364V0.211056C4.91533 0.105528 4.80549 0 4.66819 0Z" transform="translate(17.6819 16.8593)" fill="#38B900" class="color-element"></path><path d="M3.62471 4.22112H1.34554V0.237438C1.34554 0.105528 1.2357 0 1.0984 0H0.24714C0.10984 0 -5.23757e-08 0.105528 -5.23757e-08 0.237438V5.25002C-5.23757e-08 5.30278 0.0274599 5.35555 0.0549198 5.40831C0.10984 5.43469 0.16476 5.46108 0.21968 5.46108H3.56979C3.70709 5.46108 3.78947 5.35555 3.78947 5.22364V4.4058C3.87185 4.32665 3.76201 4.22112 3.62471 4.22112Z" transform="translate(10.8993 16.8593)" fill="#38B900" class="color-element"></path><path d="M3.56979 1.29272C3.70709 1.29272 3.78947 1.18719 3.78947 1.05528V0.237438C3.78947 0.105528 3.67963 -1.00639e-07 3.56979 -1.00639e-07H0.219679C0.164759 -1.00639e-07 0.10984 0.0263821 0.0549199 0.0527641C0.02746 0.105528 -2.09503e-07 0.158292 -2.09503e-07 0.211056V5.22364C-2.09503e-07 5.2764 0.02746 5.32917 0.0549199 5.38193C0.10984 5.40831 0.164759 5.43469 0.219679 5.43469H3.56979C3.70709 5.43469 3.78947 5.32917 3.78947 5.19726V4.37941C3.78947 4.2475 3.67963 4.14198 3.56979 4.14198H1.29062V3.29775H3.56979C3.70709 3.29775 3.78947 3.19222 3.78947 3.06031V2.24247C3.78947 2.11056 3.67963 2.00503 3.56979 2.00503H1.29062V1.16081H3.56979V1.29272Z" transform="translate(23.421 16.8329)" fill="#38B900" class="color-element"></path></svg></a>
-        <div id="chaty" style="cursor: pointer; position: absolute; z-index: 3; transition: 1s all; opacity: 1; transform: rotate(0deg);"><div class="wrap_call"><div class="text_chaty" style="font-size: 18px;">ช่องทางติดต่อ</div></div><svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-496.9 507.1 54 54" style="enable-background-color:new -496.9 507.1 54 54;" xml:space="preserve"><style type="text/css">.chaty-sts2-0{fill:#ffffff;}</style><g><circle cx="-469.9" cy="534.1" r="27" fill="#0269ef"></circle></g><path class="chaty-sts2-0" d="M-472.6,522.1h5.3c3,0,6,1.2,8.1,3.4c2.1,2.1,3.4,5.1,3.4,8.1c0,6-4.6,11-10.6,11.5v4.4c0,0.4-0.2,0.7-0.5,0.9   c-0.2,0-0.2,0-0.4,0c-0.2,0-0.5-0.2-0.7-0.4l-4.6-5c-3,0-6-1.2-8.1-3.4s-3.4-5.1-3.4-8.1C-484.1,527.2-478.9,522.1-472.6,522.1z   M-462.9,535.3c1.1,0,1.8-0.7,1.8-1.8c0-1.1-0.7-1.8-1.8-1.8c-1.1,0-1.8,0.7-1.8,1.8C-464.6,534.6-463.9,535.3-462.9,535.3z   M-469.9,535.3c1.1,0,1.8-0.7,1.8-1.8c0-1.1-0.7-1.8-1.8-1.8c-1.1,0-1.8,0.7-1.8,1.8C-471.7,534.6-471,535.3-469.9,535.3z   M-477,535.3c1.1,0,1.8-0.7,1.8-1.8c0-1.1-0.7-1.8-1.8-1.8c-1.1,0-1.8,0.7-1.8,1.8C-478.8,534.6-478.1,535.3-477,535.3z"></path></svg></div>
-        <div id="cancel" style="cursor: pointer; position: absolute; transition: 1s all; z-index: 1; transform: rotate(-360deg); opacity: 0;"><svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="26" cy="26" rx="26" ry="26" fill="#0269ef"></ellipse><rect width="27.1433" height="3.89857" rx="1.94928" transform="translate(18.35 15.6599) scale(0.998038 1.00196) rotate(45)" fill="#ffffff"></rect><rect width="27.1433" height="3.89857" rx="1.94928" transform="translate(37.5056 18.422) scale(0.998038 1.00196) rotate(135)" fill="#ffffff"></rect></svg></div>  
-    </div>
-  </div>
-</div>
-
-
-  <div class=" stapend">
-    <div class="card_img" style="background-image: url('./Sorce/New/NEW_3.4.png');width: 73% !important; height: 100% !important;"><span id="lang_33" style=" width: 50vw;left: 50vw; text-align: center;" class="pop-up_down ">สนง. ตัวแทนคุณรัสรินทร์
-      </span><br><span id="lang_33" style=" width: 50vw;left: 50vw; text-align: center;color: black;margin-top: 40px;" class="pop-up_down ">
-        ยินดีให้คําปรึกษาฟรี ค่ะ</span>
-    </div></div>
 
 
   <div id="footerHTML1" style="background-color: #012f6c;"></div>

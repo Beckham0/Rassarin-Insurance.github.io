@@ -6,15 +6,15 @@ function createNavbar() {
     <div class="container-fluid d-flex align-items-center justify-content-between">
       <!-- โลโก้ -->
       <a class="navbar-brand" href="./index.html">
-      <img src="./Sorce/LOGO1.png" style="border-radius: 0px;" width="100%" height="100%">
+      <img src="./Sorce/LOGO3.jpg" style="border-radius: 0px;" width="100%" height="100%">
       </a>
 
       <!-- ปุ่ม "ติดต่อเรา" ย้ายมาไว้ข้างหน้า navbar-toggler บนมือถือ -->
       <a class="navbar-brand2 d-lg-none" href="" style="width: 55px; height: 40px; display: flex; align-items: center; margin-left: 0px;">
-      <img src="Sorce/line.png" alt="" style="width: 50px;border-radius: 50px;">
+      <img src="Sorce/line.1.png" alt="" style="width: 50px;border-radius: 50px;">
       </a>
       <a class="navbar-brand2 d-lg-none" href="" style=" height: 40px;  display: flex; align-items: center; justify-content: center; margin-left: 0px;">
-      <img src="Sorce/mobile.png" alt="" style="width: 50px; border-radius: 50px;">
+      <img src="Sorce/mobile.1.png" alt="" style="width: 50px; border-radius: 50px;">
       </a>
 
       <!-- ปุ่มเปิดเมนูบนมือถือ -->
@@ -26,12 +26,11 @@ function createNavbar() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a id="lang_Home" class="nav-link a" href="./index.html">หน้าเเรก</a></li>
-          <li class="nav-item"><a id="lang_about" class="nav-link b" href="./เกี่ยวกับเรา.html">เกี่ยวกับเรา</a></li>
           <li class="nav-item dropdown">
             <a id="lang_Services" class="nav-link dropdown-toggle c" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              บริการเรา
+              เเบบประกัน
             </a>
-            <ul class="dropdown-menu" style="background: #f8f9fa; opacity:0.9;">
+            <ul class="dropdown-menu" style="background: #f8f9fa; opacity:0.9; max-width: 18rem;">
               <li><a id="lang_item1" class="dropdown-item c1" href="./Service1.html">● ประกันชีวิต/กองทุนมรดก<br>/ทุนประกันวงเงินสูง</a></li>
               <li><a id="lang_item2" class="dropdown-item c2" href="./Service2.html">● ประกันสุขภาพเหมาจ่าย</a></li>
               <li><a id="lang_item3" class="dropdown-item c3" href="./Service3.html">● ประกันเพื่อการเก็บออม<br>/ทุนการศึกษาบุตร</a></li>
@@ -42,17 +41,17 @@ function createNavbar() {
 
           </li>
           <li class="nav-item"><a id="lang_contact" class="nav-link e" href="สมัครตัวแทน.html">สมัครตัวแทน</a></li>
-          <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ข่าวสาร.html">ข่าวสาร</a></li>
+          <li class="nav-item"><a id="lang_about" class="nav-link b" href="./เกี่ยวกับเรา.html">เกี่ยวกับเรา</a></li>
           <li class="nav-item"><a id="lang_contact" class="nav-link e" href="ติดต่อเรา.html">ติดต่อเรา</a></li>
         </ul>
       </div>
 
       <!-- ปุ่ม "ติดต่อเรา" แบบ PC -->
       <a class="navbar-brand2 d-none d-lg-flex" href="" style="width: 50px; display: flex; align-items: center; ">
-        <img src="Sorce/line.png" alt="" style="width: 50px;margin: 10px; border-radius: 50px;">
+        <img src="Sorce/line.1.png" alt="" style="width: 50px;margin: 10px; border-radius: 50px;">
       </a>
       <a class="navbar-brand2 d-none d-lg-flex" href="" style="width: 50px;  margin: 0 30px; display: flex; align-items: center; justify-content: center;">
-        <img src="Sorce/mobile.png" alt="" style="width: 50px;margin: 10px; border-radius: 50px;">
+        <img src="Sorce/mobile.1.png" alt="" style="width: 50px;margin: 10px; border-radius: 50px;">
       </a>
     </div>
   </nav>
@@ -186,7 +185,7 @@ function createNavbar() {
     <footer class="footer">
         <!-- คอลัมน์แรก : โลโก้และข้อมูลบริษัท -->
         <div class="footer-column">
-        <img src="./Sorce/LOGO1.png" alt="โลโก้บริษัท" class="logo">
+        <img src="./Sorce/LOGO3.jpg" alt="โลโก้บริษัท" class="logo">
             <h4>สำนักงานตัวแทนประกันชีวิต คุณรัสรินทร์ บวรธนะเกียรติ์</h4>
             <p>115/11 โครงการเมอริทเพลสบางนา หมู่ 13 ซ.มหาชัย ต.บางพลีใหญ่ อ.บางพลี จ.สมุทรปราการ 10540</p>
         </div>
