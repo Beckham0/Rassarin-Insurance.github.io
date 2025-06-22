@@ -90,7 +90,7 @@ function createNavbar() {
               text-align: left;
           }
   
-          h3 {
+          .footer-column h3 {
               color:rgb(255, 255, 255);
               margin: 0;
               font-size: 35px;
@@ -98,7 +98,7 @@ function createNavbar() {
               font-weight: bold;
           }
   
-          h4 {
+          .footer-column h4 {
               color: #ffffff;
               margin: 0;
               font-size: 28px;
@@ -106,19 +106,19 @@ function createNavbar() {
               font-weight: bold;
           }
   
-          a {
+          .footer-column a {
             font-size: 19px;
             color: #ffffff;
             margin: 0;
             font-weight: bold;
           }
 
-          a {
+          .footer-column a {
             text-decoration: none;
           }
   
-          p {
-            font-size: 17px;
+          .footer-column p {
+            font-size: 19px;
             color: #ffffff;
             margin: 0;
           }
@@ -183,24 +183,22 @@ function createNavbar() {
       </style>
   
     <footer class="footer">
-        <!-- คอลัมน์แรก : โลโก้และข้อมูลบริษัท -->
         <div class="footer-column">
         <img src="./Sorce/LOGO3.jpg" alt="โลโก้บริษัท" class="logo">
             <h4>สำนักงานตัวแทนประกันชีวิต คุณรัสรินทร์ บวรธนะเกียรติ์</h4>
             <p>115/11 โครงการเมอริทเพลสบางนา หมู่ 13 ซ.มหาชัย ต.บางพลีใหญ่ อ.บางพลี จ.สมุทรปราการ 10540</p>
         </div>
     
-        <!-- คอลัมน์สอง : เมนู -->
         <div class="footer-column">
-            <h3>เมนู</h3>
-            <a href="./index.html"><p>หน้าเเรก</p></a>
-            <a href="./about_us.html"><p>เกี่ยวกับเรา</p></a>
-            <a href="./ข่าวสาร.html"><p>ข่าวสาร</p></a>
+            <h3>การบริการ</h3>
+            <a href=""><p>● เเจ้งเคลม</p></a>
+            <a href=""><p>● การจัดการกรมธรรม์</p></a>
+            <a href=""><p>● ของหนังสือรับรองชำระเบี้ย</p></a>
+            <a href=""><p>● การบริการอื่นๆ</p></a>
         </div>
     
-        <!-- คอลัมน์สาม : บริการของเรา -->
         <div class="footer-column">
-            <h3>บริการเรา</h3>
+            <h3>เเบบบริการเรา</h3>
             <a href="./Service1.html"><p>● ประกันชีวิต/กองทุนมรดก/ทุนประกันวงเงินสูง</p></a>
             <a href="./Service2.html"><p>● ประกันสุขภาพเหมาจ่าย</p></a>
             <a href="./Service3.html"><p>● ประกันเพื่อการเก็บออม/ทุนการศึกษาบุตร</p></a>
@@ -209,7 +207,6 @@ function createNavbar() {
             <a href="./Service6.html"><p>● ประกันควบคู่การลงทุน (Unitlink)</p></a>
         </div>
     
-        <!-- คอลัมน์สี่ : ข้อมูลการติดต่อ -->
         <div class="footer-column contact">
             <h3>ติดต่อเรา</h3>
             <p style="margin: 0;">โทร: 0865662639, 0956465419, 0996255730</p>
