@@ -247,7 +247,7 @@
 
 
 <div class="carousel-container">
-  <button class="prev2"><img src="Sorce/left-arrow.png" alt="" style="width: 1.5rem; margin-right: 5px;"></button>
+  <button class="prev2" style=" background-color: #f0ffff00;"><img src="Sorce/left-arrow.png" alt="" style="width: 1.5rem; margin-right: 5px;"></button>
   <div class="carousel">
       <div class="carousel-track">
           <div class="card-ct" style="margin-left: 10px;">
@@ -267,7 +267,7 @@
         </div>
       </div>
   </div>
-  <button class="next2"><img src="Sorce/right-arrow.png" alt="" style="width: 1.9rem; margin-left: 0px;"></button>
+  <button class="next2" style=" background-color: #f0ffff00;"><img src="Sorce/right-arrow.png" alt="" style="width: 1.9rem; margin-left: 0px;"></button>
 </div>
 
 <p class="textsubpot">การวางเเผนเงื่อนไขอย่างมืออาชีพ คือความมั้นใจที่ลูกค้าจะได้รับจากผู้บริหารฝ่ายขาย เเละทีมงานคุณภาพ เพราะเราเข้าใจว่าอนาคตที่มั่นคง เเละสุขภาพชีวิตที่ดีต้องเริ่มจากการวางเเผน เเละมีที่ปึกษาทางการเงิน ที่สามารถออกเเบบให้เหมาะสมครอบคลุมกับทุการต้องการทั้ง ชีวิต สุขภาพ เเละการออม</p>
@@ -345,6 +345,159 @@ prevButton.addEventListener('click', () => {
 
 
 </div>
+
+
+
+
+
+<br><br>
+
+<div class="form-container">
+    <h2>สนใจแบบประกัน</h2>
+    <form action="mailto:your@email.com" method="post" enctype="text/plain">
+      <div class="row-frome">
+        <input type="text" name="ชื่อ" placeholder="ชื่อ" required>
+        <input type="text" name="นามสกุล" placeholder="นามสกุล" required>
+      </div>
+      <div class="row-frome">
+        <input type="tel" name="เบอร์โทร" placeholder="เบอร์โทรติดต่อ" required>
+        <input type="email" name="อีเมล" placeholder="อีเมล" required>
+      </div>
+      <div class="row-frome">
+        <input type="number" name="อายุ" placeholder="อายุ" required>
+        <div class="gender-frome">
+          <label>เพศ :</label>
+          <label><input type="radio" name="เพศ" value="ชาย"> ชาย</label>
+          <label><input type="radio" name="เพศ" value="หญิง"> หญิง</label>
+        </div>
+      </div>
+      <input class="text-frome" type="text" name="หมายเหตุ" placeholder="หมายเหตุ">
+      <button class="button-frome" type="submit">ส่งข้อมูล</button>
+    </form>
+  </div>
+
+
+<br><br>
+
+<style>
+
+.form-container {
+  background: #ddd;
+  padding: 40px;
+  max-width: 1300px;
+  margin: 40px auto;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #142c63;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row-frome {
+  display: flex;
+  gap: 10px;
+}
+
+.row-frome input {
+  flex: 1;
+  padding: 13px;
+  font-size: 1.5em;
+  color: #000;
+}
+
+.gender-frome {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gender-frome label {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #142c63;
+}
+
+.text-frome {
+  padding: 20px;
+  font-size: 1.1em;
+  color: #000;
+}
+
+.button-frome {
+  background: #142c63;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  font-size: 1.2em;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.button-frome:hover {
+  background: #0f1e4b;
+}
+
+
+
+@media (max-width: 768px) {
+  .form-container {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .form-container h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .row-frome {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .row-frome input {
+    font-size: 1em;
+    padding: 5px;
+  }
+
+  .gender-frome {
+    align-items: flex-start;
+  }
+
+  .gender-frome label {
+    font-size: 1em;
+  }
+
+  .text-frome {
+    font-size: 1em;
+    padding: 15px;
+  }
+
+  .button-frome {
+    width: 100%;
+    font-size: 1.1em;
+    padding: 15px;
+  }
+}
+
+
+
+</style>
+
+
+
+
+
 
 
 
