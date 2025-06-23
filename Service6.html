@@ -28,26 +28,17 @@
   
   <div class="start">
     <h1 id="lang_1"  style="display: inline;margin: auto;"></h1> 
-    <div class="lang_language" style=" margin-right: 1rem;right: 0;position: absolute;"> <a id="lang_language" onclick="togglelang()" href="#">Language : <img src="Sorce/thai.png" alt="" style="width: 30px;margin: 10px;"></a></div>
+    <div class="lang_language" style=" margin-right: 1rem;right: 0;position: absolute;"> <a id="lang_language" onclick="togglelang()" href="#" style="color: #ffffff;">Language : <img src="Sorce/thai.png" alt="" style="width: 30px;margin: 10px;"></a></div>
   </div>
     <div id="navbar-container" class="navbar-expand-lg"  style="z-index: 999 !important;"></div>
 
  
 
-    <section class="section_about">
-      <section>
-        <div class="card-1" style="background-image: url(Sorce/New/N_7.jpg);">
-          <h1 class="pop-up_down">ประกันควบคู่การลงทุน (Unitlink)</h1>
-        </div>
-      </section>
-    </section>
 
 
 
-<div class="M">
-  <h1>“ประกันควบคู่การลงทุน (Unitlink)”</h1>
-  <p>ลงทุนเพื่อสร้างหลักประกันให้ครอบครัว พร้อมโอกาสรับผลตอบแทนคืนในอนาคต เลือกแบบคุ้มครองตลอดชีพหรือระยะเวลาที่ต้องการ เพิ่มความมั่นใจว่าทุกก้าวของคุณและครอบครัวจะไม่สะดุด</p>
-</div>
+
+
 
 
 
@@ -57,8 +48,7 @@
         <div class="content">  
           <div class="Card_4">
             <div>
-              <h1 class="pop-up_down show1">สำนักงานตัวแทน <br>ประกันชีวิต คุณรัสรินทร์</h1>
-              <h2 class="pop-up_down show1">“ตัวจริงเรื่องวางแผนประกันชีวิตและการเงิน”</h2>
+              <h1 class="pop-up_down show1">แผนประกันการเดินทาง</h1>
             </div>
         </div>
       </div>
@@ -66,271 +56,350 @@
 
   <br>
 
-  <section class="section_b">
-    <div class="Card_5">
-      <div class="card_img1" style="background-image: url('Sorce/New/NEW_3.5.png');">
-        <div class="card_img_a1">
-          <span id="typewriter">● ที่ปรึกษาประกันมืออาชีพ</span>
-        </div>
-        <div class="card_img_a2">
-          <span id="typewriter">● แนะนำประกันตรงใจ คุ้มค่า</span>
-        </div>
-        <div class="card_img_a3">
-          <span id="typewriter">● ดูแลครบ จบทุกเรื่องประกัน</span>
-        </div>
+<p class="textsubpot">แผนประกันการเดินทางของอลิอันซ์ อยุธยา เปนแบบประกันภัยทีช่วยให้คุณเดินทางได้อย่างมันใจ ไม่ว่าจะเปนการ
+ท่องเทียวหรือเดินทางเพือธุรกิจ ทังในประเทศและต่างประเทศ โดยให้ความคุ้มครองครอบคลุมเหตุการณ์ไม่คาดฝน
+ระหว่างการเดินทาง เช่น ค่ารักษาพยาบาลฉุกเฉิน อุบัติเหตุ การเลือนหรือยกเลิกเทียวบิน การสูญหายของกระเปา
+เดินทาง รวมถึงบริการช่วยเหลือฉุกเฉินตลอด 24 ชัวโมงทัวโลก</p>
+
+<br><br>
+  <style>
+
+    .Service-container{
+      width: 90%;
+      max-width: 1200px;
+      margin: 20px auto;
+      position: relative;
+
+    }
+
+    .card-Service {
+      display: flex;
+      background: white;
+      overflow: hidden;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-Service img {
+      width: 500px;
+      object-fit: cover;
+    }
+
+    .card-content-Service {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1;
+    }
+
+    .card-content-Service h3 {
+      margin: 0;
+      color: #002d71;
+      font-weight: 700;
+      font-size: 40px;
+    }
+
+    .card-content-Service p {
+      color: #027413;
+      margin: 10px 0;
+      font-size: 25px;
+    }
+
+    .card-buttons-Service {
+      margin-top: auto;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .card-buttons-Service a {
+      color: #002d71;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background: #002d71;
+      color: white;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+
+    @media screen and (max-width: 768px) {
+      .card-Service {
+        flex-direction: column;
+      }
+
+      .card-Service img {
+        width: 100%;
+        height: auto;
+      }
+
+    .card-content-Service h3 {
+      margin: 0;
+      color: #002d71;
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .card-content-Service p {
+      color: #027413;
+      margin: 10px 0;
+      font-size: 15px;
+    }
+
+    .card-buttons-Service a {
+      color: #002d71;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px;
+    }
+    }
+
+    @media screen and (max-width: 400px) {
+
+    .card-buttons-Service a {
+      color: #002d71;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 13px;
+    }
+    }
+  </style>
+
+  <div class="Service-container">
+
+   <div class="card-Service">
+    <img src="Sorce/New/A1020.jpg" alt="ฟรีสคลาส BDMS">
+    <div class="card-content-Service">
+      <h3>ปลดล็อคสบายกระเป๋า คุ้มครองหลักล้านในราคาสบายกระเป๋า</h3>
+      <p>ประกันสุขภาพที่ให้คุณพร้อมรับมือกับค่ารักษาพยาบาล เเบบจ่ายตามจริง ด้วยวงเงินผลประโยชน์ถึง 1 ล้านบาท ต่อปีกรมธรรม์</p><br>
+      <div class="card-buttons-Service">
+        <a href="#">→ รายละเอียดเพิ่มเติม</a><br>
+        <a href="#" class="btn" style="color: #f7f7f7;">สมัครแผนนี้</a>
       </div>
     </div>
-   </div>
-  </section>
-
-  <br><br><br>
-
-
-
-<h1 class="textsubpot" style=" font-size: clamp(40px, 2.5vw, 90px);">บริการเเนะนำ</h1>
-
-<div class="carousel-container_1">
-  <button class="prev2_1"><img src="Sorce/left-arrow.png" alt="" style="width: 1.5rem; margin-right: 5px;"></button>
-  <div class="carousel_1">
-      <div class="carousel-track_1">
-          <div class="card-ct_1" style="margin-left: 10px;">
-              <img src="Sorce/New/A1020.jpg" alt="" >
-              <div class="card-content_1"><h2>มาย สไตล์ โพรเทค <br>อัลตร้า(ยูนิต ลิงค์)</h2>
-                <p style="text-align: center;">แผนปกป้องความมั่งคั่ง... <br>ส่งต่อความมั่นคง</p></div>
-                <img src="Sorce/New/A1021.jpg" alt="">
-          </div>
-          <div class="card-ct_1">
-              <img src="Sorce/New/A1022.jpg" alt="">
-              <div class="card-content_1"><h2>มาย สไตล์ สมาร์ต เพย์ 15 อัลตร้า(ยูนิต ลิงค์)</h2>
-                <p style="text-align: center;">วางแผนสร้างหลักประกัน <br>เพื่อคนที่คุณรัก</p></div>
-              <img src="Sorce/New/A1023.jpg" alt="">
-          </div>
-          <div class="card-ct_1">
-              <img src="Sorce/New/A1024.jpg" alt="">
-              <div class="card-content_1"><h2>มาย  สไตล์ เลกาซี อัลตร้า(ยูนิต ลิงค์)</h2>
-                <p style="text-align: center;">ปกป้องความมั่งคั่ง เพื่อส่งต่อความมั่นคงให้คนที่คุณรัก<br></p></div>
-              <img src="Sorce/New/A1025.jpg" alt="">
-          </div>
-          <div class="card-ct_1">
-              <img src="Sorce/New/A1026.jpg" alt="">
-              <div class="card-content_1"><h2>มาย สไตล์ โพรเทค <br>(ยูนิต ลิงค์)</h2>
-                <p style="text-align: center;">ให้เงินดูแลสุขภาพคุณ<br><br></p></div>
-              <img src="Sorce/New/A1027.jpg" alt="">
-          </div>
-          <div class="card-ct_1">
-              <img src="Sorce/New/A1028.jpg" alt="">
-              <div class="card-content_1"><h2>มาย สไตล์ สมาร์ต <br>เพย์ 15(ยูนิต ลิงค์)</h2>
-                <p style="text-align: center;">แผนการเงินระยะสั้น เพิ่มพูนความมั่งคั่งในระยะยาว<br></p></div>
-              <img src="Sorce/New/A1029.jpg" alt="">
-          </div>
-          <div class="card-ct_1">
-              <img src="Sorce/New/A1030.jpg" alt="">
-              <div class="card-content_1"><h2>มาย สไตล์ ซิงเกิล <br>เพย์(ยูนิต ลิงค์)</h2>
-                <p style="text-align: center;">จ่ายครั้งเดียว ให้เงินงอกงาม พร้อมความคุ้มครอง<br></p></div>
-              <img src="Sorce/New/A1031.jpg" alt="">
-          </div>
-          <div class="card-ct_1">
-              <img src="Sorce/New/A1032.jpg" alt="">
-              <div class="card-content_1"><h2 style=" font-size: clamp(24px, 2.5vw, 27px);">สัญญาเพิ่มเติมแบบ UDR คู่กับ <br>มาย สไตล์ โพรเทค (ยูนิต ลิงค์)</h2>
-                <p style="text-align: center;">คุ้มครองครบใน 1 กรมธรรม์<br><br></p></div>
-              <img src="Sorce/New/A1033.jpg" alt="">
-          </div>
-      </div>
   </div>
-  <button class="next2_1"><img src="Sorce/right-arrow.png" alt="" style="width: 1.5rem; margin-left: 5px;"></button>
-</div>
+
+     <div class="card-Service">
+    <img src="Sorce/New/A1022.jpg" alt="ฟรีสคลาส BDMS">
+    <div class="card-content-Service">
+      <h3>ปลดล็อคสบายกระเป๋า คุ้มครองหลักล้านในราคาสบายกระเป๋า</h3>
+      <p>ประกันสุขภาพที่ให้คุณพร้อมรับมือกับค่ารักษาพยาบาล เเบบจ่ายตามจริง ด้วยวงเงินผลประโยชน์ถึง 1 ล้านบาท ต่อปีกรมธรรม์</p><br>
+      <div class="card-buttons-Service">
+        <a href="#">→ รายละเอียดเพิ่มเติม</a><br>
+        <a href="#" class="btn" style="color: #f7f7f7;">สมัครแผนนี้</a>
+      </div>
+    </div>
+  </div>
+
+     <div class="card-Service">
+    <img src="Sorce/New/A1024.jpg" alt="ฟรีสคลาส BDMS">
+    <div class="card-content-Service">
+      <h3>ปลดล็อคสบายกระเป๋า คุ้มครองหลักล้านในราคาสบายกระเป๋า</h3>
+      <p>ประกันสุขภาพที่ให้คุณพร้อมรับมือกับค่ารักษาพยาบาล เเบบจ่ายตามจริง ด้วยวงเงินผลประโยชน์ถึง 1 ล้านบาท ต่อปีกรมธรรม์</p><br>
+      <div class="card-buttons-Service">
+        <a href="#">→ รายละเอียดเพิ่มเติม</a><br>
+        <a href="#" class="btn" style="color: #f7f7f7;">สมัครแผนนี้</a>
+      </div>
+    </div>
+  </div>
+
+     <div class="card-Service">
+    <img src="Sorce/New/A1026.jpg" alt="ฟรีสคลาส BDMS">
+    <div class="card-content-Service">
+      <h3>ปลดล็อคสบายกระเป๋า คุ้มครองหลักล้านในราคาสบายกระเป๋า</h3>
+      <p>ประกันสุขภาพที่ให้คุณพร้อมรับมือกับค่ารักษาพยาบาล เเบบจ่ายตามจริง ด้วยวงเงินผลประโยชน์ถึง 1 ล้านบาท ต่อปีกรมธรรม์</p><br>
+      <div class="card-buttons-Service">
+        <a href="#">→ รายละเอียดเพิ่มเติม</a><br>
+        <a href="#" class="btn" style="color: #f7f7f7;">สมัครแผนนี้</a>
+      </div>
+    </div>
+  </div>
+
+     <div class="card-Service">
+    <img src="Sorce/New/A1028.jpg" alt="ฟรีสคลาส BDMS">
+    <div class="card-content-Service">
+      <h3>ปลดล็อคสบายกระเป๋า คุ้มครองหลักล้านในราคาสบายกระเป๋า</h3>
+      <p>ประกันสุขภาพที่ให้คุณพร้อมรับมือกับค่ารักษาพยาบาล เเบบจ่ายตามจริง ด้วยวงเงินผลประโยชน์ถึง 1 ล้านบาท ต่อปีกรมธรรม์</p><br>
+      <div class="card-buttons-Service">
+        <a href="#">→ รายละเอียดเพิ่มเติม</a><br>
+        <a href="#" class="btn" style="color: #f7f7f7;">สมัครแผนนี้</a>
+      </div>
+    </div>
+  </div>
+
+     <div class="card-Service">
+    <img src="Sorce/New/A1030.jpg" alt="ฟรีสคลาส BDMS">
+    <div class="card-content-Service">
+      <h3>ปลดล็อคสบายกระเป๋า คุ้มครองหลักล้านในราคาสบายกระเป๋า</h3>
+      <p>ประกันสุขภาพที่ให้คุณพร้อมรับมือกับค่ารักษาพยาบาล เเบบจ่ายตามจริง ด้วยวงเงินผลประโยชน์ถึง 1 ล้านบาท ต่อปีกรมธรรม์</p><br>
+      <div class="card-buttons-Service">
+        <a href="#">→ รายละเอียดเพิ่มเติม</a><br>
+        <a href="#" class="btn" style="color: #f7f7f7;">สมัครแผนนี้</a>
+      </div>
+    </div>
+  </div>
+
+  </div>
 
 <br><br>
 
-
-
-<script>
-document.querySelectorAll('.carousel-container_1').forEach(container => {
-const track = container.querySelector('.carousel-track_1');
-const prevButton = container.querySelector('.prev2_1');
-const nextButton = container.querySelector('.next2_1');
-const cardWidth = container.querySelector('.card-ct_1').offsetWidth + 40;
-let currentPosition = 0;
-
-// ฟังก์ชันตรวจสอบจำนวนการ์ดที่แสดงตามขนาดหน้าจอ
-const getVisibleCards = () => {
-    if (window.innerWidth >= 700) return 3;
-    if (window.innerWidth >= 490) return 1;
-    return 1;
-};
-
-let visibleCards = getVisibleCards();
-
-// อัปเดตจำนวนการ์ดเมื่อเปลี่ยนขนาดหน้าจอ
-window.addEventListener('resize', () => {
-    visibleCards = getVisibleCards();
-    currentPosition = 0;
-    track.style.transform = `translateX(${currentPosition}px)`;
-});
-
-nextButton.addEventListener('click', () => {
-    if (currentPosition > -(track.scrollWidth - cardWidth * visibleCards)) {
-        currentPosition -= cardWidth;
-        track.style.transform = `translateX(${currentPosition}px)`;
-    }
-});
-
-prevButton.addEventListener('click', () => {
-    if (currentPosition < 0) {
-        currentPosition += cardWidth;
-        track.style.transform = `translateX(${currentPosition}px)`;
-    }
-});
-
-// สร้างตัวแปรเพื่อควบคุมทิศทาง
-    let scrollDirection = 'right';
-
-    // เริ่มเลื่อนอัตโนมัติแบบไป-กลับ
-    let autoScrollInterval = setInterval(() => {
-        const maxScroll = track.scrollWidth - cardWidth * visibleCards;
-
-        if (scrollDirection === 'right') {
-            if (currentPosition > -maxScroll) {
-                currentPosition -= cardWidth;
-            } else {
-                scrollDirection = 'left';
-                currentPosition += cardWidth;
-            }
-        } else {
-            if (currentPosition < 0) {
-                currentPosition += cardWidth;
-            } else {
-                scrollDirection = 'right';
-                currentPosition -= cardWidth;
-            }
-        }
-
-        track.style.transform = `translateX(${currentPosition}px)`;
-    }, 4000);
-});
-</script>
-
-
-
-
-
-
-
+<p class="textsubpot">เหมาะสําหรับทังผู้เดินทางรายเทียวและผู้ทีเดินทางบ่อยตลอดป พร้อมเอกสารรับรองทีใช้ยืนวีซ่าได้ในหลายประเทศ
+รวมถึงเชงเก้น ทําให้คุณสามารถเดินทางได้อย่างอุ่นใจ พร้อมมีทีมผู้เชียวชาญคอยดูแลตลอดเส้นทาง</p>
+<p class="textsubpot">
+    สนใจสอบถามเพิ่มเติม ติดต่อ 0865662639 (ใหม่) 0956465419 (นก) หรือกรอกข้อมูลตามแบบฟอร์มด้านล่าง
+เพื่อให้เราติดต่อกลับได้เลยค่ะ ใหม่ยินดีให้บริการลูกค้าทุกท่านอย่างมืออาชีพค่ะ</p>
 
 
 
 
 <br><br>
 
-<section class="container" style="box-shadow: none;">
-  <div class="card4">
-
-    <div class="card mb-3 pop-up" style="width:95%; background-color: #c3c3c3;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="./Sorce/New/N_39.jpg" class="img-fluid rounded-start" alt="..." style="object-fit: cover;height: 100%;">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title" style="font-size: 1.7rem;color: #000;">ติดต่อเรา</h5>
-
-            <form style="text-align: start;">
-              <div class="mb-3">
-                <label for="name" class="form-label" style="font-size: 1.5rem;color: #000;">ชื่อ</label>
-                <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
-                <div id="nameHelp" class="form-text" style="font-size: 1.5rem;">ชื่อ-นามสกุล</div>
-              </div>
-
-              <div class="mb-3">
-                <label for="topic" class="form-label" style="font-size: 1.5rem;color: #000;">เลือกบริการที่สนใจ</label>
-                <select class="form-select" id="topic" style="font-size: 1.5rem;color: #000;">
-                  <option selected style="font-size: 1.5rem;color: #000;">ประกันชีวิต/กองทุนมรดก/ทุนประกันวงเงินสูง</option>
-                  <option value="1" style="font-size: 1.5rem;color: #000;">ประกันสุขภาพเหมาจ่าย</option>
-                  <option value="2" style="font-size: 1.5rem;color: #000;">ประกันเพื่อการเก็บออม/ทุนการศึกษาบุตร</option>
-                  <option value="3" style="font-size: 1.5rem;color: #000;">ประกันคุ้มครองโรคร้ายแรง</option>
-                  <option value="4" style="font-size: 1.5rem;color: #000;">ประกันบำนาญ/เกษียณ/ลดหย่อนภาษี</option>
-                  <option value="5" style="font-size: 1.5rem;color: #000;">ประกันควบคู่การลงทุน (Unitlink)</option>
-                </select>
-              </div>
-
-              <div class="mb-3">
-                <label for="phone" class="form-label" style="font-size: 1.5rem;color: #000;">เบอร์ติดต่อกลับ</label>
-                <input type="tel" class="form-control" id="phone">
-              </div>
-
-              <!-- เพิ่มส่วนกรอกเวลา -->
-              <div class="mb-3">
-                <label for="time" class="form-label" style="font-size: 1.5rem;color: #000;">เวลาที่สะดวกให้ติดต่อกลับ</label>
-                <input type="time" class="form-control" id="time">
-              </div>
-
-              <div class="mb-3">
-                <label for="message" class="form-label" style="font-size: 1.5rem;color: #000;">ข้อความ</label>
-                <textarea class="form-control" id="message" aria-label="With textarea"></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-primary" style="font-size: 1.5rem;background-color: red;border-color: red;">Submit</button>
-            </form>
-
-          </div>
+<div class="form-container">
+    <h2>สนใจแบบประกัน</h2>
+    <form action="mailto:your@email.com" method="post" enctype="text/plain">
+      <div class="row-frome">
+        <input type="text" name="ชื่อ" placeholder="ชื่อ" required>
+        <input type="text" name="นามสกุล" placeholder="นามสกุล" required>
+      </div>
+      <div class="row-frome">
+        <input type="tel" name="เบอร์โทร" placeholder="เบอร์โทรติดต่อ" required>
+        <input type="email" name="อีเมล" placeholder="อีเมล" required>
+      </div>
+      <div class="row-frome">
+        <input type="number" name="อายุ" placeholder="อายุ" required>
+        <div class="gender-frome">
+          <label>เพศ :</label>
+          <label><input type="radio" name="เพศ" value="ชาย"> ชาย</label>
+          <label><input type="radio" name="เพศ" value="หญิง"> หญิง</label>
         </div>
       </div>
-    </div>
+      <input class="text-frome" type="text" name="หมายเหตุ" placeholder="หมายเหตุ">
+      <button class="button-frome" type="submit">ส่งข้อมูล</button>
+    </form>
   </div>
-</section>
+
+
+<br><br>
+
+<style>
+
+.form-container {
+  background: #ddd;
+  padding: 40px;
+  max-width: 1300px;
+  margin: 40px auto;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #142c63;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row-frome {
+  display: flex;
+  gap: 10px;
+}
+
+.row-frome input {
+  flex: 1;
+  padding: 13px;
+  font-size: 1.5em;
+  color: #000;
+}
+
+.gender-frome {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gender-frome label {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #142c63;
+}
+
+.text-frome {
+  padding: 20px;
+  font-size: 1.1em;
+  color: #000;
+}
+
+.button-frome {
+  background: #142c63;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  font-size: 1.2em;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.button-frome:hover {
+  background: #0f1e4b;
+}
 
 
 
-<h1 class="section" style="border-bottom: 0px dotted #ddb823;margin-top: 5%;">ช่องทางติดต่อ</h1>
+@media (max-width: 768px) {
+  .form-container {
+    padding: 20px;
+    margin: 20px;
+  }
 
-<section class="item-p1">
-  <div class="port11">
+  .form-container h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
 
-      <div class="buttons-33">
-        <div><div class="pop-up">
-            <img src="Sorce/IMG_5787.JPG" alt="example image">
-        </div></div>
-    </div>
+  .row-frome {
+    flex-direction: column;
+    gap: 15px;
+  }
 
-      <div class="buttons-44">
-      <section class="calling_and_line">
-        <div class="f-column-3" style="margin-left: 0%;width: 99%;">
-          <a href="">
-            <div class="fcolumn">
-              <div class="fitem"><img src="Sorce/facebook1.png" alt=""></div>
-              <div class="fitem"><h2>Social Media</h2></div>
-            </div>
-          </a>
-        </div>
-        <div class="f-column-3" style="margin-left: 0%;width: 99%;">
-          <a href="">
-            <div class="fcolumn">
-              <div class="fitem"><img src="Sorce/mobile.png" alt=""></div>
-              <div class="fitem"><h2>โทรติดต่อ</h2></div>
-            </div>
-          </a>
-        </div>
-        <div class="f-column-3" style="margin-left: 0%;width: 99%;">
-          <a href="">
-            <div class="fcolumn">
-              <div class="fitem"><img src="Sorce/line.png" alt=""></div>
-              <div class="fitem"><h2>Line ID: mai4263mai </h2></div>
-            </div>
-          </a>
-        </div>
-        <div class="f-column-3" style="margin-left: 0%;width: 99%;">
-          <a href="">
-            <div class="fcolumn">
-              <div class="fitem"><img src="Sorce/Email.png" alt=""></div>
-              <div class="fitem"><h2>E-Mail: ratsarin.maimai@gmail.com</h2></div>
-            </div>
-          </a>
-        </div>
-      </section>
-      </div>
+  .row-frome input {
+    font-size: 1em;
+    padding: 5px;
+  }
 
-  </div>
-</section>
+  .gender-frome {
+    align-items: flex-start;
+  }
+
+  .gender-frome label {
+    font-size: 1em;
+  }
+
+  .text-frome {
+    font-size: 1em;
+    padding: 15px;
+  }
+
+  .button-frome {
+    width: 100%;
+    font-size: 1.1em;
+    padding: 15px;
+  }
+}
+
+
+
+</style>
 
 
 
@@ -338,13 +407,6 @@ prevButton.addEventListener('click', () => {
 
 
 
-
-
-  <div class=" stapend">
-    <div class="card_img" style="background-image: url('./Sorce/New/NEW_3.4.png');width: 73% !important; height: 100% !important;"><span id="lang_33" style=" width: 50vw;left: 50vw; text-align: center;" class="pop-up_down ">สนง. ตัวแทนคุณรัสรินทร์
-      </span><br><span id="lang_33" style=" width: 50vw;left: 50vw; text-align: center;color: black;margin-top: 40px;" class="pop-up_down ">
-        ยินดีให้คําปรึกษาฟรี ค่ะ</span>
-    </div></div>
 
 
   <div id="footerHTML1" style="background-color: #012f6c;"></div>

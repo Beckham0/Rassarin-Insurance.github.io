@@ -1501,7 +1501,10 @@ left: 43% !important;
 
 .section_a {
   position: relative;
-  margin-top: 5%;
+  margin-top: 2%;
+  background-color: #a5bef079;
+  margin-bottom: 2%;
+  padding: 20px;
 }
 
 .Card_4 h1 {
@@ -1649,16 +1652,17 @@ left: 43% !important;
       .Card_4 h1 {
   font-weight: 600;
   color: #000000;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   text-align: center;
 }
 
 .Card_4 h2 {
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 2rem;
   text-align: center;
 }
-.Card_4 h2 {
+
+.Card_4 h3 {
   font-weight: 600;
   font-size: 1.3rem;
   text-align: center;
@@ -1715,19 +1719,19 @@ left: 43% !important;
       .Card_4 h1 {
   font-weight: 600;
   color: #000000;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-align: center;
 }
 
 .Card_4 h2 {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
 .Card_4 h3 {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 

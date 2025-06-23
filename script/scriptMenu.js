@@ -36,8 +36,7 @@ function createNavbar() {
               <li><a id="lang_item3" class="dropdown-item c3" href="./Service3.html">● ประกันเพื่อการเก็บออม<br>/ทุนการศึกษาบุตร</a></li>
               <li><a id="lang_item4" class="dropdown-item c4" href="./Service4.html">● ประกันบำนาญ/เกษียณ <br>/ลดหย่อนภาษี</a></li>
               <li><a id="lang_item5" class="dropdown-item c4" href="./Service5.html">● ประกันควบคู่การลงทุน (Unitlink)</a></li>
-              <li><a id="lang_item6" class="dropdown-item c4" href="./Service6.html">● ประกันนิติบุคคล</a></li>
-              <li><a id="lang_item6" class="dropdown-item c4" href="./Service7.html">● ประกันการเดินทาง</a></li>
+              <li><a id="lang_item6" class="dropdown-item c4" href="./Service6.html">● ประกันการเดินทาง</a></li>
               </ul>
 
           </li>
@@ -111,7 +110,6 @@ function createNavbar() {
             font-size: 19px;
             color: #ffffff;
             margin: 0;
-            font-weight: bold;
           }
 
           .footer-column a {
@@ -140,7 +138,7 @@ function createNavbar() {
               height: 139px;
           }
   
-          /* สำหรับหน้าจอแคบลงเป็นแนวตั้ง */
+
           @media (max-width: 768px) {
               .footer {
                   flex-direction: column;
@@ -152,9 +150,27 @@ function createNavbar() {
                   width: 100%;
                   text-align: center;
               }
+
+            .footer-column h3 {
+              font-size: 30px;
           }
   
-          /* สำหรับหน้าจอมือถือแบ่งเป็น 2 แถว 2 คอลัมน์ */
+          .footer-column h4 {
+              font-size: 25px;
+          }
+  
+          .footer-column a {
+            font-size: 12px;
+          }
+
+          .footer-column p {
+            font-size: 15px;
+            color: #ffffff;
+            margin: 0;
+          }
+
+          }
+  
           @media (max-width: 480px) {
               .footer {
                   flex-wrap: wrap;
@@ -205,7 +221,7 @@ function createNavbar() {
             <a href="./Service3.html"><p>● ประกันเพื่อการเก็บออม/ทุนการศึกษาบุตร</p></a>
             <a href="./Service4.html"><p>● ประกันบำนาญ/เกษียณ/ลดหย่อนภาษี</p></a>
             <a href="./Service5.html"><p>● ประกันควบคู่การลงทุน (Unitlink)</p></a>
-            <a href="./Service6.html"><p>● ประกันนิติบุคคล</p></a>
+            <a href="./Service6.html"><p>● ประกันการเดินทาง</p></a>
         </div>
     
         <div class="footer-column contact">
