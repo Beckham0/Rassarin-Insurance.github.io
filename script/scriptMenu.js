@@ -31,12 +31,13 @@ function createNavbar() {
               เเบบประกัน
             </a>
             <ul class="dropdown-menu" style="background: #f8f9fa; opacity:0.9; max-width: 18rem;">
-              <li><a id="lang_item1" class="dropdown-item c1" href="./Service1.html">● ประกันชีวิต/กองทุนมรดก<br>/ทุนประกันวงเงินสูง</a></li>
-              <li><a id="lang_item2" class="dropdown-item c2" href="./Service2.html">● ประกันสุขภาพเหมาจ่าย</a></li>
+              <li><a id="lang_item1" class="dropdown-item c1" href="./Service1.html">● ประกันสุขภาพเหมาจ่าย</a></li>
+              <li><a id="lang_item2" class="dropdown-item c2" href="./Service2.html">● ประกันคุ้มครองโรคร้ายแรง</a></li>
               <li><a id="lang_item3" class="dropdown-item c3" href="./Service3.html">● ประกันเพื่อการเก็บออม<br>/ทุนการศึกษาบุตร</a></li>
-              <li><a id="lang_item4" class="dropdown-item c4" href="./Service4.html">● ประกันคุ้มครองโรคร้ายแรง</a></li>
-              <li><a id="lang_item5" class="dropdown-item c4" href="./Service5.html">● ประกันบำนาญ/เกษียณ <br>/ลดหย่อนภาษี</a></li>
-              <li><a id="lang_item6" class="dropdown-item c4" href="./Service6.html">● ประกันควบคู่การลงทุน (Unitlink)</a></li>
+              <li><a id="lang_item4" class="dropdown-item c4" href="./Service4.html">● ประกันบำนาญ/เกษียณ <br>/ลดหย่อนภาษี</a></li>
+              <li><a id="lang_item5" class="dropdown-item c4" href="./Service5.html">● ประกันควบคู่การลงทุน (Unitlink)</a></li>
+              <li><a id="lang_item6" class="dropdown-item c4" href="./Service6.html">● ประกันนิติบุคคล</a></li>
+              <li><a id="lang_item6" class="dropdown-item c4" href="./Service7.html">● ประกันการเดินทาง</a></li>
               </ul>
 
           </li>
@@ -199,17 +200,17 @@ function createNavbar() {
     
         <div class="footer-column">
             <h3>เเบบบริการเรา</h3>
-            <a href="./Service1.html"><p>● ประกันชีวิต/กองทุนมรดก/ทุนประกันวงเงินสูง</p></a>
-            <a href="./Service2.html"><p>● ประกันสุขภาพเหมาจ่าย</p></a>
+            <a href="./Service1.html"><p>● ประกันสุขภาพเหมาจ่าย</p></a>
+            <a href="./Service2.html"><p>● ประกันคุ้มครองโรคร้ายแรง</p></a>
             <a href="./Service3.html"><p>● ประกันเพื่อการเก็บออม/ทุนการศึกษาบุตร</p></a>
-            <a href="./Service4.html"><p>● ประกันคุ้มครองโรคร้ายแรง</p></a>
-            <a href="./Service5.html"><p>● ประกันบำนาญ/เกษียณ/ลดหย่อนภาษี</p></a>
-            <a href="./Service6.html"><p>● ประกันควบคู่การลงทุน (Unitlink)</p></a>
+            <a href="./Service4.html"><p>● ประกันบำนาญ/เกษียณ/ลดหย่อนภาษี</p></a>
+            <a href="./Service5.html"><p>● ประกันควบคู่การลงทุน (Unitlink)</p></a>
+            <a href="./Service6.html"><p>● ประกันนิติบุคคล</p></a>
         </div>
     
         <div class="footer-column contact">
             <h3>ติดต่อเรา</h3>
-            <p style="margin: 0;">โทร: 0865662639, 0956465419, 0996255730</p>
+            <p style="margin: 0;">โทร: 0865662639(ใหม่), 0956465419(นก)</p>
             <p style="padding-top: 10px;">Line ID : mai4263mai</p>
             <p style="padding:10px 0;">E-Mail: ratsarin.maimai@gmail.com</p>
         </div>

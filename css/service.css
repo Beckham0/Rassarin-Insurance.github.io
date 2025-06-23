@@ -537,10 +537,11 @@
 
 .textsubpot {
   font-size: 22px;
-  padding: 20px 250px;
+  padding: 0px 250px;
   color: #012f6c;
   text-align: start;
   font-weight: 600;
+  text-indent: 30px;
 }
     
 
@@ -1621,14 +1622,14 @@ left: 43% !important;
 
     .section_a {
   position: relative;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 
       .Card_4 h1 {
   font-weight: 600;
   color: #000000;
-  font-size: 2.3rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -1689,7 +1690,7 @@ left: 43% !important;
       .Card_4 h1 {
   font-weight: 600;
   color: #000000;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-align: center;
 }
 
