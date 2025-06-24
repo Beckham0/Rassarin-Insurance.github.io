@@ -536,10 +536,10 @@
     }
 
     .underline {
-      width: 70%;         /* หรือกำหนดความกว้างตามต้องการ เช่น 50% */
-      height: 3px;         /* ความหนาเส้น */
-      background: #000000; /* สีของเส้น */
-      margin: 10px auto;   /* ระยะห่างจากภาพ และจัดกึ่งกลาง */
+      width: 70%;    
+      height: 3px;   
+      background: #012f6c; 
+      margin: 10px auto;   
     }
 
 
@@ -550,7 +550,22 @@
   text-align: start;
   text-indent: 30px;
 }
-    
+  
+@media (max-width: 1500px) {
+
+      .underline {
+      width: 90%;    
+      height: 3px;   
+      background: #012f6c; 
+      margin: 10px auto;   
+    }
+
+.textsubpot {
+  font-size: 15px;
+  padding: 20px 30px;
+}
+
+}
 
 @media (max-width: 768px) {
 
@@ -1501,7 +1516,7 @@ left: 43% !important;
 
 .section_a {
   position: relative;
-  margin-top: 2%;
+  margin-top: 0;
   background-color: #a5bef079;
   margin-bottom: 2%;
   padding: 20px;
@@ -1516,14 +1531,14 @@ left: 43% !important;
 
 .Card_4 h2 {
   font-weight: 600;
-  color: #004aad;
+  color: #012f6c;
   font-size: 2.5rem;
   text-align: center;
 }
 
 .Card_4 h3 {
   font-weight: 600;
-  color: #004aad;
+  color: #012f6c;
   font-size: 1.7rem;
   text-align: center;
 }

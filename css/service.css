@@ -538,7 +538,7 @@
     .underline {
       width: 70%;         /* หรือกำหนดความกว้างตามต้องการ เช่น 50% */
       height: 3px;         /* ความหนาเส้น */
-      background: #000000; /* สีของเส้น */
+      background: #012f6c; /* สีของเส้น */
       margin: 10px auto;   /* ระยะห่างจากภาพ และจัดกึ่งกลาง */
     }
 
@@ -552,6 +552,13 @@
 }
 
 @media (max-width: 1500px) {
+
+      .underline {
+      width: 90%;      
+      height: 3px;         
+      background: #012f6c; 
+      margin: 10px auto;   
+    }
 
 .textsubpot {
   padding: 20px 40px;

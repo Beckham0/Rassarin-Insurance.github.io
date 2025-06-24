@@ -81,7 +81,7 @@ function createNavbar() {
               justify-content: space-between;
               padding: 20px;
               background-color: #012f6c;
-              margin-left: 100px;
+              margin-left: 50px;
           }
   
           .footer-column {
