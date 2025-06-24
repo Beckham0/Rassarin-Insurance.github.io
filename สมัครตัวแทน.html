@@ -238,28 +238,34 @@ prevButton.addEventListener('click', () => {
 <br><br>
 
 <div class="form-container">
-    <h2>สนใจแบบประกัน</h2>
-    <form action="mailto:your@email.com" method="post" enctype="text/plain">
-      <div class="row-frome">
-        <input type="text" name="ชื่อ" placeholder="ชื่อ" required>
-        <input type="text" name="นามสกุล" placeholder="นามสกุล" required>
+  <h2>สนใจสมัครเป็นตัวเเทน</h2>
+  <form action="สนใจสมัครตัวเเทน.php" method="post" enctype="text/plain">
+    <div class="row-frome">
+      <input type="text" name="ชื่อ" placeholder="ชื่อ" required>
+      <input type="text" name="นามสกุล" placeholder="นามสกุล" required>
+    </div>
+    <div class="row-frome">
+      <input type="tel" name="เบอร์โทร" placeholder="เบอร์โทรติดต่อ" required>
+      <input type="email" name="อีเมล" placeholder="อีเมล" required>
+    </div>
+    <div class="row-frome">
+      <input type="number" name="อายุ" placeholder="อายุ" required>
+      <div class="gender-frome">
+        <label>เพศ</label>
+        <label><input type="radio" name="เพศ" value="ชาย"> ชาย</label>
+        <label><input type="radio" name="เพศ" value="หญิง"> หญิง</label>
       </div>
-      <div class="row-frome">
-        <input type="tel" name="เบอร์โทร" placeholder="เบอร์โทรติดต่อ" required>
-        <input type="email" name="อีเมล" placeholder="อีเมล" required>
-      </div>
-      <div class="row-frome">
-        <input type="number" name="อายุ" placeholder="อายุ" required>
-        <div class="gender-frome">
-          <label>เพศ :</label>
-          <label><input type="radio" name="เพศ" value="ชาย"> ชาย</label>
-          <label><input type="radio" name="เพศ" value="หญิง"> หญิง</label>
-        </div>
-      </div>
-      <input class="text-frome" type="text" name="หมายเหตุ" placeholder="หมายเหตุ">
-      <button class="button-frome" type="submit">ส่งข้อมูล</button>
-    </form>
-  </div>
+    </div>
+    <div class="row-frome">
+      <label>สะดวกให้ติดต่อกลับ</label>
+      <label>วันที่ <input type="date" name="วันที่"></label>
+      <label>เวลา <input type="time" name="เวลา"></label>
+    </div>
+    <input class="text-frome" type="text" name="หมายเหตุ" placeholder="หมายเหตุ">
+    <button class="button-frome" type="submit">ส่งข้อมูล</button>
+  </form>
+</div>
+
 
 
 <br><br>
@@ -317,6 +323,21 @@ form {
   color: #000;
 }
 
+.row-frome label {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #142c63;
+}
+
+.row-frome label input {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 1em;
+  flex: none;
+}
+
 .button-frome {
   background: #142c63;
   color: #fff;
@@ -366,6 +387,17 @@ form {
   .text-frome {
     font-size: 1em;
     padding: 15px;
+  }
+
+  .row-frome label {
+    font-size: 1em;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .row-frome label input {
+    margin-left: 0;
+    width: 100%;
   }
 
   .button-frome {
