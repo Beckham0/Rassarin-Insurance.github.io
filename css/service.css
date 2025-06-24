@@ -550,6 +550,14 @@
   text-align: start;
   text-indent: 30px;
 }
+
+@media (max-width: 1500px) {
+
+.textsubpot {
+  padding: 20px 40px;
+}
+
+}
     
 
 @media (max-width: 768px) {

@@ -1804,10 +1804,14 @@ left: 43% !important;
   object-fit: cover;
 }
 
-/* เมื่อหน้าจอเล็กลงกว่า 768px */
+
+
+
+
+
 @media (max-width: 768px) {
   .img-3-column {
-    flex: 1 1 100%; /* เปลี่ยนเป็น 1 คอลัมน์ */
+    flex: 1 1 100%; 
     margin: 10px 30px;
   }
 }
@@ -1838,4 +1842,12 @@ left: 43% !important;
   .img-column {
     flex: 1 1 10%; /* เปลี่ยนเป็น 1 คอลัมน์ */
   }
+}
+@media (max-width: 1500px) {
+
+.textsubpot {
+  font-size: 22px;
+  padding: 20px 40px;
+}
+
 }

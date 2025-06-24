@@ -103,6 +103,7 @@
       color: #027413;
       margin: 10px 0;
       font-size: 25px;
+      text-indent: 30px;
     }
 
     .card-buttons-Service {
@@ -130,6 +131,82 @@
     .btn:hover {
       background: #7a7a7a;
     }
+
+
+    @media (max-width: 1200px) {
+
+.Service-container{
+      width: 100%;
+      max-width: 1000px;
+      margin: 25px 0px;
+      position: relative;
+
+    }
+
+    .card-Service {
+      display: flex;
+      background: white;
+      overflow: hidden;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-Service img {
+      width: 500px;
+      object-fit: cover;
+    }
+
+    .card-content-Service {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1;
+    }
+
+    .card-content-Service h3 {
+      margin: 0;
+      color: #002d71;
+      font-weight: 700;
+      font-size: 32px;
+    }
+
+    .card-content-Service p {
+      color: #027413;
+      margin: 10px;
+      font-size: 20px;
+      padding: 10px;
+    }
+
+    .card-buttons-Service {
+      margin-top: auto;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .card-buttons-Service a {
+      color: #002d71;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background: #002d71;
+      color: white;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #7a7a7a;
+    }
+
+      
+    }
+
 
     @media screen and (max-width: 768px) {
       .card-Service {
@@ -178,11 +255,11 @@
    <div class="card-Service">
     <img src="Sorce/New/A1099.jpg" alt="ฟรีสคลาส BDMS">
     <div class="card-content-Service">
-      <h3>ประกันภัยการเดินทางแดนซ์ มูฟ</h3>
+      <h3>ประกันภัยการเดินทาง</h3>
       <p></p><br>
       <div class="card-buttons-Service">
         <a href="i.pdf">→ รายละเอียดเพิ่มเติม</a><br>
-        <a href="#form" class="btn" style="color: #f7f7f7;">สมัครแผนนี้</a>
+        <a href="#form" class="btn" style="color: #f7f7f7;">สนใจแผนนี้</a>
       </div>
     </div>
   </div>
@@ -244,7 +321,7 @@
   color: #142c63;
   font-weight: 700;
   margin-bottom: 30px;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 form {
@@ -261,7 +338,7 @@ form {
 .row-frome input {
   flex: 1;
   padding: 13px;
-  font-size: 1.5em;
+  font-size: 1em;
   color: #000;
 }
 
@@ -297,8 +374,6 @@ form {
 .button-frome:hover {
   background: #0f1e4b;
 }
-
-
 
 @media (max-width: 768px) {
   .form-container {

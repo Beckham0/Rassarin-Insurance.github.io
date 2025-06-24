@@ -105,6 +105,7 @@
       color: #027413;
       margin: 10px 0;
       font-size: 25px;
+      text-indent: 30px;
     }
 
     .card-buttons-Service {
@@ -131,6 +132,80 @@
 
     .btn:hover {
       background: #7a7a7a;
+    }
+
+    @media (max-width: 1200px) {
+
+.Service-container{
+      width: 100%;
+      max-width: 1000px;
+      margin: 25px 0px;
+      position: relative;
+
+    }
+
+    .card-Service {
+      display: flex;
+      background: white;
+      overflow: hidden;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-Service img {
+      width: 500px;
+      object-fit: cover;
+    }
+
+    .card-content-Service {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1;
+    }
+
+    .card-content-Service h3 {
+      margin: 0;
+      color: #002d71;
+      font-weight: 700;
+      font-size: 32px;
+    }
+
+    .card-content-Service p {
+      color: #027413;
+      margin: 10px;
+      font-size: 20px;
+      padding: 10px;
+    }
+
+    .card-buttons-Service {
+      margin-top: auto;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .card-buttons-Service a {
+      color: #002d71;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background: #002d71;
+      color: white;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #7a7a7a;
+    }
+
+      
     }
 
     @media screen and (max-width: 768px) {
@@ -184,7 +259,7 @@
       <p>ประกันสุขภาพที่ให้คุณพร้อมรับมือกับค่ารักษาพยาบาล เเบบจ่ายตามจริง ด้วยวงเงินผลประโยชน์ถึง 1 ล้านบาท ต่อปีกรมธรรม์</p><br>
       <div class="card-buttons-Service">
         <a href="https://agency.allianz.co.th/Agency_CMS/UserFiles/TheBrain/SabaiKapao_Brochure.pdf">→ รายละเอียดเพิ่มเติม</a>
-        <a href="#form" class="btn" style="color: #f7f7f7;">สมัครแผนนี้</a>
+        <a href="#form" class="btn" style="color: #f7f7f7;">สนใจแผนนี้</a>
       </div>
     </div>
   </div>
@@ -196,7 +271,7 @@
       <p>ประกันสุขภาพที่ช่วยปลดล็อกค่าใช้จ่ายในการรักษาทั่วทั้งปี พร้อมรับมือกับค่ารักษาโรคร้ายแรงที่เกินคาดฝัน</p><br>
       <div class="card-buttons-Service">
         <a href="https://agency.allianz.co.th/Agency_CMS/UserFiles/TheBrain/HSMHPDC_Brochure_v.2025.03.pdf">→ รายละเอียดเพิ่มเติม</a>
-        <a href="#form" class="btn" style="color: #f7f7f7; ">สมัครแผนนี้</a>
+        <a href="#form" class="btn" style="color: #f7f7f7; ">สนใจแผนนี้</a>
       </div>
     </div>
   </div>
@@ -208,7 +283,7 @@
       <h3>ประกันสุขภาพ แผนยืดหยุ่น แพลทินัม (100MB) (HSMFCB_S)</h3><br>
       <div class="card-buttons-Service">
         <a href="https://agency.allianz.co.th/Agency_CMS/UserFiles/TheBrain/MFC@All_Brochure_th_v.Aug.2024.pdf">→ รายละเอียดเพิ่มเติม</a>
-        <a href="#form" class="btn" style="color: #f7f7f7;">สมัครแผนนี้</a>
+        <a href="#form" class="btn" style="color: #f7f7f7;">สนใจแผนนี้</a>
       </div>
     </div>
   </div>
@@ -220,7 +295,7 @@
       <p>ป่วยหนักแค่ไหน สบายใจได้ ดูแลรักษาแบบ First Class สูงสุดถึง 120 ล้านบาทต่อปีแบบไม่ธรรมดา</p><br>
       <div class="card-buttons-Service">
         <a href="a.pdf">→ รายละเอียดเพิ่มเติม</a>
-        <a href="#form" class="btn" style="color: #f7f7f7;">สมัครแผนนี้</a>
+        <a href="#form" class="btn" style="color: #f7f7f7;">สนใจแผนนี้</a>
       </div>
     </div>
   </div>
@@ -281,7 +356,7 @@
   color: #142c63;
   font-weight: 700;
   margin-bottom: 30px;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 form {
@@ -298,7 +373,7 @@ form {
 .row-frome input {
   flex: 1;
   padding: 13px;
-  font-size: 1.5em;
+  font-size: 1em;
   color: #000;
 }
 

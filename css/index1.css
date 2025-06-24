@@ -729,8 +729,20 @@ left: 47% !important;
   padding: 20px 250px;
   color: #012f6c;
   text-align: start;
+  text-indent: 30px;
 }
     
+
+@media (max-width: 1500px) {
+
+.textsubpot {
+  font-size: 22px;
+  padding: 20px 40px;
+}
+
+}
+
+
 
 @media (max-width: 768px) {
 
