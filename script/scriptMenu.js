@@ -36,7 +36,7 @@ function createNavbar() {
               <li><a id="lang_item3" class="dropdown-item c3" href="./Service3.html">● ประกันเพื่อการเก็บออม<br>/ทุนการศึกษาบุตร</a></li>
               <li><a id="lang_item4" class="dropdown-item c4" href="./Service4.html">● ประกันบำนาญ/เกษียณ <br>/ลดหย่อนภาษี</a></li>
               <li><a id="lang_item5" class="dropdown-item c4" href="./Service5.html">● ประกันควบคู่การลงทุน (Unitlink)</a></li>
-              <li><a id="lang_item7" class="dropdown-item c4" href="./Service7.html">● ประกันกลุ่ม</a></li>
+              <li><a id="lang_item7" class="dropdown-item c4" href="./Service7.html">● ประกันนิติบุคคล</a></li>
               <li><a id="lang_item6" class="dropdown-item c4" href="./Service6.html">● ประกันการเดินทาง</a></li>
               </ul>
 
@@ -222,7 +222,7 @@ function createNavbar() {
             <a href="./Service3.html"><p>● ประกันเพื่อการเก็บออม/ทุนการศึกษาบุตร</p></a>
             <a href="./Service4.html"><p>● ประกันบำนาญ/เกษียณ/ลดหย่อนภาษี</p></a>
             <a href="./Service5.html"><p>● ประกันควบคู่การลงทุน (Unitlink)</p></a>
-            <a href="./Service7.html"><p>● ประกันกลุ่ม</p></a>
+            <a href="./Service7.html"><p>● ประกันนิติบุคคล</p></a>
             <a href="./Service6.html"><p>● ประกันการเดินทาง</p></a>
         </div>
     
