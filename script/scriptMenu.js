@@ -6,7 +6,7 @@ function createNavbar() {
     <div class="container-fluid d-flex align-items-center justify-content-between">
       <!-- โลโก้ -->
       <a class="navbar-brand" href="./index.html">
-      <img src="./Sorce/LOGO3.jpg" style="border-radius: 0px;" width="100%" height="100%">
+      <img src="./Sorce/LOGO3.jpg" style="border-radius: 0px;" width="100%" height="50px">
       </a>
 
       <!-- ปุ่ม "ติดต่อเรา" ย้ายมาไว้ข้างหน้า navbar-toggler บนมือถือ -->
@@ -111,6 +111,7 @@ function createNavbar() {
             font-size: 19px;
             color: #ffffff;
             margin: 0;
+            text-indent: 10px;
           }
 
           .footer-column a {
