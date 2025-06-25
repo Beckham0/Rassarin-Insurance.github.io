@@ -201,11 +201,6 @@ function createNavbar() {
       </style>
   
     <footer class="footer">
-        <div class="footer-column">
-        <img src="./Sorce/LOGO3.jpg" alt="โลโก้บริษัท" class="logo">
-            <h4>สำนักงานตัวแทนประกันชีวิต คุณรัสรินทร์ บวรธนะเกียรติ์</h4>
-            <p>115/11 โครงการเมอริทเพลสบางนา หมู่ 13 ซ.มหาชัย ต.บางพลีใหญ่ อ.บางพลี จ.สมุทรปราการ 10540</p>
-        </div>
     
         <div class="footer-column">
             <h3>การบริการ</h3>
@@ -228,9 +223,10 @@ function createNavbar() {
     
         <div class="footer-column contact">
             <h3>ติดต่อเรา</h3>
+            <p>สำนักงานตัวแทนประกันชีวิต <br>คุณรัสรินทร์ บวรธนะเกียรติ์</p>
+            <p>115/11 โครงการเมอริทเพลสบางนา หมู่ 13 ซ.มหาชัย ต.บางพลีใหญ่ อ.บางพลี จ.สมุทรปราการ 10540</p>
             <p style="margin: 0;">โทร: 0865662639(ใหม่), 0956465419(นก)</p>
             <p style="padding-top: 10px;">Line ID : mai4263mai</p>
-            <p style="padding:10px 0;">E-Mail: ratsarin.maimai@gmail.com</p>
         </div>
     </footer>
     
