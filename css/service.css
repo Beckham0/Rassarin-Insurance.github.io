@@ -532,23 +532,25 @@
 }
 
     .underline-container {
-      text-align: center; /* จัดภาพให้อยู่กลาง */
+      text-align: center; 
     }
 
     .underline {
-      width: 70%;         /* หรือกำหนดความกว้างตามต้องการ เช่น 50% */
-      height: 3px;         /* ความหนาเส้น */
-      background: #012f6c; /* สีของเส้น */
-      margin: 10px auto;   /* ระยะห่างจากภาพ และจัดกึ่งกลาง */
+      width: 70%;         
+      height: 3px;         
+      background: #012f6c; 
+      margin: 10px auto;   
     }
 
 
 .textsubpot {
-  font-size: 25px;
+  font-size: 23px;
   padding: 0px 250px;
   color: #012f6c;
-  text-align: start;
   text-indent: 30px;
+  text-align: justify;
+    word-break: keep-all;  
+  white-space: normal; 
 }
 
 @media (max-width: 1500px) {

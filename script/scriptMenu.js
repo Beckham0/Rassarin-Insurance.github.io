@@ -6,7 +6,7 @@ function createNavbar() {
     <div class="container-fluid d-flex align-items-center justify-content-between">
       <!-- โลโก้ -->
       <a class="navbar-brand" href="./index.html">
-      <img src="./Sorce/LOGO3.jpg" style="border-radius: 0px;" width="100%" height="50px">
+      <img src="./Sorce/LOGO3.jpg" style="border-radius: 0px;" width="100%" height="40px">
       </a>
 
       <!-- ปุ่ม "ติดต่อเรา" ย้ายมาไว้ข้างหน้า navbar-toggler บนมือถือ -->
@@ -212,14 +212,13 @@ function createNavbar() {
         </div>
     
         <div class="footer-column">
-            <h3>เเบบบริการเรา</h3>
+            <h3>เเบบประกันที่เเนะนำ</h3>
             <a href="./Service1.html"><p>● ประกันสุขภาพเหมาจ่าย</p></a>
             <a href="./Service2.html"><p>● ประกันคุ้มครองโรคร้ายแรง</p></a>
             <a href="./Service3.html"><p>● ประกันเพื่อการเก็บออม/ทุนการศึกษาบุตร</p></a>
             <a href="./Service4.html"><p>● ประกันบำนาญ/เกษียณ/ลดหย่อนภาษี</p></a>
             <a href="./Service5.html"><p>● ประกันควบคู่การลงทุน (Unitlink)</p></a>
             <a href="./Service7.html"><p>● ประกันนิติบุคคล</p></a>
-            <a href="./Service6.html"><p>● ประกันการเดินทาง</p></a>
         </div>
     
         <div class="footer-column contact">
