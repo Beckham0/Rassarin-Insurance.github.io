@@ -738,6 +738,7 @@ left: 47% !important;
 .textsubpot {
   font-size: 22px;
   padding: 20px 40px;
+  text-align: justify;
 }
 
 }
@@ -749,6 +750,7 @@ left: 47% !important;
 .textsubpot {
   font-size: 15px;
   padding: 20px 30px;
+  text-align: justify;
 }
 
 }

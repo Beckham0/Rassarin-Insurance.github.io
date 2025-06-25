@@ -549,8 +549,6 @@
   color: #012f6c;
   text-indent: 30px;
   text-align: justify;
-    word-break: keep-all;  
-  white-space: normal; 
 }
 
 @media (max-width: 1500px) {
