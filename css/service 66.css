@@ -545,24 +545,27 @@
 
 .textsubpot {
   font-size: 21px;
+  max-width: 600px;
+  margin: auto;
   padding: 0px 250px;
   color: #012f6c;
   text-indent: 30px;
   text-align: justify;
+  text-align-last: left;
 }
   
 @media (max-width: 1500px) {
 
-      .underline {
-      width: 90%;    
-      height: 3px;   
-      background: #012f6c; 
-      margin: 10px auto;   
-    }
+.underline {
+  width: 90%;    
+  height: 3px;   
+  background: #012f6c; 
+  margin: 10px auto;   
+}
 
 .textsubpot {
-  font-size: 15px;
-  padding: 20px 30px;
+  font-size: 22px;
+  padding: 20px 40px;
 }
 
 }
@@ -574,6 +577,13 @@
   padding: 20px 30px;
 }
 
+}
+
+@media (max-width: 400px) {
+    .textsubpot {
+        font-size: 15px;
+        padding: 2px 20px;
+    }
 }
 
 
@@ -1842,7 +1852,7 @@ left: 43% !important;
 }
 
 .img-column {
-  flex: 1 1 calc(33.333% - 16px); /* แบ่ง 3 คอลัมน์ */
+  flex: 1 1 calc(33.333% - 16px); 
 }
 
 .img-column img {
@@ -1852,17 +1862,9 @@ left: 43% !important;
   object-fit: cover;
 }
 
-/* เมื่อหน้าจอเล็กลงกว่า 768px */
+
 @media (max-width: 768px) {
   .img-column {
-    flex: 1 1 10%; /* เปลี่ยนเป็น 1 คอลัมน์ */
+    flex: 1 1 10%; 
   }
-}
-@media (max-width: 1500px) {
-
-.textsubpot {
-  font-size: 22px;
-  padding: 20px 40px;
-}
-
 }
