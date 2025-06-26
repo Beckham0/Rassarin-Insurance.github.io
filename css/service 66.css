@@ -588,9 +588,8 @@
 
 .textsubpot1 {
   font-size: 22px;
-  padding: 20px 250px;
+  padding: 2px 250px;
   color: #012f6c;
-  text-indent: 30px;
   text-align: center;
 }
     
@@ -599,7 +598,7 @@
 
 .textsubpot1 {
   font-size: 22px;
-  padding: 20px 40px;
+  padding: 2px 40px;
 }
 
 }
@@ -610,7 +609,7 @@
 
 .textsubpot1 {
   font-size: 15px;
-  padding: 20px 30px;
+  padding: 2px 30px;
 }
 
 }

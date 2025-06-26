@@ -584,6 +584,34 @@
 }
 
 
+.textsubpot1 {
+  font-size: 22px;
+  padding: 2px 250px;
+  color: #012f6c;
+  text-align: center;
+}
+    
+
+@media (max-width: 1500px) {
+
+.textsubpot1 {
+  font-size: 22px;
+  padding: 2px 40px;
+}
+
+}
+
+
+
+@media (max-width: 768px) {
+
+.textsubpot1 {
+  font-size: 15px;
+  padding: 2px 30px;
+}
+
+}
+
 
 /*คู่*/
 
