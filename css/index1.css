@@ -726,7 +726,7 @@ left: 47% !important;
 
 .textsubpot {
   font-size: 22px;
-  padding: 20px 250px;
+  padding: 2px 250px;
   color: #012f6c;
   text-indent: 30px;
   text-align: justify;
@@ -738,7 +738,7 @@ left: 47% !important;
 
 .textsubpot {
   font-size: 22px;
-  padding: 20px 40px;
+  padding: 2px 40px;
 }
 
 }
@@ -749,13 +749,41 @@ left: 47% !important;
 
 .textsubpot {
   font-size: 15px;
+  padding: 2px 30px;
+}
+
+}
+
+
+
+.textsubpot1 {
+  font-size: 22px;
+  padding: 20px 250px;
+  color: #012f6c;
+  text-indent: 30px;
+  text-align: center;
+}
+    
+
+@media (max-width: 1500px) {
+
+.textsubpot1 {
+  font-size: 22px;
+  padding: 20px 40px;
+}
+
+}
+
+
+
+@media (max-width: 768px) {
+
+.textsubpot1 {
+  font-size: 15px;
   padding: 20px 30px;
 }
 
 }
-
-
-
 
 
 
@@ -1181,4 +1209,36 @@ button { background: #004bad00; color: #fff; border: none; padding: 5px 5px; cur
 
 
 
+.L{
+  width: auto;
+  height: 20px;
+}
 
+.XL{
+  width: auto;
+  height: 0px;
+}
+
+@media (max-width: 768px) {
+.L{
+  width: auto;
+  height: 20px;
+}
+
+.XL{
+  width: auto;
+  height: 0px;
+}
+}
+
+@media (max-width: 400px) {
+.L{
+  width: auto;
+  height: 10px;
+}
+
+.XL{
+  width: auto;
+  height: 0px;
+}
+}

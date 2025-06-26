@@ -563,7 +563,7 @@
 
 .textsubpot {
   font-size: 22px;
-  padding: 20px 40px;
+  padding: 2px 40px;
 }
 
 }
@@ -572,7 +572,7 @@
 
 .textsubpot {
   font-size: 15px;
-  padding: 20px 30px;
+  padding: 2px 30px;
 }
 
 }
@@ -582,6 +582,37 @@
         font-size: 15px;
         padding: 2px 20px;
     }
+}
+
+
+
+.textsubpot1 {
+  font-size: 22px;
+  padding: 20px 250px;
+  color: #012f6c;
+  text-indent: 30px;
+  text-align: center;
+}
+    
+
+@media (max-width: 1500px) {
+
+.textsubpot1 {
+  font-size: 22px;
+  padding: 20px 40px;
+}
+
+}
+
+
+
+@media (max-width: 768px) {
+
+.textsubpot1 {
+  font-size: 15px;
+  padding: 20px 30px;
+}
+
 }
 
 
@@ -1532,7 +1563,7 @@ left: 43% !important;
 
 .Card_4 h1 {
   font-weight: 600;
-  color: #000000;
+  color: #012f6c;
   font-size: 3rem;
   text-align: center;
 }

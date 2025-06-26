@@ -562,7 +562,7 @@
     }
 
 .textsubpot {
-  padding: 20px 40px;
+  padding: 2px 40px;
 }
 
 }
@@ -572,7 +572,6 @@
 
 .textsubpot {
   font-size: 15px;
-  max-width: 600px;
 }
 
 }
@@ -1529,7 +1528,7 @@ left: 43% !important;
 
 .Card_4 h1 {
   font-weight: 600;
-  color: #000000;
+  color: #012f6c;
   font-size: 3rem;
   text-align: center;
 }
@@ -1599,8 +1598,8 @@ left: 43% !important;
 
   .Card_4 h1 {
   font-weight: 600;
-  color: #000000;
-  font-size: 3.5rem;
+  color: #012f6c;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -1671,8 +1670,8 @@ left: 43% !important;
 
       .Card_4 h1 {
   font-weight: 600;
-  color: #000000;
-  font-size: 1.9rem;
+  color: #012f6c;
+  font-size: 1.6rem;
   text-align: center;
 }
 
@@ -1737,8 +1736,8 @@ left: 43% !important;
 
       .Card_4 h1 {
   font-weight: 600;
-  color: #000000;
-  font-size: 1.8rem;
+  color: #012f6c;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -1857,4 +1856,43 @@ left: 43% !important;
   .img-column {
     flex: 1 1 10%; /* เปลี่ยนเป็น 1 คอลัมน์ */
   }
+}
+
+
+
+
+
+
+.L{
+  width: auto;
+  height: 20px;
+}
+
+.XL{
+  width: auto;
+  height: 0px;
+}
+
+@media (max-width: 768px) {
+.L{
+  width: auto;
+  height: 20px;
+}
+
+.XL{
+  width: auto;
+  height: 0px;
+}
+}
+
+@media (max-width: 400px) {
+.L{
+  width: auto;
+  height: 10px;
+}
+
+.XL{
+  width: auto;
+  height: 0px;
+}
 }
