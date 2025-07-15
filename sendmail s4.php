@@ -1,30 +1,21 @@
 <?php
-$to = "kingmanstar55@gmail.com";
 
-$fname = $_POST['ชื่อ'] ?? '';
-$lname = $_POST['นามสกุล'] ?? '';
-$email = $_POST['อีเมล'] ?? '';
-$phone = $_POST['เบอร์โทร'] ?? '';
-$old = $_POST['อายุ'] ?? '';
-$sex = $_POST['เพศ'] ?? '';
-$date = $_POST['วันที่'] ?? '';
-$time = $_POST['เวลา'] ?? '';
-$message = $_POST['หมายเหตุ'] ?? '';
+$fname = isset($_POST['ชื่อ']) ? $_POST['ชื่อ'] : '';
+$lname = isset($_POST['นามสกุล']) ? $_POST['นามสกุล'] : '';
+$phone = isset($_POST['เบอร์โทร']) ? $_POST['เบอร์โทร'] : '';
+$email = isset($_POST['อีเมล']) ? $_POST['อีเมล'] : '';
+$age = isset($_POST['อายุ']) ? $_POST['อายุ'] : '';
+$gender = isset($_POST['เพศ']) ? $_POST['เพศ'] : '';
+$note = isset($_POST['หมายเหตุ']) ? $_POST['หมายเหตุ'] : '';
+$source = $_POST['source'] ?? 'แผนประกันบํานาญ / เกษียณ / ลดหย่อนภาษี';
+$source_p = $_POST['source_p'] ?? 'แผนประกันบํานาญ / เกษียณ / ลดหย่อนภาษี';
 
-$subject = "สนใจสมัครเป็นตัวแทน: $fname $lname";
+// ส่งอีเมล
+$to = "ratsarin.maimai@gmail.com";
+$subject = "สนใจประกันจาก $source";
+$body = "ชื่อ: $fname\nนามสกุล: $lname\nบริการ: $source_p\nเบอร์โทร: $phone\nอีเมล: $email\nอายุ: $age\nเพศ: $gender\nหมายเหตุ: $note\n";
 
-$body = "";
-$body .= "ชื่อ: $fname\n";
-$body .= "นามสกุล: $lname\n";
-$body .= "เบอร์โทร: $phone\n";
-$body .= "อีเมล: $email\n";
-$body .= "อายุ: $old\n";
-$body .= "เพศ: $sex\n";
-$body .= "สะดวกให้ติดต่อกลับ วันที่: $date เวลา: $time\n";
-$body .= "หมายเหตุ: $message\n";
-
-$headers = "From: no-reply@yourdomain.com\r\n";
-$headers .= "Reply-To: $email\r\n";
+$headers = "From: no-reply@yourdomain.com";
 
 if (mail($to, $subject, $body, $headers)) {
     echo '
