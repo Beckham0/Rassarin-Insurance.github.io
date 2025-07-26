@@ -1,5 +1,20 @@
 <?php
+session_start(); 
 
+$secret = "6Lftk40rAAAAABp1GS-FPzc-to3GdEV5DRQQ4AzL";
+
+    if (isset($_POST['g-recaptcha-response'])) {
+    $captcha = $_POST['g-recaptcha-response'];
+    $verifyResponse = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$captcha&remoteip=$userIP");
+    $responseData =json_decode($verifyResponse);
+
+    if (!$captcha) {
+      ::$_SESSION['error'] =."คุณไม่ได้ป้อน reCAPTCHA อย่างถูกต้อง!" 
+      header("location: register.php");}
+}
+
+
+// รับค่าจากฟอร์ม
 $fname = isset($_POST['ชื่อ']) ? $_POST['ชื่อ'] : '';
 $lname = isset($_POST['นามสกุล']) ? $_POST['นามสกุล'] : '';
 $phone = isset($_POST['เบอร์โทร']) ? $_POST['เบอร์โทร'] : '';
@@ -8,13 +23,13 @@ $age = isset($_POST['อายุ']) ? $_POST['อายุ'] : '';
 $gender = isset($_POST['เพศ']) ? $_POST['เพศ'] : '';
 $note = isset($_POST['หมายเหตุ']) ? $_POST['หมายเหตุ'] : '';
 
-
+// ตั้งค่าการส่งอีเมล
 $to = "kingmanstar55@gmail.com";
 $subject = "สนใจประกัน จากคุณ $fname";
 $body = "ชื่อ: $fname\nนามสกุล: $lname\nเบอร์โทร: $phone\nอีเมล: $email\nอายุ: $age\nเพศ: $gender\nหมายเหตุ: $note\n";
-
 $headers = "From: no-reply@yourdomain.com";
 
+// ส่งอีเมล
 if (mail($to, $subject, $body, $headers)) {
     echo '
     <div style="
@@ -53,5 +68,3 @@ if (mail($to, $subject, $body, $headers)) {
     </div>';
 }
 ?>
-
-
